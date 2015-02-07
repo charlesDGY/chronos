@@ -1,0 +1,14 @@
+-cache:il1 il1:32:32:1:l 
+-cache:il1lat 1
+-cache:dl1 dl1:32:32:1:l 
+-cache:dl1lat 1
+-cache:il2 dl2
+-cache:dl2 ul2:128:32:2:l
+-cache:dl2lat 6 
+-mem:lat 30 2 
+-mem:width 32 
+-bpred perfect 
+-issue:inorder true  
+-fetch:ifqsize 4 
+-ruu:size 8 
+-tlb:dtlb none

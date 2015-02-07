@@ -1,0 +1,437 @@
+
+ Loop L1 lb:256 entry:1 exec:256
+ Loop L2 lb:8 entry:256 exec:2048
+ Loop L3 lb:256 entry:1 exec:256
+ Loop L4 lb:4 absLb:8 entry:1600 exec:12800
+ Loop L5 lb:8 absLb:200 entry:8 exec:1600
+ Loop L6 lb:8 entry:1 exec:8
+Analyze scalar access L0 
+DataRef: 0x4002b8 l.d $f4 -32768 $28
+ 10000000-8000 
+
+ In loop L0
+Generated addr  <7ffc00:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x4002f0 s.d $f26 48 $29
+ 7fffc000+30 
+
+ In loop L0
+Generated addr  <3fffe01:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x4002f8 s.d $f24 40 $29
+ 7fffc000+28 
+
+ In loop L0
+Generated addr  <3fffe01:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x400300 s.d $f22 32 $29
+ 7fffc000+20 
+
+ In loop L0
+Generated addr  <3fffe01:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x400308 s.d $f20 24 $29
+ 7fffc000+18 
+
+ In loop L0
+Generated addr  <3fffe00:1 (L0,0,0)>
+
+Analyze regular access L1 
+DataRef: 0x400448 s.s $f0 0 $7
+ $7-0 
+ : biv: ($7,100007c0,4) 
+Expanded infix str: (100007c0+$7)-0 = (100007c0:1 1:$7 )
+ Affine array expr: (100007c0:1 1:$7 )
+4:$7 is in L1, lb 256, ($7,100007c0,4) 
+Rearranged expr: (100007c0:1 4:$7 )
+Rearranged access scope  (L1,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L1,0,0) (L0,0,0)
+Generated addr  <80003e:1 (L0,0,0) (L1,0,7)> <80003f:1 (L0,0,0) (L1,8,15)> <800040:1 (L0,0,0) (L1,16,23)> <800041:1 (L0,0,0) (L1,24,31)> <800042:1 (L0,0,0) (L1,32,39)> <800043:1 (L0,0,0) (L1,40,47)> <800044:1 (L0,0,0) (L1,48,55)> <800045:1 (L0,0,0) (L1,56,63)> <800046:1 (L0,0,0) (L1,64,71)> <800047:1 (L0,0,0) (L1,72,79)> <800048:1 (L0,0,0) (L1,80,87)> <800049:1 (L0,0,0) (L1,88,95)> <80004a:1 (L0,0,0) (L1,96,103)> <80004b:1 (L0,0,0) (L1,104,111)> <80004c:1 (L0,0,0) (L1,112,119)> <80004d:1 (L0,0,0) (L1,120,127)> <80004e:1 (L0,0,0) (L1,128,135)> <80004f:1 (L0,0,0) (L1,136,143)> <800050:1 (L0,0,0) (L1,144,151)> <800051:1 (L0,0,0) (L1,152,159)> <800052:1 (L0,0,0) (L1,160,167)> <800053:1 (L0,0,0) (L1,168,175)> <800054:1 (L0,0,0) (L1,176,183)> <800055:1 (L0,0,0) (L1,184,191)> <800056:1 (L0,0,0) (L1,192,199)> <800057:1 (L0,0,0) (L1,200,207)> <800058:1 (L0,0,0) (L1,208,215)> <800059:1 (L0,0,0) (L1,216,223)> <80005a:1 (L0,0,0) (L1,224,231)> <80005b:1 (L0,0,0) (L1,232,239)> <80005c:1 (L0,0,0) (L1,240,247)> <80005d:1 (L0,0,0) (L1,248,255)>
+
+Analyze regular access L1 
+DataRef: 0x400450 sw $0 0 $8
+ $8-0 
+ : biv: ($8,10000fd0,4) 
+Expanded infix str: (10000fd0+$8)-0 = (10000fd0:1 1:$8 )
+ Affine array expr: (10000fd0:1 1:$8 )
+4:$8 is in L1, lb 256, ($8,10000fd0,4) 
+Rearranged expr: (10000fd0:1 4:$8 )
+Rearranged access scope  (L1,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L1,0,0) (L0,0,0)
+Generated addr  <80007e:1 (L0,0,0) (L1,0,3)> <80007f:1 (L0,0,0) (L1,4,11)> <800080:1 (L0,0,0) (L1,12,19)> <800081:1 (L0,0,0) (L1,20,27)> <800082:1 (L0,0,0) (L1,28,35)> <800083:1 (L0,0,0) (L1,36,43)> <800084:1 (L0,0,0) (L1,44,51)> <800085:1 (L0,0,0) (L1,52,59)> <800086:1 (L0,0,0) (L1,60,67)> <800087:1 (L0,0,0) (L1,68,75)> <800088:1 (L0,0,0) (L1,76,83)> <800089:1 (L0,0,0) (L1,84,91)> <80008a:1 (L0,0,0) (L1,92,99)> <80008b:1 (L0,0,0) (L1,100,107)> <80008c:1 (L0,0,0) (L1,108,115)> <80008d:1 (L0,0,0) (L1,116,123)> <80008e:1 (L0,0,0) (L1,124,131)> <80008f:1 (L0,0,0) (L1,132,139)> <800090:1 (L0,0,0) (L1,140,147)> <800091:1 (L0,0,0) (L1,148,155)> <800092:1 (L0,0,0) (L1,156,163)> <800093:1 (L0,0,0) (L1,164,171)> <800094:1 (L0,0,0) (L1,172,179)> <800095:1 (L0,0,0) (L1,180,187)> <800096:1 (L0,0,0) (L1,188,195)> <800097:1 (L0,0,0) (L1,196,203)> <800098:1 (L0,0,0) (L1,204,211)> <800099:1 (L0,0,0) (L1,212,219)> <80009a:1 (L0,0,0) (L1,220,227)> <80009b:1 (L0,0,0) (L1,228,235)> <80009c:1 (L0,0,0) (L1,236,243)> <80009d:1 (L0,0,0) (L1,244,251)> <80009e:1 (L0,0,0) (L1,252,255)>
+
+Analyze scalar access L0 
+DataRef: 0x400470 l.s $f22 -32760 $28
+ 10000000-7ff8 
+
+ In loop L0
+Generated addr  <7ffc00:1 (L0,0,0)>
+
+Analyze regular access L3 
+DataRef: 0x400538 l.s $f0 0 $6
+ $6-0 
+ : biv: ($6,100007c0,4) 
+Expanded infix str: (100007c0+$6)-0 = (100007c0:1 1:$6 )
+ Affine array expr: (100007c0:1 1:$6 )
+4:$6 is in L3, lb 256, ($6,100007c0,4) 
+Rearranged expr: (100007c0:1 4:$6 )
+Rearranged access scope  (L3,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L3,0,0) (L0,0,0)
+Generated addr  <80003e:1 (L0,0,0) (L3,0,7)> <80003f:1 (L0,0,0) (L3,8,15)> <800040:1 (L0,0,0) (L3,16,23)> <800041:1 (L0,0,0) (L3,24,31)> <800042:1 (L0,0,0) (L3,32,39)> <800043:1 (L0,0,0) (L3,40,47)> <800044:1 (L0,0,0) (L3,48,55)> <800045:1 (L0,0,0) (L3,56,63)> <800046:1 (L0,0,0) (L3,64,71)> <800047:1 (L0,0,0) (L3,72,79)> <800048:1 (L0,0,0) (L3,80,87)> <800049:1 (L0,0,0) (L3,88,95)> <80004a:1 (L0,0,0) (L3,96,103)> <80004b:1 (L0,0,0) (L3,104,111)> <80004c:1 (L0,0,0) (L3,112,119)> <80004d:1 (L0,0,0) (L3,120,127)> <80004e:1 (L0,0,0) (L3,128,135)> <80004f:1 (L0,0,0) (L3,136,143)> <800050:1 (L0,0,0) (L3,144,151)> <800051:1 (L0,0,0) (L3,152,159)> <800052:1 (L0,0,0) (L3,160,167)> <800053:1 (L0,0,0) (L3,168,175)> <800054:1 (L0,0,0) (L3,176,183)> <800055:1 (L0,0,0) (L3,184,191)> <800056:1 (L0,0,0) (L3,192,199)> <800057:1 (L0,0,0) (L3,200,207)> <800058:1 (L0,0,0) (L3,208,215)> <800059:1 (L0,0,0) (L3,216,223)> <80005a:1 (L0,0,0) (L3,224,231)> <80005b:1 (L0,0,0) (L3,232,239)> <80005c:1 (L0,0,0) (L3,240,247)> <80005d:1 (L0,0,0) (L3,248,255)>
+
+Analyze unpredictable access L3 
+DataRef: 0x400560 s.s $f0 0 $2
+ ((T<<0x2)+10000bd0)-0 
+ = (4:T 10000bd0:1 )(4:T 10000bd0:1 )
+ Global var: RealOut [10000bd0,10000fd0], array sa: 10000bd0
+Generated addr  <80005e:0 (L0,0,0) (L3,0,255)> <80005f:0 (L0,0,0) (L3,0,255)> <800060:0 (L0,0,0) (L3,0,255)> <800061:0 (L0,0,0) (L3,0,255)> <800062:0 (L0,0,0) (L3,0,255)> <800063:0 (L0,0,0) (L3,0,255)> <800064:0 (L0,0,0) (L3,0,255)> <800065:0 (L0,0,0) (L3,0,255)> <800066:0 (L0,0,0) (L3,0,255)> <800067:0 (L0,0,0) (L3,0,255)> <800068:0 (L0,0,0) (L3,0,255)> <800069:0 (L0,0,0) (L3,0,255)> <80006a:0 (L0,0,0) (L3,0,255)> <80006b:0 (L0,0,0) (L3,0,255)> <80006c:0 (L0,0,0) (L3,0,255)> <80006d:0 (L0,0,0) (L3,0,255)> <80006e:0 (L0,0,0) (L3,0,255)> <80006f:0 (L0,0,0) (L3,0,255)> <800070:0 (L0,0,0) (L3,0,255)> <800071:0 (L0,0,0) (L3,0,255)> <800072:0 (L0,0,0) (L3,0,255)> <800073:0 (L0,0,0) (L3,0,255)> <800074:0 (L0,0,0) (L3,0,255)> <800075:0 (L0,0,0) (L3,0,255)> <800076:0 (L0,0,0) (L3,0,255)> <800077:0 (L0,0,0) (L3,0,255)> <800078:0 (L0,0,0) (L3,0,255)> <800079:0 (L0,0,0) (L3,0,255)> <80007a:0 (L0,0,0) (L3,0,255)> <80007b:0 (L0,0,0) (L3,0,255)> <80007c:0 (L0,0,0) (L3,0,255)> <80007d:0 (L0,0,0) (L3,0,255)> <80007e:0 (L0,0,0) (L3,0,255)>
+
+Analyze regular access L3 
+DataRef: 0x400568 l.s $f0 0 $7
+ $7-0 
+ : biv: ($7,10000fd0,4) 
+Expanded infix str: (10000fd0+$7)-0 = (10000fd0:1 1:$7 )
+ Affine array expr: (10000fd0:1 1:$7 )
+4:$7 is in L3, lb 256, ($7,10000fd0,4) 
+Rearranged expr: (10000fd0:1 4:$7 )
+Rearranged access scope  (L3,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L3,0,0) (L0,0,0)
+Generated addr  <80007e:1 (L0,0,0) (L3,0,3)> <80007f:1 (L0,0,0) (L3,4,11)> <800080:1 (L0,0,0) (L3,12,19)> <800081:1 (L0,0,0) (L3,20,27)> <800082:1 (L0,0,0) (L3,28,35)> <800083:1 (L0,0,0) (L3,36,43)> <800084:1 (L0,0,0) (L3,44,51)> <800085:1 (L0,0,0) (L3,52,59)> <800086:1 (L0,0,0) (L3,60,67)> <800087:1 (L0,0,0) (L3,68,75)> <800088:1 (L0,0,0) (L3,76,83)> <800089:1 (L0,0,0) (L3,84,91)> <80008a:1 (L0,0,0) (L3,92,99)> <80008b:1 (L0,0,0) (L3,100,107)> <80008c:1 (L0,0,0) (L3,108,115)> <80008d:1 (L0,0,0) (L3,116,123)> <80008e:1 (L0,0,0) (L3,124,131)> <80008f:1 (L0,0,0) (L3,132,139)> <800090:1 (L0,0,0) (L3,140,147)> <800091:1 (L0,0,0) (L3,148,155)> <800092:1 (L0,0,0) (L3,156,163)> <800093:1 (L0,0,0) (L3,164,171)> <800094:1 (L0,0,0) (L3,172,179)> <800095:1 (L0,0,0) (L3,180,187)> <800096:1 (L0,0,0) (L3,188,195)> <800097:1 (L0,0,0) (L3,196,203)> <800098:1 (L0,0,0) (L3,204,211)> <800099:1 (L0,0,0) (L3,212,219)> <80009a:1 (L0,0,0) (L3,220,227)> <80009b:1 (L0,0,0) (L3,228,235)> <80009c:1 (L0,0,0) (L3,236,243)> <80009d:1 (L0,0,0) (L3,244,251)> <80009e:1 (L0,0,0) (L3,252,255)>
+
+Analyze unpredictable access L3 
+DataRef: 0x400588 s.s $f0 0 $3
+ ((T<<0x2)+100003c0)-0 
+ = (4:T 100003c0:1 )(4:T 100003c0:1 )
+ Global var: ImagOut [100003c0,100007c0], array sa: 100003c0
+Generated addr  <80001e:0 (L0,0,0) (L3,0,255)> <80001f:0 (L0,0,0) (L3,0,255)> <800020:0 (L0,0,0) (L3,0,255)> <800021:0 (L0,0,0) (L3,0,255)> <800022:0 (L0,0,0) (L3,0,255)> <800023:0 (L0,0,0) (L3,0,255)> <800024:0 (L0,0,0) (L3,0,255)> <800025:0 (L0,0,0) (L3,0,255)> <800026:0 (L0,0,0) (L3,0,255)> <800027:0 (L0,0,0) (L3,0,255)> <800028:0 (L0,0,0) (L3,0,255)> <800029:0 (L0,0,0) (L3,0,255)> <80002a:0 (L0,0,0) (L3,0,255)> <80002b:0 (L0,0,0) (L3,0,255)> <80002c:0 (L0,0,0) (L3,0,255)> <80002d:0 (L0,0,0) (L3,0,255)> <80002e:0 (L0,0,0) (L3,0,255)> <80002f:0 (L0,0,0) (L3,0,255)> <800030:0 (L0,0,0) (L3,0,255)> <800031:0 (L0,0,0) (L3,0,255)> <800032:0 (L0,0,0) (L3,0,255)> <800033:0 (L0,0,0) (L3,0,255)> <800034:0 (L0,0,0) (L3,0,255)> <800035:0 (L0,0,0) (L3,0,255)> <800036:0 (L0,0,0) (L3,0,255)> <800037:0 (L0,0,0) (L3,0,255)> <800038:0 (L0,0,0) (L3,0,255)> <800039:0 (L0,0,0) (L3,0,255)> <80003a:0 (L0,0,0) (L3,0,255)> <80003b:0 (L0,0,0) (L3,0,255)> <80003c:0 (L0,0,0) (L3,0,255)> <80003d:0 (L0,0,0) (L3,0,255)>
+
+Analyze scalar access L0 
+DataRef: 0x4005b8 l.d $f24 -32768 $28
+ 10000000-8000 
+
+ In loop L0
+Generated addr  <7ffc00:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x4005c0 l.s $f26 -32756 $28
+ 10000000-7ff4 
+
+ In loop L0
+Generated addr  <7ffc00:1 (L0,0,0)>
+
+Analyze scalar access L5 
+DataRef: 0x400690 s.s $f20 0 $24
+ 100013d8-0 
+ = (100013d8:1 )
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7)>
+
+Analyze scalar access L5 
+DataRef: 0x400698 s.s $f18 -4 $24
+ 100013d8-4 
+
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7)>
+
+Analyze scalar access L5 
+DataRef: 0x4006a0 s.s $f16 0 $15
+ 10000bc8-0 
+ = (10000bc8:1 )
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7)>
+
+Analyze scalar access L5 
+DataRef: 0x4006a8 s.s $f12 -4 $15
+ 10000bc8-4 
+
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7)>
+
+Analyze scalar access L4 
+DataRef: 0x4006d0 l.s $f8 4 $11
+ 100013d0+4 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x4006e0 l.s $f10 4 $10
+ 10000bc0+4 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x4006e8 l.s $f0 8 $11
+ 100013d0+8 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x4006f8 l.s $f2 8 $10
+ 10000bc0+8 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x400720 s.s $f8 8 $11
+ 100013d0+8 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x400730 s.s $f10 8 $10
+ 10000bc0+8 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x400738 s.s $f6 0 $11
+ 100013d0-0 
+ = (100013d0:1 )
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x400740 s.s $f6 4 $11
+ 100013d0+4 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80009e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x400748 s.s $f4 0 $10
+ 10000bc0-0 
+ = (10000bc0:1 )
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze scalar access L4 
+DataRef: 0x400750 s.s $f4 4 $10
+ 10000bc0+4 
+
+ In loop L4
+ In loop L5
+ In loop L6
+ In loop L0
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)>
+
+Analyze regular access L4 
+DataRef: 0x400758 l.s $f10 0 $3
+ ((($6+1)<<0x2)+10000bd0)-0 
+ : biv: ($6,0,1) 
+Expanded infix str: ((((0+$6)+1)<<0x2)+10000bd0)-0 = (1:$6 ) = (4:$6 10000bd4:1 )
+ Affine array expr: (4:$6 10000bd4:1 )
+4:$6 is in L4, lb 4, ($6,0,1) 
+Rearranged expr: (10000bd4:1 4:$6 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,2)> <80005f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,3,7)>
+
+Analyze regular access L4 
+DataRef: 0x400770 l.s $f0 0 $2
+ ((($6+1)<<0x2)+100003c0)-0 
+ : $6(-) E 
+Expanded infix str: ((((0+$6)+1)<<0x2)+100003c0)-0 = (1:$6 ) = (4:$6 100003c4:1 )
+ Affine array expr: (4:$6 100003c4:1 )
+4:$6 is in L4, lb 4, ($6,0,1) 
+Rearranged expr: (100003c4:1 4:$6 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80001e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,6)> <80001f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,7,7)>
+
+Analyze regular access L4 
+DataRef: 0x400798 l.s $f0 0 $4
+ $4-0 
+ : biv: ($4,10000bd0,4) 
+Expanded infix str: (10000bd0+$4)-0 = (10000bd0:1 1:$4 )
+ Affine array expr: (10000bd0:1 1:$4 )
+4:$4 is in L4, lb 4, ($4,10000bd0,4) 
+Rearranged expr: (10000bd0:1 4:$4 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)> <80005f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,4,7)>
+
+Analyze regular access L4 
+DataRef: 0x4007b0 s.s $f0 0 $3
+ ((($6+1)<<0x2)+10000bd0)-0 
+ : $6(-) E 
+Expanded infix str: ((((0+$6)+1)<<0x2)+10000bd0)-0 = (1:$6 ) = (4:$6 10000bd4:1 )
+ Affine array expr: (4:$6 10000bd4:1 )
+4:$6 is in L4, lb 4, ($6,0,1) 
+Rearranged expr: (10000bd4:1 4:$6 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,2)> <80005f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,3,7)>
+
+Analyze regular access L4 
+DataRef: 0x4007b8 l.s $f0 0 $5
+ $5-0 
+ : biv: ($5,100003c0,4) 
+Expanded infix str: (100003c0+$5)-0 = (100003c0:1 1:$5 )
+ Affine array expr: (100003c0:1 1:$5 )
+4:$5 is in L4, lb 4, ($5,100003c0,4) 
+Rearranged expr: (100003c0:1 4:$5 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80001e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,7)>
+
+Analyze regular access L4 
+DataRef: 0x4007c8 s.s $f0 0 $2
+ ((($6+1)<<0x2)+100003c0)-0 
+ : $6(-) E 
+Expanded infix str: ((((0+$6)+1)<<0x2)+100003c0)-0 = (1:$6 ) = (4:$6 100003c4:1 )
+ Affine array expr: (4:$6 100003c4:1 )
+4:$6 is in L4, lb 4, ($6,0,1) 
+Rearranged expr: (100003c4:1 4:$6 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80001e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,6)> <80001f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,7,7)>
+
+Analyze regular access L4 
+DataRef: 0x4007d0 l.s $f0 0 $4
+ $4-0 
+ : $4(-) E 
+Expanded infix str: (10000bd0+$4)-0 = (10000bd0:1 1:$4 )
+ Affine array expr: (10000bd0:1 1:$4 )
+4:$4 is in L4, lb 4, ($4,10000bd0,4) 
+Rearranged expr: (10000bd0:1 4:$4 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)> <80005f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,4,7)>
+
+Analyze regular access L4 
+DataRef: 0x4007e0 s.s $f0 0 $4
+ $4-0 
+ : $4(-) E 
+Expanded infix str: (10000bd0+$4)-0 = (10000bd0:1 1:$4 )
+ Affine array expr: (10000bd0:1 1:$4 )
+4:$4 is in L4, lb 4, ($4,10000bd0,4) 
+Rearranged expr: (10000bd0:1 4:$4 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80005e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,3)> <80005f:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,4,7)>
+
+Analyze regular access L4 
+DataRef: 0x4007e8 l.s $f0 0 $5
+ $5-0 
+ : $5(-) E 
+Expanded infix str: (100003c0+$5)-0 = (100003c0:1 1:$5 )
+ Affine array expr: (100003c0:1 1:$5 )
+4:$5 is in L4, lb 4, ($5,100003c0,4) 
+Rearranged expr: (100003c0:1 4:$5 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80001e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,7)>
+
+Analyze regular access L4 
+DataRef: 0x400818 s.s $f0 0 $5
+ $5-0 
+ : $5(-) E 
+Expanded infix str: (100003c0+$5)-0 = (100003c0:1 1:$5 )
+ Affine array expr: (100003c0:1 1:$5 )
+4:$5 is in L4, lb 4, ($5,100003c0,4) 
+Rearranged expr: (100003c0:1 4:$5 )
+Rearranged access scope  (L4,0,0)
+Addr expr property: 
+inc 1, unique: 1
+AS:  (L4,0,0) (L5,0,7) (L6,0,7) (L0,0,0)
+Generated addr  <80001e:1 (L0,0,0) (L6,0,7) (L5,0,7) (L4,0,7)>
+
+Analyze scalar access L0 
+DataRef: 0x400868 l.d $f26 48 $29
+ 7fffc000+30 
+
+ In loop L0
+Generated addr  <3fffe01:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x400870 l.d $f24 40 $29
+ 7fffc000+28 
+
+ In loop L0
+Generated addr  <3fffe01:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x400878 l.d $f22 32 $29
+ 7fffc000+20 
+
+ In loop L0
+Generated addr  <3fffe01:1 (L0,0,0)>
+
+Analyze scalar access L0 
+DataRef: 0x400880 l.d $f20 24 $29
+ 7fffc000+18 
+
+ In loop L0
+Generated addr  <3fffe00:1 (L0,0,0)>
+Created memblk: 238

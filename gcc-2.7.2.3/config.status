@@ -1,0 +1,4 @@
+#!/bin/sh
+# GCC was configured as follows:
+./configure --host=i386-*-linux --target=sslittle-na-sstrix --with-gnu-as --with-gnu-ld --prefix=/home/dgy/chronos --enable-languages=c
+echo host=i386-*-linux target=sslittle-na-sstrix build=i386-*-linux

@@ -1,0 +1,303 @@
+File name: |fft.c.bin|
+Immediate value = 8
+Immediate value = -8
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 8
+Immediate value = -56
+Immediate value = 4194
+Immediate value = 19923
+Immediate value = -32768
+Immediate value = 4096
+Immediate value = 4048
+Immediate value = 4096
+Immediate value = 1984
+Immediate value = 5893
+Immediate value = 3549
+Immediate value = 48
+Immediate value = 40
+Immediate value = 32
+Immediate value = 24
+Immediate value = 0
+Immediate value = 6
+Immediate value = 5
+Immediate value = 2
+Immediate value = 3
+Immediate value = 0
+Immediate value = 6
+Immediate value = 5
+Immediate value = 2
+Immediate value = 3
+Immediate value = 83
+Immediate value = 91
+Immediate value = 1
+Immediate value = 256
+Immediate value = 0
+Immediate value = 0
+Immediate value = 4
+Immediate value = 4
+Immediate value = -32760
+Immediate value = 256
+Immediate value = 8
+Immediate value = 4096
+Immediate value = 3024
+Immediate value = 4096
+Immediate value = 960
+Immediate value = 4096
+Immediate value = 4048
+Immediate value = 4096
+Immediate value = 1984
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 0
+Immediate value = 2
+Immediate value = 1
+Immediate value = 0
+Immediate value = 0
+Immediate value = 4
+Immediate value = 4
+Immediate value = 0
+Immediate value = 1
+Immediate value = 2
+Immediate value = 2
+Immediate value = -32768
+Immediate value = -32756
+Immediate value = 4096
+Immediate value = 5080
+Immediate value = -8
+Immediate value = 4096
+Immediate value = 3016
+Immediate value = -8
+Immediate value = 4096
+Immediate value = 3024
+Immediate value = 4096
+Immediate value = 960
+Immediate value = 0
+Immediate value = -4
+Immediate value = 0
+Immediate value = -4
+Immediate value = 2
+Immediate value = 4
+Immediate value = 4
+Immediate value = 8
+Immediate value = 8
+Immediate value = 2
+Immediate value = 8
+Immediate value = 8
+Immediate value = 0
+Immediate value = 4
+Immediate value = 0
+Immediate value = 4
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 1
+Immediate value = 1
+Immediate value = 4
+Immediate value = 0
+Immediate value = 4
+Immediate value = 1
+Immediate value = 48
+Immediate value = 40
+Immediate value = 32
+Immediate value = 24
+Immediate value = 56
+File name: |fft.c.bin|
+Set 0::5  loop:0  entry:0  bound:256
+Set tcfg 5(0::5)  loop:0  entry:(0::0)  bound:256
+Set 0::3  loop:0  entry:0  bound:256
+Set tcfg 3(0::3)  loop:0  entry:(0::0)  bound:256
+Set 0::1  loop:0  entry:0  bound:256
+Set tcfg 1(0::1)  loop:0  entry:(0::0)  bound:256
+Set 0::2  loop:0  entry:0  bound:256
+Set tcfg 2(0::2)  loop:0  entry:(0::0)  bound:256
+Set 0::4  loop:0  entry:0  bound:256
+Set tcfg 4(0::4)  loop:0  entry:(0::0)  bound:256
+Set 0::11  loop:1  entry:8  bound:256
+Set tcfg 11(0::11)  loop:1  entry:(0::8)  bound:256
+Set 0::9  loop:1  entry:8  bound:256
+Set tcfg 9(0::9)  loop:1  entry:(0::8)  bound:256
+Set 0::10  loop:1  entry:8  bound:256
+Set tcfg 10(0::10)  loop:1  entry:(0::8)  bound:256
+Set 0::10  loop:2  entry:9  bound:8
+Set tcfg 10(0::10)  loop:2  entry:(0::9)  bound:8
+Set 0::21  loop:3  entry:13  bound:8
+Set tcfg 21(0::21)  loop:3  entry:(0::13)  bound:8
+Set 0::16  loop:3  entry:13  bound:8
+Set tcfg 16(0::16)  loop:3  entry:(0::13)  bound:8
+Set 0::14  loop:3  entry:13  bound:8
+Set 0::15  loop:3  entry:13  bound:8
+Set 0::20  loop:3  entry:13  bound:8
+Set 0::17  loop:3  entry:13  bound:8
+Set 0::19  loop:3  entry:13  bound:8
+Set 0::18  loop:3  entry:13  bound:8
+Set 0::20  loop:4  entry:16  bound:8
+Set tcfg 20(0::20)  loop:4  entry:(0::16)  bound:8
+Set 0::17  loop:4  entry:16  bound:8
+Set tcfg 17(0::17)  loop:4  entry:(0::16)  bound:8
+Set 0::19  loop:4  entry:16  bound:8
+Set 0::18  loop:4  entry:16  bound:8
+Set 0::19  loop:5  entry:18  bound:4
+Set tcfg 19(0::19)  loop:5  entry:(0::18)  bound:4
+Starting symbolic execution...
+Starting conflict detection...
+Detected 0 BB and 1 BA
+
+ L1 bound 256
+ L3 bound 256
+ L6 bound 8Analysis count = 3953
+ for 23 BB nodes
+===================================================
+Address computation time = 0.056446 secs
+===================================================
+Data cache analysis starts
+Unknown data access at 4002b8(BB=0) recognized
+Unknown data access at 4002f0(BB=0) recognized
+All hit at instruction 4002f8(BB=0) recognized
+All hit at instruction 400300(BB=0) recognized
+All hit at instruction 400308(BB=0) recognized
+Unknown data access at 400448(BB=5) recognized
+Unknown data access at 400450(BB=5) recognized
+Unknown data access at 400470(BB=6) recognized
+Unknown data access at 400538(BB=11) recognized
+Unknown data access at 400560(BB=11) recognized
+Unknown data access at 400568(BB=11) recognized
+Unknown data access at 400588(BB=11) recognized
+Unknown data access at 4005b8(BB=13) recognized
+All hit at instruction 4005c0(BB=13) recognized
+Unknown data access at 400690(BB=17) recognized
+All hit at instruction 400698(BB=17) recognized
+Unknown data access at 4006a0(BB=17) recognized
+All hit at instruction 4006a8(BB=17) recognized
+Unknown data access at 4006d0(BB=19) recognized
+Unknown data access at 4006e0(BB=19) recognized
+All hit at instruction 4006e8(BB=19) recognized
+All hit at instruction 4006f8(BB=19) recognized
+All hit at instruction 400720(BB=19) recognized
+All hit at instruction 400730(BB=19) recognized
+All hit at instruction 400738(BB=19) recognized
+All hit at instruction 400740(BB=19) recognized
+All hit at instruction 400748(BB=19) recognized
+All hit at instruction 400750(BB=19) recognized
+Unknown data access at 400758(BB=19) recognized
+Unknown data access at 400770(BB=19) recognized
+Unknown data access at 400798(BB=19) recognized
+Unknown data access at 4007b0(BB=19) recognized
+Unknown data access at 4007b8(BB=19) recognized
+Unknown data access at 4007c8(BB=19) recognized
+Unknown data access at 4007d0(BB=19) recognized
+Unknown data access at 4007e0(BB=19) recognized
+Unknown data access at 4007e8(BB=19) recognized
+Unknown data access at 400818(BB=19) recognized
+Unknown data access at 400868(BB=22) recognized
+All hit at instruction 400870(BB=22) recognized
+All hit at instruction 400878(BB=22) recognized
+All hit at instruction 400880(BB=22) recognized
+One data cache iteration starts
+One data cache iteration ends
+One data cache iteration starts
+One data cache iteration ends
+One data cache iteration starts
+One data cache iteration ends
+One data cache iteration starts
+One data cache iteration ends
+Unknown data access recognized
+Persistence data access(400450) recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Persistence data access(400588) recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Unknown data access recognized
+Data Access AH at 4002f8
+Data Access AH at 400300
+Data Access AH at 400308
+Data Access PS at 400450
+Data Access PS at 400588
+Data Access AH at 4005c0
+Data Access AH at 400698
+Data Access AH at 4006a8
+Data Access AH at 4006e8
+Data Access AH at 4006f8
+Data Access AH at 400720
+Data Access AH at 400730
+Data Access AH at 400738
+Data Access AH at 400740
+Data Access AH at 400748
+Data Access AH at 400750
+Data Access AH at 400870
+Data Access AH at 400878
+Data Access AH at 400880
+Data Access AM at 4002b8, bb 0, L0, exec: 1
+Data Access AM at 4002f0, bb 0, L0, exec: 1
+Data Access AM at 4002f8, bb 0, L0, exec: 1
+Data Access AM at 400300, bb 0, L0, exec: 1
+Data Access AM at 400308, bb 0, L0, exec: 1
+Data Access AM at 400448, bb 5, L1, exec: 256
+Data Access PS at 400450, 33 miss 
+Data Access AM at 400470, bb 6, L0, exec: 1
+Data Access AM at 400538, bb 11, L3, exec: 256
+Data Access AM at 400560, bb 11, L3, exec: 256
+Data Access AM at 400568, bb 11, L3, exec: 256
+Data Access PS at 400588, 1 miss 
+Data Access AM at 4005b8, bb 13, L0, exec: 1
+Data Access AM at 4005c0, bb 13, L0, exec: 1
+Data Access AM at 400690, bb 17, L5, exec: 64
+Data Access AM at 400698, bb 17, L5, exec: 64
+Data Access AM at 4006a0, bb 17, L5, exec: 64
+Data Access AM at 4006a8, bb 17, L5, exec: 64
+Data Access AM at 4006d0, bb 19, L4, exec: 256
+Data Access AM at 4006e0, bb 19, L4, exec: 256
+Data Access AM at 4006e8, bb 19, L4, exec: 256
+Data Access AM at 4006f8, bb 19, L4, exec: 256
+Data Access AM at 400720, bb 19, L4, exec: 256
+Data Access AM at 400730, bb 19, L4, exec: 256
+Data Access AM at 400738, bb 19, L4, exec: 256
+Data Access AM at 400740, bb 19, L4, exec: 256
+Data Access AM at 400748, bb 19, L4, exec: 256
+Data Access AM at 400750, bb 19, L4, exec: 256
+Data Access AM at 400758, bb 19, L4, exec: 256
+Data Access AM at 400770, bb 19, L4, exec: 256
+Data Access AM at 400798, bb 19, L4, exec: 256
+Data Access AM at 4007b0, bb 19, L4, exec: 256
+Data Access AM at 4007b8, bb 19, L4, exec: 256
+Data Access AM at 4007c8, bb 19, L4, exec: 256
+Data Access AM at 4007d0, bb 19, L4, exec: 256
+Data Access AM at 4007e0, bb 19, L4, exec: 256
+Data Access AM at 4007e8, bb 19, L4, exec: 256
+Data Access AM at 400818, bb 19, L4, exec: 256
+Data Access AM at 400868, bb 22, L0, exec: 1
+Data Access AM at 400870, bb 22, L0, exec: 1
+Data Access AM at 400878, bb 22, L0, exec: 1
+Data Access AM at 400880, bb 22, L0, exec: 1
+
+Total miss: 6446
+Data cache analysis iteration count = 2020
+===================================================
+Maximum cache analysis time = 0.111293 secs
+===================================================

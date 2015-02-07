@@ -1,0 +1,68 @@
+start_addr
+00400140 <__start> lw        $16,0($29)
+00400148 <__start+0x8> lui       $28,4097
+00400150 <__start+0x10> addiu     $28,$28,-31904
+00400158 <__start+0x18> addiu     $17,$29,4
+00400160 <__start+0x20> addiu     $3,$17,4
+00400168 <__start+0x28> sll       $2,$16,0x2
+00400170 <__start+0x30> addu      $3,$3,$2
+00400178 <__start+0x38> addu      $18,$0,$3
+00400180 <__start+0x40> sw        $18,-32636($28)
+00400188 <__start+0x48> addiu     $29,$29,-24
+00400190 <__start+0x50> addu      $4,$0,$16
+00400198 <__start+0x58> addu      $5,$0,$17
+004001a0 <__start+0x60> addu      $6,$0,$18
+004001a8 <__start+0x68> jal       004002c0 <__libc_init> 
+004001b0 <__start+0x70> sw        $0,-32640($28)
+004001b8 <__start+0x78> addu      $4,$0,$16
+004001c0 <__start+0x80> addu      $5,$0,$17
+004001c8 <__start+0x88> addu      $6,$0,$18
+004001d0 <__start+0x90> jal       004001f0 <main> 
+004001d8 <__start+0x98> addu      $4,$0,$2
+004001e0 <__start+0xa0> jal       004002f0 <exit> 
+004001e8 <__start+0xa8> nop       
+    ...
+main():
+bs.c:55
+004001f0 <main> addiu     $8,$0,18
+bs.c:58
+004001f8 <main+0x8> addu      $6,$0,$0
+bs.c:59
+00400200 <main+0x10> addiu     $5,$0,14
+bs.c:60
+00400208 <main+0x18> addiu     $7,$0,-1
+bs.c:62
+00400210 <main+0x20> addu      $2,$6,$5
+00400218 <main+0x28> sra       $3,$2,0x1
+bs.c:63
+00400220 <main+0x30> sll       $4,$3,0x3
+00400228 <main+0x38> lui       $2,4096
+00400230 <main+0x40> addu      $2,$2,$4
+00400238 <main+0x48> lw        $2,96($2)
+00400240 <main+0x50> bne       $2,$8,00400270
+bs.c:65
+00400248 <main+0x58> lui       $7,4096
+00400250 <main+0x60> addu      $7,$7,$4
+00400258 <main+0x68> lw        $7,100($7)
+bs.c:64
+00400260 <main+0x70> addiu     $5,$6,-1
+bs.c:66
+00400268 <main+0x78> j         00400298
+bs.c:67
+00400270 <main+0x80> slt       $2,$8,$2
+00400278 <main+0x88> beq       $2,$0,00400290
+bs.c:68
+00400280 <main+0x90> addiu     $5,$3,-1
+bs.c:69
+00400288 <main+0x98> j         00400298
+bs.c:70
+00400290 <main+0xa0> addiu     $6,$3,1
+bs.c:72
+00400298 <main+0xa8> slt       $2,$5,$6
+004002a0 <main+0xb0> beq       $2,$0,00400210
+bs.c:73
+004002a8 <main+0xb8> addu      $2,$0,$7
+bs.c:76
+004002b0 <main+0xc0> jr        $31
+004002b8 <main+0xc8> nop       
+end_addr

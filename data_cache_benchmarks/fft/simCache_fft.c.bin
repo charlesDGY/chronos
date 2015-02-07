@@ -1,0 +1,376 @@
+sim-cache: SimpleScalar/PISA Tool Set version 3.0 of August, 2003.
+Copyright (c) 1994-2003 by Todd M. Austin, Ph.D. and SimpleScalar, LLC.
+All Rights Reserved. This version of SimpleScalar is licensed for academic
+non-commercial use.  No portion of this work may be used by any commercial
+entity, or for any commercial purpose, without the prior written permission
+of SimpleScalar, LLC (info@simplescalar.com).
+
+sim: command line: /home/huynhbac/simplesim/simplesim-3.0/sim-cache -config /home/huynhbac/CacheProject/processor1.opt fft.c.bin 
+
+sim: simulation started @ Fri Mar 26 22:00:31 2010, options follow:
+
+sim-cache: This simulator implements a functional cache simulator.  Cache
+statistics are generated for a user-selected cache and TLB configuration,
+which may include up to two levels of instruction and data cache (with any
+levels unified), and one level of instruction and data TLBs.  No timing
+information is generated.
+
+# -config                     # load configuration from a file
+# -dumpconfig                 # dump configuration to a file
+# -h                    false # print help message    
+# -v                    false # verbose operation     
+# -d                    false # enable debug message  
+# -i                    false # start in Dlite debugger
+-seed                       1 # random number generator seed (0 for timer seed)
+# -q                    false # initialize and terminate immediately
+# -chkpt               <null> # restore EIO trace execution from <fname>
+# -redir:sim           <null> # redirect simulator output to file (non-interactive only)
+# -redir:prog          <null> # redirect simulated program output to file
+-nice                       0 # simulator scheduling priority
+-max:inst                   0 # maximum number of inst's to execute
+-cache:dl1       dl1:32:32:2:l # l1 data cache config, i.e., {<config>|none}
+-cache:dl2       ul2:1024:64:4:l # l2 data cache config, i.e., {<config>|none}
+-cache:il1       il1:32:32:2:l # l1 inst cache config, i.e., {<config>|dl1|dl2|none}
+-cache:il2                dl2 # l2 instruction cache config, i.e., {<config>|dl2|none}
+-tlb:itlb        itlb:16:4096:4:l # instruction TLB config, i.e., {<config>|none}
+-tlb:dtlb        dtlb:32:4096:4:l # data TLB config, i.e., {<config>|none}
+-flush                  false # flush caches on system calls
+-cache:icompress        false # convert 64-bit inst addresses to 32-bit inst equivalents
+# -pcstat              <null> # profile stat(s) against text addr's (mult uses ok)
+
+  The cache config parameter <config> has the following format:
+
+    <name>:<nsets>:<bsize>:<assoc>:<repl>
+
+    <name>   - name of the cache being defined
+    <nsets>  - number of sets in the cache
+    <bsize>  - block size of the cache
+    <assoc>  - associativity of the cache
+    <repl>   - block replacement strategy, 'l'-LRU, 'f'-FIFO, 'r'-random
+
+    Examples:   -cache:dl1 dl1:4096:32:1:l
+                -dtlb dtlb:128:4096:32:r
+
+  Cache levels can be unified by pointing a level of the instruction cache
+  hierarchy at the data cache hiearchy using the "dl1" and "dl2" cache
+  configuration arguments.  Most sensible combinations are supported, e.g.,
+
+    A unified l2 cache (il2 is pointed at dl2):
+      -cache:il1 il1:128:64:1:l -cache:il2 dl2
+      -cache:dl1 dl1:256:32:1:l -cache:dl2 ul2:1024:64:2:l
+
+    Or, a fully unified cache hierarchy (il1 pointed at dl1):
+      -cache:il1 dl1
+      -cache:dl1 ul1:256:32:1:l -cache:dl2 ul2:1024:64:2:l
+
+
+
+sim: ** starting functional simulation w/ caches **
+
+sim: ** simulation statistics **
+sim_num_insn                  83676 # total number of instructions executed
+sim_num_refs                  26638 # total number of loads and stores executed
+sim_elapsed_time                  1 # total simulation time in seconds
+sim_inst_rate            83676.0000 # simulation speed (in insts/sec)
+il1.accesses                  83676 # total number of accesses
+il1.hits                      83251 # total number of hits
+il1.misses                      425 # total number of misses
+il1.replacements                361 # total number of replacements
+il1.writebacks                    0 # total number of writebacks
+il1.invalidations                 0 # total number of invalidations
+il1.miss_rate                0.0051 # miss rate (i.e., misses/ref)
+il1.repl_rate                0.0043 # replacement rate (i.e., repls/ref)
+il1.wb_rate                  0.0000 # writeback rate (i.e., wrbks/ref)
+il1.inv_rate                 0.0000 # invalidation rate (i.e., invs/ref)
+dl1.accesses                  26712 # total number of accesses
+dl1.hits                      25730 # total number of hits
+dl1.misses                      982 # total number of misses
+dl1.replacements                918 # total number of replacements
+dl1.writebacks                  829 # total number of writebacks
+dl1.invalidations                 0 # total number of invalidations
+dl1.miss_rate                0.0368 # miss rate (i.e., misses/ref)
+dl1.repl_rate                0.0344 # replacement rate (i.e., repls/ref)
+dl1.wb_rate                  0.0310 # writeback rate (i.e., wrbks/ref)
+dl1.inv_rate                 0.0000 # invalidation rate (i.e., invs/ref)
+ul2.accesses                   2236 # total number of accesses
+ul2.hits                       1804 # total number of hits
+ul2.misses                      432 # total number of misses
+ul2.replacements                  0 # total number of replacements
+ul2.writebacks                    0 # total number of writebacks
+ul2.invalidations                 0 # total number of invalidations
+ul2.miss_rate                0.1932 # miss rate (i.e., misses/ref)
+ul2.repl_rate                0.0000 # replacement rate (i.e., repls/ref)
+ul2.wb_rate                  0.0000 # writeback rate (i.e., wrbks/ref)
+ul2.inv_rate                 0.0000 # invalidation rate (i.e., invs/ref)
+itlb.accesses                 83676 # total number of accesses
+itlb.hits                     83670 # total number of hits
+itlb.misses                       6 # total number of misses
+itlb.replacements                 0 # total number of replacements
+itlb.writebacks                   0 # total number of writebacks
+itlb.invalidations                0 # total number of invalidations
+itlb.miss_rate               0.0001 # miss rate (i.e., misses/ref)
+itlb.repl_rate               0.0000 # replacement rate (i.e., repls/ref)
+itlb.wb_rate                 0.0000 # writeback rate (i.e., wrbks/ref)
+itlb.inv_rate                0.0000 # invalidation rate (i.e., invs/ref)
+dtlb.accesses                 26712 # total number of accesses
+dtlb.hits                     26705 # total number of hits
+dtlb.misses                       7 # total number of misses
+dtlb.replacements                 0 # total number of replacements
+dtlb.writebacks                   0 # total number of writebacks
+dtlb.invalidations                0 # total number of invalidations
+dtlb.miss_rate               0.0003 # miss rate (i.e., misses/ref)
+dtlb.repl_rate               0.0000 # replacement rate (i.e., repls/ref)
+dtlb.wb_rate                 0.0000 # writeback rate (i.e., wrbks/ref)
+dtlb.inv_rate                0.0000 # invalidation rate (i.e., invs/ref)
+ld_text_base             0x00400000 # program text (code) segment base
+ld_text_size                  23968 # program text (code) size in bytes
+ld_data_base             0x10000000 # program initialized data segment base
+ld_data_size                   5184 # program init'ed `.data' and uninit'ed `.bss' size in bytes
+ld_stack_base            0x7fffc000 # program stack segment base (highest address in stack)
+ld_stack_size                 16384 # program initial stack size
+ld_prog_entry            0x00400140 # program entry point (initial PC)
+ld_environ_base          0x7fff8000 # program environment base address address
+ld_target_big_endian              0 # target executable endian-ness, non-zero if big endian
+mem.page_count                   13 # total number of pages allocated
+mem.page_mem                    52k # total size of memory pages allocated
+mem.ptab_misses                  13 # total first level page table misses
+mem.ptab_accesses            535866 # total page table accesses
+mem.ptab_miss_rate           0.0000 # first level page table miss rate
+
+
+Program range: [4001f0 - 4008a0]
+    Addr	   #Exec	 i1_miss
+     1f0	       0	       0
+     1f8	       0	       0
+     200	       0	       0
+     208	       0	       0
+     210	       0	       0
+     218	       0	       0
+     220	       0	       0
+     228	       0	       0
+     230	       0	       0
+     238	       0	       0
+     240	       0	       0
+     248	       0	       0
+     250	       0	       0
+     258	       0	       0
+     260	       0	       0
+     268	       0	       0
+     270	       0	       0
+     278	       0	       0
+     280	       0	       0
+     288	       0	       0
+     290	       1	       1
+     298	       1	       0
+     2a0	       1	       1
+     2a8	       1	       0
+     2b0	       1	       0
+     2b8	       1	       0
+     2c0	       1	       1
+     2c8	       1	       0
+     2d0	       1	       0
+     2d8	       1	       0
+     2e0	       1	       1
+     2e8	       1	       0
+     2f0	       1	       0
+     2f8	       1	       0
+     300	       1	       1
+     308	       1	       0
+     310	     256	       0
+     318	     256	       0
+     320	     256	       1
+     328	     256	       0
+     330	     256	       0
+     338	     256	       0
+     340	     256	       1
+     348	     256	       0
+     350	     256	       0
+     358	     256	       0
+     360	     256	       1
+     368	     256	       0
+     370	     256	       0
+     378	     256	       0
+     380	     256	       1
+     388	       0	       0
+     390	     256	       0
+     398	     256	       0
+     3a0	     256	       1
+     3a8	     256	       0
+     3b0	     256	       0
+     3b8	     256	       0
+     3c0	     256	       1
+     3c8	     256	       0
+     3d0	     256	       0
+     3d8	     256	       0
+     3e0	     256	       1
+     3e8	     256	       0
+     3f0	     256	       0
+     3f8	     256	       0
+     400	     256	       1
+     408	     256	       0
+     410	       0	       0
+     418	     256	       0
+     420	     256	       1
+     428	     256	       0
+     430	     256	       0
+     438	     256	       0
+     440	     256	       1
+     448	     256	       0
+     450	     256	       0
+     458	     256	       0
+     460	     256	       1
+     468	     256	       0
+     470	       1	       0
+     478	       1	       0
+     480	       1	       1
+     488	       0	       0
+     490	       1	       0
+     498	       1	       0
+     4a0	       1	       1
+     4a8	       1	       0
+     4b0	       1	       0
+     4b8	       1	       0
+     4c0	       1	       1
+     4c8	       1	       0
+     4d0	       1	       0
+     4d8	       1	       0
+     4e0	     256	       1
+     4e8	     256	       0
+     4f0	     256	       0
+     4f8	     256	       0
+     500	    2048	       1
+     508	    2048	       0
+     510	    2048	       0
+     518	    2048	       0
+     520	    2048	       1
+     528	    2048	       0
+     530	    2048	       0
+     538	     256	       0
+     540	     256	       1
+     548	     256	       0
+     550	     256	       0
+     558	     256	       0
+     560	     256	       1
+     568	     256	       0
+     570	     256	       0
+     578	     256	       0
+     580	     256	       1
+     588	     256	       0
+     590	     256	       0
+     598	       1	       0
+     5a0	       1	       1
+     5a8	       1	       0
+     5b0	       1	       0
+     5b8	       1	       0
+     5c0	       1	       1
+     5c8	       1	       0
+     5d0	       1	       0
+     5d8	       1	       0
+     5e0	       1	       1
+     5e8	       1	       0
+     5f0	       1	       0
+     5f8	       1	       0
+     600	       1	       1
+     608	       1	       0
+     610	       1	       0
+     618	       8	       0
+     620	       8	       1
+     628	       8	       0
+     630	       0	       0
+     638	       8	       0
+     640	       8	       1
+     648	       8	       0
+     650	       8	       0
+     658	       8	       0
+     660	       8	       1
+     668	       8	       0
+     670	       8	       0
+     678	       8	       0
+     680	     255	       1
+     688	     255	       0
+     690	     255	       0
+     698	     255	       0
+     6a0	     255	       1
+     6a8	     255	       0
+     6b0	     255	       0
+     6b8	     255	       0
+     6c0	     255	       1
+     6c8	     255	       0
+     6d0	    1024	       0
+     6d8	    1024	       0
+     6e0	    1024	       1
+     6e8	    1024	       0
+     6f0	    1024	       0
+     6f8	    1024	       0
+     700	    1024	       1
+     708	    1024	       0
+     710	    1024	       0
+     718	    1024	       0
+     720	    1024	       1
+     728	    1024	       0
+     730	    1024	       0
+     738	    1024	       0
+     740	    1024	       1
+     748	    1024	       0
+     750	    1024	       0
+     758	    1024	       0
+     760	    1024	       1
+     768	    1024	       0
+     770	    1024	       0
+     778	    1024	       0
+     780	    1024	       1
+     788	    1024	       0
+     790	    1024	       0
+     798	    1024	       0
+     7a0	    1024	       1
+     7a8	    1024	       0
+     7b0	    1024	       0
+     7b8	    1024	       0
+     7c0	    1024	       1
+     7c8	    1024	       0
+     7d0	    1024	       0
+     7d8	    1024	       0
+     7e0	    1024	       1
+     7e8	    1024	       0
+     7f0	    1024	       0
+     7f8	    1024	       0
+     800	    1024	       1
+     808	    1024	       0
+     810	    1024	       0
+     818	    1024	       0
+     820	    1024	       1
+     828	    1024	       0
+     830	     255	       0
+     838	     255	       0
+     840	     255	       1
+     848	       8	       0
+     850	       8	       0
+     858	       8	       0
+     860	       8	       1
+     868	       1	       0
+     870	       1	       0
+     878	       1	       0
+     880	       1	       1
+     888	       1	       0
+     890	       1	       0
+     898	       0	       0
+Total i1 miss: 49
+  Addr	    #Exec	  total	 rate	   cold	  confl	  capac
+   448	      256	     32	12.50	     32	      0	      0
+   450	      256	     33	12.89	     33	      0	      0
+   470	        1	      1	100.00	      0	      1	      0
+   538	      256	     37	14.45	      0	     37	      0
+   560	      256	     78	30.47	     32	     46	      0
+   568	      256	     45	17.58	      0	     45	      0
+   588	      256	     76	29.69	     32	     44	      0
+   5b8	        1	      1	100.00	      0	      1	      0
+   690	      255	     16	6.27	      0	     16	      0
+   6a0	      255	     17	6.67	      0	     17	      0
+   6d0	     1024	     63	6.15	      0	     63	      0
+   6e0	     1024	     63	6.15	      0	     63	      0
+   758	     1024	     31	3.03	      0	     31	      0
+   770	     1024	     14	1.37	      0	     14	      0
+   7b8	     1024	     40	3.91	      0	     40	      0
+   868	        1	      1	100.00	      0	      1	      0
+   870	        1	      1	100.00	      0	      1	      0
+Total d1 miss: 549

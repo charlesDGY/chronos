@@ -1,0 +1,4632 @@
+
+fft.c.bin
+
+PATH ANALYSIS: fft.c.bin
+NumberOfBitsNeeded 004001f0 16
+ReverseBits 00400200 112
+sin 00400270 16
+cos 00400280 16
+main 00400290 1552
+eprol 00400140 0
+__start 00400140 0
+_ftext 00400140 3104
+_exit 00400d60 4736
+syscall_error 00401fe0 14976
+__read 00405a60 64
+__write 00405aa0 64
+__lseek 00405ae0 64
+__close 00405b20 64
+__open 00405b60 64
+__dup2 00405ba0 48
+__brk 00405bd0 112
+__fstat 00405c40 176
+__ioctl 00405cf0 48
+_etext 00405d20 0
+etext 00405d20 264217312
+__default_io_functions 10000000 96
+_fdata 10000060 660
+__progname 100002f4 12
+__exit_funcs 10000300 16
+stdin 10000310 4
+stdout 10000314 4
+stderr 10000318 4
+__stdio_head 1000031c 4
+__morecore 10000320 16
+_aligned_blocks 10000330 16
+__default_room_functions 10000340 16
+__curbrk 10000350 4
+__minbrk 10000354 12
+edata 10000360 0
+_edata 10000360 0
+_fbss 10000360 16
+errno 10000370 4
+environ 10000374 12
+_bytes_used 10000380 4
+__malloc_hook 10000384 4
+_chunks_free 10000388 4
+_heapindex 1000038c 4
+_heaplimit 10000390 4
+__after_morecore_hook 10000394 4
+_heapinfo 10000398 4
+__malloc_initialized 1000039c 4
+_bytes_free 100003a0 4
+_heapbase 100003a4 4
+_chunks_used 100003a8 8
+__free_hook 100003b0 16
+ImagOut 100003c0 1024
+RealIn 100007c0 1024
+ai 10000bc0 16
+RealOut 10000bd0 1024
+ImagIn 10000fd0 1024
+ar 100013d0 16
+_fraghead 100013e0 96
+end 10001440 0
+_end 10001440 28320
+_gp 100082e0 0
+Immediate value = 8
+Immediate value = -8
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 8
+Immediate value = -56
+Immediate value = 4194
+Immediate value = 19923
+Immediate value = -32768
+Immediate value = 4096
+Immediate value = 4048
+Immediate value = 4096
+Immediate value = 1984
+Immediate value = 5893
+Immediate value = 3549
+Immediate value = 48
+Immediate value = 40
+Immediate value = 32
+Immediate value = 24
+Immediate value = 0
+Immediate value = 6
+Immediate value = 5
+Immediate value = 2
+Immediate value = 3
+Immediate value = 0
+Immediate value = 6
+Immediate value = 5
+Immediate value = 2
+Immediate value = 3
+Immediate value = 83
+Immediate value = 91
+Immediate value = 1
+Immediate value = 256
+Immediate value = 0
+Immediate value = 0
+Immediate value = 4
+Immediate value = 4
+Immediate value = -32760
+Immediate value = 256
+Immediate value = 8
+Immediate value = 4096
+Immediate value = 3024
+Immediate value = 4096
+Immediate value = 960
+Immediate value = 4096
+Immediate value = 4048
+Immediate value = 4096
+Immediate value = 1984
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 1
+Immediate value = 0
+Immediate value = 2
+Immediate value = 1
+Immediate value = 0
+Immediate value = 0
+Immediate value = 4
+Immediate value = 4
+Immediate value = 0
+Immediate value = 1
+Immediate value = 2
+Immediate value = 2
+Immediate value = -32768
+Immediate value = -32756
+Immediate value = 4096
+Immediate value = 5080
+Immediate value = -8
+Immediate value = 4096
+Immediate value = 3016
+Immediate value = -8
+Immediate value = 4096
+Immediate value = 3024
+Immediate value = 4096
+Immediate value = 960
+Immediate value = 0
+Immediate value = -4
+Immediate value = 0
+Immediate value = -4
+Immediate value = 2
+Immediate value = 4
+Immediate value = 4
+Immediate value = 8
+Immediate value = 8
+Immediate value = 2
+Immediate value = 8
+Immediate value = 8
+Immediate value = 0
+Immediate value = 4
+Immediate value = 0
+Immediate value = 4
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 0
+Immediate value = 1
+Immediate value = 1
+Immediate value = 4
+Immediate value = 0
+Immediate value = 4
+Immediate value = 1
+Immediate value = 48
+Immediate value = 40
+Immediate value = 32
+Immediate value = 24
+Immediate value = 56
+fft.c.bin.fnlist not found -- all procedures will be included in estimation.
+
+Loop 1 Head 1 Tail 5
+Loop 2 Head 10 Tail 10
+Loop 3 Head 9 Tail 11
+Loop 4 Head 19 Tail 19
+Loop 5 Head 17 Tail 20
+Loop 6 Head 14 Tail 21
+dump loops
+----------------
+BB	 L_id[Str - End] 	LP_id
+0.0: 	0[start - end]
+0.1: 	1[0.1 - 0.5]  / parent:0
+0.2: 	1[0.1 - 0.5]  / parent:0
+0.3: 	1[0.1 - 0.5]  / parent:0
+0.4: 	1[0.1 - 0.5]  / parent:0
+0.5: 	1[0.1 - 0.5]  / parent:0
+0.6: 	0[start - end]
+0.7: 	0[start - end]
+0.8: 	0[start - end]
+0.9: 	3[0.9 - 0.11]  / parent:0
+0.10: 	2[0.10 - 0.10]  / parent:3
+0.11: 	3[0.9 - 0.11]  / parent:0
+0.12: 	0[start - end]
+0.13: 	0[start - end]
+0.14: 	6[0.14 - 0.21]  / parent:0
+0.15: 	6[0.14 - 0.21]  / parent:0
+0.16: 	6[0.14 - 0.21]  / parent:0
+0.17: 	5[0.17 - 0.20]  / parent:6
+0.18: 	5[0.17 - 0.20]  / parent:6
+0.19: 	4[0.19 - 0.19]  / parent:5
+0.20: 	5[0.17 - 0.20]  / parent:6
+0.21: 	6[0.14 - 0.21]  / parent:0
+0.22: 	0[start - end]
+
+Analyze file |fft.c.bin|
+Read Instr...
+Read Block Counts...
+Detected loop bound for 0::1 (entry: 0) = 256
+Flag h:138310880 t:138420768
+Detected loop bound for 0::9 (entry: 8) = 256
+Flag h:138530656 t:138585600
+Set bb 11(0.11)  loop:1  entry:(0.8)  bound:256
+Set bb 9(0.9)  loop:1  entry:(0.8)  bound:256
+Set bb 10(0.10)  loop:1  entry:(0.8)  bound:256
+Detected loop bound for 0::10 (entry: 9) = 8
+Flag h:138558128 t:138558128
+Set bb 10(0.10)  loop:2  entry:(0.9)  bound:8
+Detected loop bound for 0::14 (entry: 13) = 8
+Flag h:138668016 t:138860320
+Set bb 21(0.21)  loop:3  entry:(0.13)  bound:8
+Set bb 16(0.16)  loop:3  entry:(0.13)  bound:8
+Set bb 14(0.14)  loop:3  entry:(0.13)  bound:8
+Set bb 15(0.15)  loop:3  entry:(0.13)  bound:8
+Set bb 20(0.20)  loop:3  entry:(0.13)  bound:8
+Set bb 17(0.17)  loop:3  entry:(0.13)  bound:8
+Set bb 19(0.19)  loop:3  entry:(0.13)  bound:8
+Set bb 18(0.18)  loop:3  entry:(0.13)  bound:8
+Detected loop bound for 0::17 (entry: 16) = 8
+Flag h:138750432 t:138832848
+Set bb 20(0.20)  loop:4  entry:(0.16)  bound:8
+Set bb 17(0.17)  loop:4  entry:(0.16)  bound:8
+Set bb 19(0.19)  loop:4  entry:(0.16)  bound:8
+Set bb 18(0.18)  loop:4  entry:(0.16)  bound:8
+Detected loop bound for 0::19 (entry: 18) = 4
+Flag h:138805376 t:138805376
+Set bb 19(0.19)  loop:5  entry:(0.18)  bound:4
+[st,--, 0] 0x400140 lw $16 0 $29
+[st,--, 1] 0x400148 lui $28 4097 
+[st,--, 2] 0x400150 addiu $28 $28 -32032
+[st,--, 3] 0x400158 addiu $17 $29 4
+[st,--, 4] 0x400160 addiu $3 $17 4
+[st,--, 5] 0x400168 sll $2 $16 0x2
+[st,--, 6] 0x400170 addu $3 $3 $2
+[st,--, 7] 0x400178 addu $18 $0 $3
+[st,--, 8] 0x400180 sw $18 -32620 $28
+[st,--, 9] 0x400188 addiu $29 $29 -24
+[st,--,10] 0x400190 addu $4 $0 $16
+[st,--,11] 0x400198 addu $5 $0 $17
+[st,--,12] 0x4001a0 addu $6 $0 $18
+[st,--,13] 0x4001a8 jal 004008a0  
+[st,--,14] 0x4001b0 sw $0 -32624 $28
+[st,--,15] 0x4001b8 addu $4 $0 $16
+[st,--,16] 0x4001c0 addu $5 $0 $17
+[st,--,17] 0x4001c8 addu $6 $0 $18
+[st,--,18] 0x4001d0 jal 00400290  
+[st,--,19] 0x4001d8 addu $4 $0 $2
+[st,--,20] 0x4001e0 jal 004008d0  
+[st,--,21] 0x4001e8 nop   
+[ 0, 0, 0] 0x400290 addiu $29 $29 -56
+[ 0, 0, 1] 0x400298 addu $11 $0 $0
+[ 0, 0, 2] 0x4002a0 addu $9 $0 $0
+[ 0, 0, 3] 0x4002a8 lui $10 4194 
+[ 0, 0, 4] 0x4002b0 ori $10 $10 19923
+[ 0, 0, 5] 0x4002b8 l.d $f4 -32768 $28
+[ 0, 0, 6] 0x4002c0 lui $8 4096 
+[ 0, 0, 7] 0x4002c8 addiu $8 $8 4048
+[ 0, 0, 8] 0x4002d0 lui $7 4096 
+[ 0, 0, 9] 0x4002d8 addiu $7 $7 1984
+[ 0, 0,10] 0x4002e0 addiu $6 $0 5893
+[ 0, 0,11] 0x4002e8 addiu $5 $0 3549
+[ 0, 0,12] 0x4002f0 s.d $f26 48 $29
+[ 0, 0,13] 0x4002f8 s.d $f24 40 $29
+[ 0, 0,14] 0x400300 s.d $f22 32 $29
+[ 0, 0,15] 0x400308 s.d $f20 24 $29
+[ 0, 1, 0] 0x400310 multu $5 $10 
+[ 0, 1, 1] 0x400318 mfhi $3  
+[ 0, 1, 2] 0x400320 mflo $2  
+[ 0, 1, 3] 0x400328 srl $2 $3 0x0
+[ 0, 1, 4] 0x400330 addu $3 $0 $0
+[ 0, 1, 5] 0x400338 srl $2 $2 0x6
+[ 0, 1, 6] 0x400340 sll $4 $2 0x5
+[ 0, 1, 7] 0x400348 subu $4 $4 $2
+[ 0, 1, 8] 0x400350 sll $4 $4 0x2
+[ 0, 1, 9] 0x400358 addu $4 $4 $2
+[ 0, 1,10] 0x400360 sll $4 $4 0x3
+[ 0, 1,11] 0x400368 subu $4 $5 $4
+[ 0, 1,12] 0x400370 mtc1 $4 $f2 
+[ 0, 1,13] 0x400378 cvt.d.w $f2 $f2 
+[ 0, 1,14] 0x400380 bgez $4 00400390 
+[ 0, 2, 0] 0x400388 add.d $f2 $f2 $f4
+[ 0, 3, 0] 0x400390 multu $6 $10 
+[ 0, 3, 1] 0x400398 mfhi $3  
+[ 0, 3, 2] 0x4003a0 mflo $2  
+[ 0, 3, 3] 0x4003a8 cvt.s.d $f2 $f2 
+[ 0, 3, 4] 0x4003b0 srl $2 $3 0x0
+[ 0, 3, 5] 0x4003b8 addu $3 $0 $0
+[ 0, 3, 6] 0x4003c0 srl $2 $2 0x6
+[ 0, 3, 7] 0x4003c8 sll $4 $2 0x5
+[ 0, 3, 8] 0x4003d0 subu $4 $4 $2
+[ 0, 3, 9] 0x4003d8 sll $4 $4 0x2
+[ 0, 3,10] 0x4003e0 addu $4 $4 $2
+[ 0, 3,11] 0x4003e8 sll $4 $4 0x3
+[ 0, 3,12] 0x4003f0 subu $4 $6 $4
+[ 0, 3,13] 0x4003f8 mtc1 $4 $f0 
+[ 0, 3,14] 0x400400 cvt.d.w $f0 $f0 
+[ 0, 3,15] 0x400408 bgez $4 00400418 
+[ 0, 4, 0] 0x400410 add.d $f0 $f0 $f4
+[ 0, 5, 0] 0x400418 cvt.s.d $f0 $f0 
+[ 0, 5, 1] 0x400420 mul.s $f0 $f2 $f0
+[ 0, 5, 2] 0x400428 addiu $6 $6 83
+[ 0, 5, 3] 0x400430 addiu $5 $5 91
+[ 0, 5, 4] 0x400438 addiu $9 $9 1
+[ 0, 5, 5] 0x400440 sltiu $2 $9 256
+[ 0, 5, 6] 0x400448 s.s $f0 0 $7
+[ 0, 5, 7] 0x400450 sw $0 0 $8
+[ 0, 5, 8] 0x400458 addiu $8 $8 4
+[ 0, 5, 9] 0x400460 addiu $7 $7 4
+[ 0, 5,10] 0x400468 bne $2 $0 00400310
+[ 0, 6, 0] 0x400470 l.s $f22 -32760 $28
+[ 0, 6, 1] 0x400478 addiu $25 $0 256
+[ 0, 6, 2] 0x400480 beq $11 $0 00400490
+[ 0, 7, 0] 0x400488 neg.s $f22 $f22 
+[ 0, 8, 0] 0x400490 addiu $9 $0 8
+[ 0, 8, 1] 0x400498 addu $8 $0 $0
+[ 0, 8, 2] 0x4004a0 lui $11 4096 
+[ 0, 8, 3] 0x4004a8 addiu $11 $11 3024
+[ 0, 8, 4] 0x4004b0 lui $10 4096 
+[ 0, 8, 5] 0x4004b8 addiu $10 $10 960
+[ 0, 8, 6] 0x4004c0 lui $7 4096 
+[ 0, 8, 7] 0x4004c8 addiu $7 $7 4048
+[ 0, 8, 8] 0x4004d0 lui $6 4096 
+[ 0, 8, 9] 0x4004d8 addiu $6 $6 1984
+[ 0, 9, 0] 0x4004e0 addu $5 $0 $8
+[ 0, 9, 1] 0x4004e8 addu $4 $0 $0
+[ 0, 9, 2] 0x4004f0 addu $3 $0 $0
+[ 0, 9, 3] 0x4004f8 beq $9 $0 00400538
+[ 0,10, 0] 0x400500 sll $2 $3 0x1
+[ 0,10, 1] 0x400508 andi $3 $5 1
+[ 0,10, 2] 0x400510 or $3 $2 $3
+[ 0,10, 3] 0x400518 srl $5 $5 0x1
+[ 0,10, 4] 0x400520 addiu $4 $4 1
+[ 0,10, 5] 0x400528 sltu $2 $4 $9
+[ 0,10, 6] 0x400530 bne $2 $0 00400500
+[ 0,11, 0] 0x400538 l.s $f0 0 $6
+[ 0,11, 1] 0x400540 sll $3 $3 0x2
+[ 0,11, 2] 0x400548 addu $2 $3 $11
+[ 0,11, 3] 0x400550 addiu $8 $8 1
+[ 0,11, 4] 0x400558 addu $3 $3 $10
+[ 0,11, 5] 0x400560 s.s $f0 0 $2
+[ 0,11, 6] 0x400568 l.s $f0 0 $7
+[ 0,11, 7] 0x400570 addiu $6 $6 4
+[ 0,11, 8] 0x400578 sltu $2 $8 $25
+[ 0,11, 9] 0x400580 addiu $7 $7 4
+[ 0,11,10] 0x400588 s.s $f0 0 $3
+[ 0,11,11] 0x400590 bne $2 $0 004004e0
+[ 0,12, 0] 0x400598 addiu $12 $0 1
+[ 0,12, 1] 0x4005a0 addiu $9 $0 2
+[ 0,12, 2] 0x4005a8 sltiu $2 $25 2
+[ 0,12, 3] 0x4005b0 bne $2 $0 00400868
+[ 0,13, 0] 0x4005b8 l.d $f24 -32768 $28
+[ 0,13, 1] 0x4005c0 l.s $f26 -32756 $28
+[ 0,13, 2] 0x4005c8 lui $24 4096 
+[ 0,13, 3] 0x4005d0 addiu $24 $24 5080
+[ 0,13, 4] 0x4005d8 addiu $11 $24 -8
+[ 0,13, 5] 0x4005e0 lui $15 4096 
+[ 0,13, 6] 0x4005e8 addiu $15 $15 3016
+[ 0,13, 7] 0x4005f0 addiu $10 $15 -8
+[ 0,13, 8] 0x4005f8 lui $14 4096 
+[ 0,13, 9] 0x400600 addiu $14 $14 3024
+[ 0,13,10] 0x400608 lui $13 4096 
+[ 0,13,11] 0x400610 addiu $13 $13 960
+[ 0,14, 0] 0x400618 mtc1 $9 $f0 
+[ 0,14, 1] 0x400620 cvt.d.w $f0 $f0 
+[ 0,14, 2] 0x400628 bgez $9 00400638 
+[ 0,15, 0] 0x400630 add.d $f0 $f0 $f24
+[ 0,16, 0] 0x400638 cvt.s.d $f0 $f0 
+[ 0,16, 1] 0x400640 div.s $f0 $f22 $f0
+[ 0,16, 2] 0x400648 mul.s $f16 $f0 $f26
+[ 0,16, 3] 0x400650 neg.s $f12 $f0 
+[ 0,16, 4] 0x400658 add.s $f14 $f12 $f12
+[ 0,16, 5] 0x400660 addu $8 $0 $0
+[ 0,16, 6] 0x400668 mov.s $f18 $f12 
+[ 0,16, 7] 0x400670 mov.s $f20 $f16 
+[ 0,16, 8] 0x400678 beq $25 $0 00400848
+[ 0,17, 0] 0x400680 addu $6 $0 $8
+[ 0,17, 1] 0x400688 addu $7 $0 $0
+[ 0,17, 2] 0x400690 s.s $f20 0 $24
+[ 0,17, 3] 0x400698 s.s $f18 -4 $24
+[ 0,17, 4] 0x4006a0 s.s $f16 0 $15
+[ 0,17, 5] 0x4006a8 s.s $f12 -4 $15
+[ 0,17, 6] 0x4006b0 beq $12 $0 00400830
+[ 0,18, 0] 0x4006b8 sll $2 $8 0x2
+[ 0,18, 1] 0x4006c0 addu $5 $2 $13
+[ 0,18, 2] 0x4006c8 addu $4 $2 $14
+[ 0,19, 0] 0x4006d0 l.s $f8 4 $11
+[ 0,19, 1] 0x4006d8 mul.s $f6 $f14 $f8
+[ 0,19, 2] 0x4006e0 l.s $f10 4 $10
+[ 0,19, 3] 0x4006e8 l.s $f0 8 $11
+[ 0,19, 4] 0x4006f0 mul.s $f4 $f14 $f10
+[ 0,19, 5] 0x4006f8 l.s $f2 8 $10
+[ 0,19, 6] 0x400700 addu $2 $6 $12
+[ 0,19, 7] 0x400708 sub.s $f6 $f6 $f0
+[ 0,19, 8] 0x400710 sll $2 $2 0x2
+[ 0,19, 9] 0x400718 addu $3 $2 $14
+[ 0,19,10] 0x400720 s.s $f8 8 $11
+[ 0,19,11] 0x400728 sub.s $f4 $f4 $f2
+[ 0,19,12] 0x400730 s.s $f10 8 $10
+[ 0,19,13] 0x400738 s.s $f6 0 $11
+[ 0,19,14] 0x400740 s.s $f6 4 $11
+[ 0,19,15] 0x400748 s.s $f4 0 $10
+[ 0,19,16] 0x400750 s.s $f4 4 $10
+[ 0,19,17] 0x400758 l.s $f10 0 $3
+[ 0,19,18] 0x400760 mul.s $f8 $f6 $f10
+[ 0,19,19] 0x400768 addu $2 $2 $13
+[ 0,19,20] 0x400770 l.s $f0 0 $2
+[ 0,19,21] 0x400778 mul.s $f2 $f4 $f0
+[ 0,19,22] 0x400780 mul.s $f6 $f6 $f0
+[ 0,19,23] 0x400788 sub.s $f8 $f8 $f2
+[ 0,19,24] 0x400790 mul.s $f4 $f4 $f10
+[ 0,19,25] 0x400798 l.s $f0 0 $4
+[ 0,19,26] 0x4007a0 sub.s $f0 $f0 $f8
+[ 0,19,27] 0x4007a8 add.s $f6 $f6 $f4
+[ 0,19,28] 0x4007b0 s.s $f0 0 $3
+[ 0,19,29] 0x4007b8 l.s $f0 0 $5
+[ 0,19,30] 0x4007c0 sub.s $f0 $f0 $f6
+[ 0,19,31] 0x4007c8 s.s $f0 0 $2
+[ 0,19,32] 0x4007d0 l.s $f0 0 $4
+[ 0,19,33] 0x4007d8 add.s $f0 $f0 $f8
+[ 0,19,34] 0x4007e0 s.s $f0 0 $4
+[ 0,19,35] 0x4007e8 l.s $f0 0 $5
+[ 0,19,36] 0x4007f0 addiu $6 $6 1
+[ 0,19,37] 0x4007f8 add.s $f0 $f0 $f6
+[ 0,19,38] 0x400800 addiu $7 $7 1
+[ 0,19,39] 0x400808 sltu $2 $7 $12
+[ 0,19,40] 0x400810 addiu $4 $4 4
+[ 0,19,41] 0x400818 s.s $f0 0 $5
+[ 0,19,42] 0x400820 addiu $5 $5 4
+[ 0,19,43] 0x400828 bne $2 $0 004006d0
+[ 0,20, 0] 0x400830 addu $8 $8 $9
+[ 0,20, 1] 0x400838 sltu $2 $8 $25
+[ 0,20, 2] 0x400840 bne $2 $0 00400680
+[ 0,21, 0] 0x400848 addu $12 $0 $9
+[ 0,21, 1] 0x400850 sll $9 $9 0x1
+[ 0,21, 2] 0x400858 sltu $2 $25 $9
+[ 0,21, 3] 0x400860 beq $2 $0 00400618
+[ 0,22, 0] 0x400868 l.d $f26 48 $29
+[ 0,22, 1] 0x400870 l.d $f24 40 $29
+[ 0,22, 2] 0x400878 l.d $f22 32 $29
+[ 0,22, 3] 0x400880 l.d $f20 24 $29
+[ 0,22, 4] 0x400888 addiu $29 $29 56
+[ 0,22, 5] 0x400890 jr $31  
+Starting symbolic execution...
+
+Start reg. expansion
+Analyze block (0,0)
+ k:0 0x400290 addiu $29 $29 -56 |0
+
+ k:1 0x400298 addu $11 $0 $0 |0
+reg[11]: (-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[11]: (0) C 
+
+ k:2 0x4002a0 addu $9 $0 $0 |0
+reg[ 9]: (-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 9]: (0) C 
+
+ k:3 0x4002a8 lui $10 4194  |0
+reg[10]: (-) E 
+==> reg[10]: (10620000) C 
+
+ k:4 0x4002b0 ori $10 $10 19923 |0
+reg[10]: (10620000) C 
+reg[10]: (10620000) C 
+==> reg[10]: (10624dd3) C 
+
+ k:5 0x4002b8 l.d $f4 -32768 $28 |0
+reg[-1]: (-) E 
+reg[28]: $28(10000000) C 
+==> reg[-1]: T(-) E 
+
+ k:6 0x4002c0 lui $8 4096  |0
+reg[ 8]: (-) E 
+==> reg[ 8]: (10000000) C 
+
+ k:7 0x4002c8 addiu $8 $8 4048 |0
+reg[ 8]: (10000000) C 
+reg[ 8]: (10000000) C 
+==> reg[ 8]: (10000fd0) C 
+
+ k:8 0x4002d0 lui $7 4096  |0
+reg[ 7]: (-) E 
+==> reg[ 7]: (10000000) C 
+
+ k:9 0x4002d8 addiu $7 $7 1984 |0
+reg[ 7]: (10000000) C 
+reg[ 7]: (10000000) C 
+==> reg[ 7]: (100007c0) C 
+
+ k:10 0x4002e0 addiu $6 $0 5893 |0
+reg[ 6]: (-) E 
+reg[ 0]: (0) C 
+==> reg[ 6]: (1705) C 
+
+ k:11 0x4002e8 addiu $5 $0 3549 |0
+reg[ 5]: (-) E 
+reg[ 0]: (0) C 
+==> reg[ 5]: (ddd) C 
+
+ k:12 0x4002f0 s.d $f26 48 $29 |0
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+ k:13 0x4002f8 s.d $f24 40 $29 |0
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+ k:14 0x400300 s.d $f22 32 $29 |0
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+ k:15 0x400308 s.d $f20 24 $29 |0
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+Finish block (0,0)
+Merge incoming of c0.1, e:1 sa:400310 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5:  reg[ 5]: biv: ($5,,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,,1) d:$9 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $5 v:0 val:0 deri:$5
+Update: $5 init: || - |ddd| BIV ($5,ddd,91) 
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: || - |1705| BIV ($6,1705,83) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: || - |100007c0| BIV ($7,100007c0,4) 
+SrcReg: $8 v:0 val:0 deri:$8
+Update: $8 init: || - |10000fd0| BIV ($8,10000fd0,4) 
+SrcReg: $9 v:0 val:0 deri:$9
+Update: $9 init: || - |0| BIV ($9,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (-) E 
+Reg 3:reg[ 3]: (-) E 
+Reg 4:reg[ 4]: (-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,1)
+ k:0 0x400310 multu $5 $10  |0
+Ignoring opcode: multu
+ reg[ 5]: biv: ($5,ddd,91) d:$5 
+reg[10]: (10624dd3) C 
+
+ k:1 0x400318 mfhi $3   |0
+Ignoring opcode: mfhi
+reg[ 3]: (-) E 
+
+ k:2 0x400320 mflo $2   |0
+Ignoring opcode: mflo
+reg[ 2]: (-) E 
+
+ k:3 0x400328 srl $2 $3 0x0 |0
+reg[ 2]: (-) E 
+reg[ 3]: (-) E 
+==> reg[ 2]: ($3>>0x0)(-) E 
+
+ k:4 0x400330 addu $3 $0 $0 |0
+reg[ 3]: (-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+ k:5 0x400338 srl $2 $2 0x6 |0
+reg[ 2]: ($3>>0x0)(-) E 
+reg[ 2]: ($3>>0x0)(-) E 
+==> reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+
+ k:6 0x400340 sll $4 $2 0x5 |0
+reg[ 4]: (-) E 
+reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+==> reg[ 4]: ((($3>>0x0)>>0x6)<<0x5)(-) E 
+
+ k:7 0x400348 subu $4 $4 $2 |0
+reg[ 4]: ((($3>>0x0)>>0x6)<<0x5)(-) E 
+reg[ 4]: ((($3>>0x0)>>0x6)<<0x5)(-) E 
+reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+==> reg[ 4]: (((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))(-) E 
+
+ k:8 0x400350 sll $4 $4 0x2 |0
+reg[ 4]: (((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))(-) E 
+reg[ 4]: (((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))(-) E 
+==> reg[ 4]: ((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)(-) E 
+
+ k:9 0x400358 addu $4 $4 $2 |0
+reg[ 4]: ((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)(-) E 
+reg[ 4]: ((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)(-) E 
+reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+==> reg[ 4]: (((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))(-) E 
+
+ k:10 0x400360 sll $4 $4 0x3 |0
+reg[ 4]: (((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))(-) E 
+reg[ 4]: (((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))(-) E 
+==> reg[ 4]: ((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3)(-) E 
+
+ k:11 0x400368 subu $4 $5 $4 |0
+reg[ 4]: ((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3)(-) E 
+reg[ 5]: $5(-) E 
+reg[ 4]: ((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3)(-) E 
+==> reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+
+ k:12 0x400370 mtc1 $4 $f2  |0
+Ignoring opcode: mtc1
+reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+
+ k:13 0x400378 cvt.d.w $f2 $f2  |0
+Ignoring opcode: cvt.d.w
+
+ k:14 0x400380 bgez $4 00400390  |0
+reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+
+Finish block (0,1)
+Merge incoming of c0.2, e:2 sa:400388 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,2)
+ k:0 0x400388 add.d $f2 $f2 $f4 |0
+Ignoring opcode: add.d
+
+Finish block (0,2)
+Merge incoming of c0.3, e:3 sa:400390 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,3)
+ k:0 0x400390 multu $6 $10  |0
+Ignoring opcode: multu
+ reg[ 6]: biv: ($6,1705,83) d:$6 
+reg[10]: (10624dd3) C 
+
+ k:1 0x400398 mfhi $3   |0
+Ignoring opcode: mfhi
+reg[ 3]: (0) C 
+
+ k:2 0x4003a0 mflo $2   |0
+Ignoring opcode: mflo
+reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+
+ k:3 0x4003a8 cvt.s.d $f2 $f2  |0
+Ignoring opcode: cvt.s.d
+
+ k:4 0x4003b0 srl $2 $3 0x0 |0
+reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+reg[ 3]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:5 0x4003b8 addu $3 $0 $0 |0
+reg[ 3]: (0) C 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+ k:6 0x4003c0 srl $2 $2 0x6 |0
+reg[ 2]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:7 0x4003c8 sll $4 $2 0x5 |0
+reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:8 0x4003d0 subu $4 $4 $2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:9 0x4003d8 sll $4 $4 0x2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:10 0x4003e0 addu $4 $4 $2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:11 0x4003e8 sll $4 $4 0x3 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:12 0x4003f0 subu $4 $6 $4 |0
+reg[ 4]: (0) C 
+reg[ 6]: $6(-) E 
+reg[ 4]: (0) C 
+==> reg[ 4]: ($6-0)(-) E 
+
+ k:13 0x4003f8 mtc1 $4 $f0  |0
+Ignoring opcode: mtc1
+reg[ 4]: ($6-0)(-) E 
+
+ k:14 0x400400 cvt.d.w $f0 $f0  |0
+Ignoring opcode: cvt.d.w
+
+ k:15 0x400408 bgez $4 00400418  |0
+reg[ 4]: ($6-0)(-) E 
+
+Finish block (0,3)
+Merge incoming of c0.3, e:4 sa:400390 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.4, e:4 sa:400410 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (0) C 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,4)
+ k:0 0x400410 add.d $f0 $f0 $f4 |0
+Ignoring opcode: add.d
+
+Finish block (0,4)
+Merge incoming of c0.5, e:5 sa:400418 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (0) C 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,5)
+ k:0 0x400418 cvt.s.d $f0 $f0  |0
+Ignoring opcode: cvt.s.d
+
+ k:1 0x400420 mul.s $f0 $f2 $f0 |0
+Ignoring opcode: mul.s
+
+ k:2 0x400428 addiu $6 $6 83 |10
+-->  reg[ 6]: biv: ($6,1705,83) d:$6 
+
+ k:3 0x400430 addiu $5 $5 91 |10
+-->  reg[ 5]: biv: ($5,ddd,91) d:$5 
+
+ k:4 0x400438 addiu $9 $9 1 |10
+-->  reg[ 9]: biv: ($9,0,1) d:$9 
+
+ k:5 0x400440 sltiu $2 $9 256 |0
+reg[ 2]: (0) C 
+ reg[ 9]: biv: ($9,0,1) d:$9 
+==> reg[ 2]: T(-) E 
+
+ k:6 0x400448 s.s $f0 0 $7 |0
+Ignoring opcode: s.s
+ reg[ 7]: biv: ($7,100007c0,4) d:$7 
+
+ k:7 0x400450 sw $0 0 $8 |0
+
+ k:8 0x400458 addiu $8 $8 4 |10
+-->  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+
+ k:9 0x400460 addiu $7 $7 4 |10
+-->  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+
+ k:10 0x400468 bne $2 $0 00400310 |0
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,5)
+Merge incoming of c0.1, e:6 sa:400310 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $5 v:0 val:0 deri:$5
+Update: $5 init: |ddd| - |ddd| BIV ($5,ddd,91) 
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: |1705| - |1705| BIV ($6,1705,83) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: |100007c0| - |100007c0| BIV ($7,100007c0,4) 
+SrcReg: $8 v:0 val:0 deri:$8
+Update: $8 init: |10000fd0| - |10000fd0| BIV ($8,10000fd0,4) 
+SrcReg: $9 v:0 val:0 deri:$9
+Update: $9 init: |0| - |0| BIV ($9,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,1)
+ k:0 0x400310 multu $5 $10  |0
+Ignoring opcode: multu
+ reg[ 5]: biv: ($5,ddd,91) d:$5 
+reg[10]: (10624dd3) C 
+
+ k:1 0x400318 mfhi $3   |0
+Ignoring opcode: mfhi
+reg[ 3]: (0) C 
+
+ k:2 0x400320 mflo $2   |0
+Ignoring opcode: mflo
+reg[ 2]: T(-) E 
+
+ k:3 0x400328 srl $2 $3 0x0 |0
+reg[ 2]: T(-) E 
+reg[ 3]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:4 0x400330 addu $3 $0 $0 |0
+reg[ 3]: (0) C 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+ k:5 0x400338 srl $2 $2 0x6 |0
+reg[ 2]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:6 0x400340 sll $4 $2 0x5 |0
+reg[ 4]: ($6-0)(-) E 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:7 0x400348 subu $4 $4 $2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:8 0x400350 sll $4 $4 0x2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:9 0x400358 addu $4 $4 $2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:10 0x400360 sll $4 $4 0x3 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:11 0x400368 subu $4 $5 $4 |0
+reg[ 4]: (0) C 
+reg[ 5]: $5(-) E 
+reg[ 4]: (0) C 
+==> reg[ 4]: ($5-0)(-) E 
+
+ k:12 0x400370 mtc1 $4 $f2  |0
+Ignoring opcode: mtc1
+reg[ 4]: ($5-0)(-) E 
+
+ k:13 0x400378 cvt.d.w $f2 $f2  |0
+Ignoring opcode: cvt.d.w
+
+ k:14 0x400380 bgez $4 00400390  |0
+reg[ 4]: ($5-0)(-) E 
+
+Finish block (0,1)
+Merge incoming of c0.2, e:7 sa:400388 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,2)
+ k:0 0x400388 add.d $f2 $f2 $f4 |0
+Ignoring opcode: add.d
+
+Finish block (0,2)
+Merge incoming of c0.3, e:8 sa:400390 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (($3>>0x0)>>0x6)(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,3)
+ k:0 0x400390 multu $6 $10  |0
+Ignoring opcode: multu
+ reg[ 6]: biv: ($6,1705,83) d:$6 
+reg[10]: (10624dd3) C 
+
+ k:1 0x400398 mfhi $3   |0
+Ignoring opcode: mfhi
+reg[ 3]: (0) C 
+
+ k:2 0x4003a0 mflo $2   |0
+Ignoring opcode: mflo
+reg[ 2]: T(-) E 
+
+ k:3 0x4003a8 cvt.s.d $f2 $f2  |0
+Ignoring opcode: cvt.s.d
+
+ k:4 0x4003b0 srl $2 $3 0x0 |0
+reg[ 2]: T(-) E 
+reg[ 3]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:5 0x4003b8 addu $3 $0 $0 |0
+reg[ 3]: (0) C 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+ k:6 0x4003c0 srl $2 $2 0x6 |0
+reg[ 2]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:7 0x4003c8 sll $4 $2 0x5 |0
+reg[ 4]: T(-) E 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:8 0x4003d0 subu $4 $4 $2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:9 0x4003d8 sll $4 $4 0x2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:10 0x4003e0 addu $4 $4 $2 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:11 0x4003e8 sll $4 $4 0x3 |0
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:12 0x4003f0 subu $4 $6 $4 |0
+reg[ 4]: (0) C 
+reg[ 6]: $6(-) E 
+reg[ 4]: (0) C 
+==> reg[ 4]: ($6-0)(-) E 
+
+ k:13 0x4003f8 mtc1 $4 $f0  |0
+Ignoring opcode: mtc1
+reg[ 4]: ($6-0)(-) E 
+
+ k:14 0x400400 cvt.d.w $f0 $f0  |0
+Ignoring opcode: cvt.d.w
+
+ k:15 0x400408 bgez $4 00400418  |0
+reg[ 4]: ($6-0)(-) E 
+
+Finish block (0,3)
+Merge incoming of c0.3, e:9 sa:400390 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.4, e:9 sa:400410 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (0) C 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($6-0)(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (0) C 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.5, e:9 sa:400418 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (0) C 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($6-0)(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (0) C 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.5, e:9 sa:400418 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (0) C 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($6-0)(-) E 
+Reg 5:  reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9:  reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (0) C 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: biv: ($5,ddd,91) d:$5 
+Reg 6: reg[ 6]: biv: ($6,1705,83) d:$6 
+Reg 7: reg[ 7]: biv: ($7,100007c0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+Reg 9: reg[ 9]: biv: ($9,0,1) d:$9 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.6, e:9 sa:400470 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: T(-) E 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,6)
+ k:0 0x400470 l.s $f22 -32760 $28 |0
+Ignoring opcode: l.s
+reg[28]: $28(10000000) C 
+
+ k:1 0x400478 addiu $25 $0 256 |0
+reg[25]: (-) E 
+reg[ 0]: (0) C 
+==> reg[25]: (100) C 
+
+ k:2 0x400480 beq $11 $0 00400490 |0
+reg[11]: (0) C 
+reg[ 0]: (0) C 
+
+Finish block (0,6)
+Merge incoming of c0.7, e:10 sa:400488 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: T(-) E 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,7)
+ k:0 0x400488 neg.s $f22 $f22  |0
+Ignoring opcode: neg.s
+
+Finish block (0,7)
+Merge incoming of c0.8, e:11 sa:400490 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: T(-) E 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,8)
+ k:0 0x400490 addiu $9 $0 8 |0
+reg[ 9]: T(-) E 
+reg[ 0]: (0) C 
+==> reg[ 9]: (8) C 
+
+ k:1 0x400498 addu $8 $0 $0 |0
+reg[ 8]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 8]: (0) C 
+
+ k:2 0x4004a0 lui $11 4096  |0
+reg[11]: (0) C 
+==> reg[11]: (10000000) C 
+
+ k:3 0x4004a8 addiu $11 $11 3024 |0
+reg[11]: (10000000) C 
+reg[11]: (10000000) C 
+==> reg[11]: (10000bd0) C 
+
+ k:4 0x4004b0 lui $10 4096  |0
+reg[10]: (10624dd3) C 
+==> reg[10]: (10000000) C 
+
+ k:5 0x4004b8 addiu $10 $10 960 |0
+reg[10]: (10000000) C 
+reg[10]: (10000000) C 
+==> reg[10]: (100003c0) C 
+
+ k:6 0x4004c0 lui $7 4096  |0
+reg[ 7]: T(-) E 
+==> reg[ 7]: (10000000) C 
+
+ k:7 0x4004c8 addiu $7 $7 4048 |0
+reg[ 7]: (10000000) C 
+reg[ 7]: (10000000) C 
+==> reg[ 7]: (10000fd0) C 
+
+ k:8 0x4004d0 lui $6 4096  |0
+reg[ 6]: T(-) E 
+==> reg[ 6]: (10000000) C 
+
+ k:9 0x4004d8 addiu $6 $6 1984 |0
+reg[ 6]: (10000000) C 
+reg[ 6]: (10000000) C 
+==> reg[ 6]: (100007c0) C 
+
+Finish block (0,8)
+Merge incoming of c0.8, e:12 sa:400490 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: T(-) E 
+Reg 10: reg[10]: (10624dd3) C 
+Reg 11: reg[11]: (0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: T(-) E 
+Reg 10:reg[10]: (10624dd3) C 
+Reg 11:reg[11]: (0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.9, e:12 sa:4004e0 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6:  reg[ 6]: biv: ($6,,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,,1) d:$8 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: || - |100007c0| BIV ($6,100007c0,4) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: || - |10000fd0| BIV ($7,10000fd0,4) 
+SrcReg: $8 v:0 val:0 deri:$8
+Update: $8 init: || - |0| BIV ($8,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4:reg[ 4]: ($6-0)(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,9)
+ k:0 0x4004e0 addu $5 $0 $8 |0
+reg[ 5]: T(-) E 
+reg[ 0]: (0) C 
+ reg[ 8]: biv: ($8,0,1) d:$8 
+==> reg[ 5]: ($8+0)(-) E 
+
+ k:1 0x4004e8 addu $4 $0 $0 |0
+reg[ 4]: ($6-0)(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:2 0x4004f0 addu $3 $0 $0 |0
+reg[ 3]: (0) C 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+ k:3 0x4004f8 beq $9 $0 00400538 |0
+reg[ 9]: (8) C 
+reg[ 0]: (0) C 
+
+Finish block (0,9)
+Merge incoming of c0.10, e:13 sa:400500 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4:  reg[ 4]: biv: ($4,,1) d:$4 
+Reg 5: reg[ 5]: (-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: || - |0| BIV ($4,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: (0) C 
+Reg 4: reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5:reg[ 5]: ($8+0)(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,10)
+ k:0 0x400500 sll $2 $3 0x1 |0
+reg[ 2]: T(-) E 
+reg[ 3]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:1 0x400508 andi $3 $5 1 |0
+reg[ 3]: (0) C 
+reg[ 5]: ($8+0)(-) E 
+==> reg[ 3]: (($8+0)&1)(-) E 
+
+ k:2 0x400510 or $3 $2 $3 |0
+reg[ 3]: (($8+0)&1)(-) E 
+reg[ 2]: (0) C 
+reg[ 3]: (($8+0)&1)(-) E 
+==> reg[ 3]: ((($8+0)&1)|0)(-) E 
+
+ k:3 0x400518 srl $5 $5 0x1 |0
+reg[ 5]: ($8+0)(-) E 
+reg[ 5]: ($8+0)(-) E 
+==> reg[ 5]: (($8+0)>>0x1)(-) E 
+
+ k:4 0x400520 addiu $4 $4 1 |10
+-->  reg[ 4]: biv: ($4,0,1) d:$4 
+
+ k:5 0x400528 sltu $2 $4 $9 |0
+reg[ 2]: (0) C 
+ reg[ 4]: biv: ($4,0,1) d:$4 
+reg[ 9]: (8) C 
+
+ k:6 0x400530 bne $2 $0 00400500 |0
+reg[ 2]: (0) C 
+reg[ 0]: (0) C 
+
+Finish block (0,10)
+Merge incoming of c0.10, e:14 sa:400500 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4:  reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5: reg[ 5]: ($8+0)(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: |0| - |0| BIV ($4,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,10)
+ k:0 0x400500 sll $2 $3 0x1 |0
+reg[ 2]: T(-) E 
+reg[ 3]: T(-) E 
+==> reg[ 2]: (T<<0x1)(-) E 
+
+ k:1 0x400508 andi $3 $5 1 |0
+reg[ 3]: T(-) E 
+reg[ 5]: T(-) E 
+==> reg[ 3]: (T&1)(-) E 
+
+ k:2 0x400510 or $3 $2 $3 |0
+reg[ 3]: (T&1)(-) E 
+reg[ 2]: (T<<0x1)(-) E 
+reg[ 3]: (T&1)(-) E 
+==> reg[ 3]: ((T<<0x1)|(T&1))(-) E 
+
+ k:3 0x400518 srl $5 $5 0x1 |0
+reg[ 5]: T(-) E 
+reg[ 5]: T(-) E 
+==> reg[ 5]: (T>>0x1)(-) E 
+
+ k:4 0x400520 addiu $4 $4 1 |10
+-->  reg[ 4]: biv: ($4,0,1) d:$4 
+
+ k:5 0x400528 sltu $2 $4 $9 |0
+reg[ 2]: (T<<0x1)(-) E 
+ reg[ 4]: biv: ($4,0,1) d:$4 
+reg[ 9]: (8) C 
+
+ k:6 0x400530 bne $2 $0 00400500 |0
+reg[ 2]: (T<<0x1)(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,10)
+Merge incoming of c0.10, e:15 sa:400500 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4:  reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: |0| - |0| BIV ($4,0,1) 
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.11, e:15 sa:400538 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,11)
+ k:0 0x400538 l.s $f0 0 $6 |0
+Ignoring opcode: l.s
+ reg[ 6]: biv: ($6,100007c0,4) d:$6 
+
+ k:1 0x400540 sll $3 $3 0x2 |0
+reg[ 3]: T(-) E 
+reg[ 3]: T(-) E 
+==> reg[ 3]: (T<<0x2)(-) E 
+
+ k:2 0x400548 addu $2 $3 $11 |0
+reg[ 2]: T(-) E 
+reg[ 3]: (T<<0x2)(-) E 
+reg[11]: (10000bd0) C 
+==> reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+
+ k:3 0x400550 addiu $8 $8 1 |10
+-->  reg[ 8]: biv: ($8,0,1) d:$8 
+
+ k:4 0x400558 addu $3 $3 $10 |0
+reg[ 3]: (T<<0x2)(-) E 
+reg[ 3]: (T<<0x2)(-) E 
+reg[10]: (100003c0) C 
+==> reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+
+ k:5 0x400560 s.s $f0 0 $2 |0
+Ignoring opcode: s.s
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+
+ k:6 0x400568 l.s $f0 0 $7 |0
+Ignoring opcode: l.s
+ reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+
+ k:7 0x400570 addiu $6 $6 4 |10
+-->  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+
+ k:8 0x400578 sltu $2 $8 $25 |0
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+ reg[ 8]: biv: ($8,0,1) d:$8 
+reg[25]: (100) C 
+
+ k:9 0x400580 addiu $7 $7 4 |10
+-->  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+
+ k:10 0x400588 s.s $f0 0 $3 |0
+Ignoring opcode: s.s
+reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+
+ k:11 0x400590 bne $2 $0 004004e0 |0
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,11)
+Merge incoming of c0.9, e:16 sa:4004e0 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: (0) C 
+Reg 4: reg[ 4]: ($6-0)(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: |100007c0| - |100007c0| BIV ($6,100007c0,4) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: |10000fd0| - |10000fd0| BIV ($7,10000fd0,4) 
+SrcReg: $8 v:0 val:0 deri:$8
+Update: $8 init: |0| - |0| BIV ($8,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,9)
+ k:0 0x4004e0 addu $5 $0 $8 |0
+reg[ 5]: T(-) E 
+reg[ 0]: (0) C 
+ reg[ 8]: biv: ($8,0,1) d:$8 
+==> reg[ 5]: ($8+0)(-) E 
+
+ k:1 0x4004e8 addu $4 $0 $0 |0
+reg[ 4]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 4]: (0) C 
+
+ k:2 0x4004f0 addu $3 $0 $0 |0
+reg[ 3]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+ k:3 0x4004f8 beq $9 $0 00400538 |0
+reg[ 9]: (8) C 
+reg[ 0]: (0) C 
+
+Finish block (0,9)
+Merge incoming of c0.10, e:17 sa:400500 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4:  reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: |0| - |0| BIV ($4,0,1) 
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: biv: ($4,0,1) d:$4 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.11, e:17 sa:400538 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.11, e:17 sa:400538 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.11, e:17 sa:400538 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6:  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8:  reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9: reg[ 9]: (8) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: biv: ($6,100007c0,4) d:$6 
+Reg 7: reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+Reg 8: reg[ 8]: biv: ($8,0,1) d:$8 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Merge incoming of c0.12, e:17 sa:400598 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (8) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (-) E 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,12)
+ k:0 0x400598 addiu $12 $0 1 |0
+reg[12]: (-) E 
+reg[ 0]: (0) C 
+==> reg[12]: (1) C 
+
+ k:1 0x4005a0 addiu $9 $0 2 |0
+reg[ 9]: (8) C 
+reg[ 0]: (0) C 
+==> reg[ 9]: (2) C 
+
+ k:2 0x4005a8 sltiu $2 $25 2 |0
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+reg[25]: (100) C 
+==> reg[ 2]: T(-) E 
+
+ k:3 0x4005b0 bne $2 $0 00400868 |0
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,12)
+Merge incoming of c0.13, e:18 sa:4005b8 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (-) E 
+
+Analyze block (0,13)
+ k:0 0x4005b8 l.d $f24 -32768 $28 |0
+reg[-1]: (-) E 
+reg[28]: $28(10000000) C 
+==> reg[-1]: T(-) E 
+
+ k:1 0x4005c0 l.s $f26 -32756 $28 |0
+Ignoring opcode: l.s
+reg[28]: $28(10000000) C 
+
+ k:2 0x4005c8 lui $24 4096  |0
+reg[24]: (-) E 
+==> reg[24]: (10000000) C 
+
+ k:3 0x4005d0 addiu $24 $24 5080 |0
+reg[24]: (10000000) C 
+reg[24]: (10000000) C 
+==> reg[24]: (100013d8) C 
+
+ k:4 0x4005d8 addiu $11 $24 -8 |0
+reg[11]: (10000bd0) C 
+reg[24]: (100013d8) C 
+==> reg[11]: (100013d0) C 
+
+ k:5 0x4005e0 lui $15 4096  |0
+reg[15]: (-) E 
+==> reg[15]: (10000000) C 
+
+ k:6 0x4005e8 addiu $15 $15 3016 |0
+reg[15]: (10000000) C 
+reg[15]: (10000000) C 
+==> reg[15]: (10000bc8) C 
+
+ k:7 0x4005f0 addiu $10 $15 -8 |0
+reg[10]: (100003c0) C 
+reg[15]: (10000bc8) C 
+==> reg[10]: (10000bc0) C 
+
+ k:8 0x4005f8 lui $14 4096  |0
+reg[14]: (-) E 
+==> reg[14]: (10000000) C 
+
+ k:9 0x400600 addiu $14 $14 3024 |0
+reg[14]: (10000000) C 
+reg[14]: (10000000) C 
+==> reg[14]: (10000bd0) C 
+
+ k:10 0x400608 lui $13 4096  |0
+reg[13]: (-) E 
+==> reg[13]: (10000000) C 
+
+ k:11 0x400610 addiu $13 $13 960 |0
+reg[13]: (10000000) C 
+reg[13]: (10000000) C 
+==> reg[13]: (100003c0) C 
+
+Finish block (0,13)
+Merge incoming of c0.14, e:19 sa:400618 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,14)
+ k:0 0x400618 mtc1 $9 $f0  |0
+Ignoring opcode: mtc1
+reg[ 9]: (2) C 
+
+ k:1 0x400620 cvt.d.w $f0 $f0  |0
+Ignoring opcode: cvt.d.w
+
+ k:2 0x400628 bgez $9 00400638  |0
+reg[ 9]: (2) C 
+
+Finish block (0,14)
+Merge incoming of c0.15, e:20 sa:400630 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,15)
+ k:0 0x400630 add.d $f0 $f0 $f24 |0
+Ignoring opcode: add.d
+
+Finish block (0,15)
+Merge incoming of c0.16, e:21 sa:400638 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,16)
+ k:0 0x400638 cvt.s.d $f0 $f0  |0
+Ignoring opcode: cvt.s.d
+
+ k:1 0x400640 div.s $f0 $f22 $f0 |0
+Ignoring opcode: div.s
+
+ k:2 0x400648 mul.s $f16 $f0 $f26 |0
+Ignoring opcode: mul.s
+
+ k:3 0x400650 neg.s $f12 $f0  |0
+Ignoring opcode: neg.s
+
+ k:4 0x400658 add.s $f14 $f12 $f12 |0
+Ignoring opcode: add.s
+
+ k:5 0x400660 addu $8 $0 $0 |0
+reg[ 8]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 8]: (0) C 
+
+ k:6 0x400668 mov.s $f18 $f12  |0
+Ignoring opcode: mov.s
+
+ k:7 0x400670 mov.s $f20 $f16  |0
+Ignoring opcode: mov.s
+
+ k:8 0x400678 beq $25 $0 00400848 |0
+reg[25]: (100) C 
+reg[ 0]: (0) C 
+
+Finish block (0,16)
+Merge incoming of c0.16, e:22 sa:400638 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.17, e:22 sa:400680 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,17)
+ k:0 0x400680 addu $6 $0 $8 |0
+reg[ 6]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 8]: (0) C 
+==> reg[ 6]: (0) C 
+
+ k:1 0x400688 addu $7 $0 $0 |0
+reg[ 7]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 7]: (0) C 
+
+ k:2 0x400690 s.s $f20 0 $24 |0
+Ignoring opcode: s.s
+reg[24]: (100013d8) C 
+
+ k:3 0x400698 s.s $f18 -4 $24 |0
+Ignoring opcode: s.s
+reg[24]: (100013d8) C 
+
+ k:4 0x4006a0 s.s $f16 0 $15 |0
+Ignoring opcode: s.s
+reg[15]: (10000bc8) C 
+
+ k:5 0x4006a8 s.s $f12 -4 $15 |0
+Ignoring opcode: s.s
+reg[15]: (10000bc8) C 
+
+ k:6 0x4006b0 beq $12 $0 00400830 |0
+reg[12]: (1) C 
+reg[ 0]: (0) C 
+
+Finish block (0,17)
+Merge incoming of c0.18, e:23 sa:4006b8 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: (0) C 
+Reg 7:reg[ 7]: (0) C 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,18)
+ k:0 0x4006b8 sll $2 $8 0x2 |0
+reg[ 2]: T(-) E 
+reg[ 8]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:1 0x4006c0 addu $5 $2 $13 |0
+reg[ 5]: T(-) E 
+reg[ 2]: (0) C 
+reg[13]: (100003c0) C 
+==> reg[ 5]: (100003c0) C 
+
+ k:2 0x4006c8 addu $4 $2 $14 |0
+reg[ 4]: T(-) E 
+reg[ 2]: (0) C 
+reg[14]: (10000bd0) C 
+==> reg[ 4]: (10000bd0) C 
+
+Finish block (0,18)
+Merge incoming of c0.19, e:24 sa:4006d0 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4:  reg[ 4]: biv: ($4,,4) d:$4 
+Reg 5:  reg[ 5]: biv: ($5,,4) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,,1) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,,1) d:$7 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: || - |10000bd0| BIV ($4,10000bd0,4) 
+SrcReg: $5 v:0 val:0 deri:$5
+Update: $5 init: || - |100003c0| BIV ($5,100003c0,4) 
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: || - |0| BIV ($6,0,1) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: || - |0| BIV ($7,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: (0) C 
+Reg 3:reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5: reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6: reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7: reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,19)
+ k:0 0x4006d0 l.s $f8 4 $11 |0
+Ignoring opcode: l.s
+reg[11]: (100013d0) C 
+
+ k:1 0x4006d8 mul.s $f6 $f14 $f8 |0
+Ignoring opcode: mul.s
+
+ k:2 0x4006e0 l.s $f10 4 $10 |0
+Ignoring opcode: l.s
+reg[10]: (10000bc0) C 
+
+ k:3 0x4006e8 l.s $f0 8 $11 |0
+Ignoring opcode: l.s
+reg[11]: (100013d0) C 
+
+ k:4 0x4006f0 mul.s $f4 $f14 $f10 |0
+Ignoring opcode: mul.s
+
+ k:5 0x4006f8 l.s $f2 8 $10 |0
+Ignoring opcode: l.s
+reg[10]: (10000bc0) C 
+
+ k:6 0x400700 addu $2 $6 $12 |0
+reg[ 2]: (0) C 
+ reg[ 6]: biv: ($6,0,1) d:$6 
+reg[12]: (1) C 
+==> reg[ 2]: ($6+1)(-) E 
+
+ k:7 0x400708 sub.s $f6 $f6 $f0 |0
+Ignoring opcode: sub.s
+
+ k:8 0x400710 sll $2 $2 0x2 |0
+reg[ 2]: ($6+1)(-) E 
+reg[ 2]: ($6+1)(-) E 
+==> reg[ 2]: (($6+1)<<0x2)(-) E 
+
+ k:9 0x400718 addu $3 $2 $14 |0
+reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[14]: (10000bd0) C 
+==> reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+ k:10 0x400720 s.s $f8 8 $11 |0
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+ k:11 0x400728 sub.s $f4 $f4 $f2 |0
+Ignoring opcode: sub.s
+
+ k:12 0x400730 s.s $f10 8 $10 |0
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+ k:13 0x400738 s.s $f6 0 $11 |0
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+ k:14 0x400740 s.s $f6 4 $11 |0
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+ k:15 0x400748 s.s $f4 0 $10 |0
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+ k:16 0x400750 s.s $f4 4 $10 |0
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+ k:17 0x400758 l.s $f10 0 $3 |0
+Ignoring opcode: l.s
+reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+ k:18 0x400760 mul.s $f8 $f6 $f10 |0
+Ignoring opcode: mul.s
+
+ k:19 0x400768 addu $2 $2 $13 |0
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[13]: (100003c0) C 
+==> reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+ k:20 0x400770 l.s $f0 0 $2 |0
+Ignoring opcode: l.s
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+ k:21 0x400778 mul.s $f2 $f4 $f0 |0
+Ignoring opcode: mul.s
+
+ k:22 0x400780 mul.s $f6 $f6 $f0 |0
+Ignoring opcode: mul.s
+
+ k:23 0x400788 sub.s $f8 $f8 $f2 |0
+Ignoring opcode: sub.s
+
+ k:24 0x400790 mul.s $f4 $f4 $f10 |0
+Ignoring opcode: mul.s
+
+ k:25 0x400798 l.s $f0 0 $4 |0
+Ignoring opcode: l.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:26 0x4007a0 sub.s $f0 $f0 $f8 |0
+Ignoring opcode: sub.s
+
+ k:27 0x4007a8 add.s $f6 $f6 $f4 |0
+Ignoring opcode: add.s
+
+ k:28 0x4007b0 s.s $f0 0 $3 |0
+Ignoring opcode: s.s
+reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+ k:29 0x4007b8 l.s $f0 0 $5 |0
+Ignoring opcode: l.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:30 0x4007c0 sub.s $f0 $f0 $f6 |0
+Ignoring opcode: sub.s
+
+ k:31 0x4007c8 s.s $f0 0 $2 |0
+Ignoring opcode: s.s
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+ k:32 0x4007d0 l.s $f0 0 $4 |0
+Ignoring opcode: l.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:33 0x4007d8 add.s $f0 $f0 $f8 |0
+Ignoring opcode: add.s
+
+ k:34 0x4007e0 s.s $f0 0 $4 |0
+Ignoring opcode: s.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:35 0x4007e8 l.s $f0 0 $5 |0
+Ignoring opcode: l.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:36 0x4007f0 addiu $6 $6 1 |10
+-->  reg[ 6]: biv: ($6,0,1) d:$6 
+
+ k:37 0x4007f8 add.s $f0 $f0 $f6 |0
+Ignoring opcode: add.s
+
+ k:38 0x400800 addiu $7 $7 1 |10
+-->  reg[ 7]: biv: ($7,0,1) d:$7 
+
+ k:39 0x400808 sltu $2 $7 $12 |0
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+ reg[ 7]: biv: ($7,0,1) d:$7 
+reg[12]: (1) C 
+
+ k:40 0x400810 addiu $4 $4 4 |10
+-->  reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:41 0x400818 s.s $f0 0 $5 |0
+Ignoring opcode: s.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:42 0x400820 addiu $5 $5 4 |10
+-->  reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:43 0x400828 bne $2 $0 004006d0 |0
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,19)
+Merge incoming of c0.19, e:25 sa:4006d0 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (0) C 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4:  reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5:  reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: |10000bd0| - |10000bd0| BIV ($4,10000bd0,4) 
+SrcReg: $5 v:0 val:0 deri:$5
+Update: $5 init: |100003c0| - |100003c0| BIV ($5,100003c0,4) 
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: |0| - |0| BIV ($6,0,1) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: |0| - |0| BIV ($7,0,1) 
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5: reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6: reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7: reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,19)
+ k:0 0x4006d0 l.s $f8 4 $11 |0
+Ignoring opcode: l.s
+reg[11]: (100013d0) C 
+
+ k:1 0x4006d8 mul.s $f6 $f14 $f8 |0
+Ignoring opcode: mul.s
+
+ k:2 0x4006e0 l.s $f10 4 $10 |0
+Ignoring opcode: l.s
+reg[10]: (10000bc0) C 
+
+ k:3 0x4006e8 l.s $f0 8 $11 |0
+Ignoring opcode: l.s
+reg[11]: (100013d0) C 
+
+ k:4 0x4006f0 mul.s $f4 $f14 $f10 |0
+Ignoring opcode: mul.s
+
+ k:5 0x4006f8 l.s $f2 8 $10 |0
+Ignoring opcode: l.s
+reg[10]: (10000bc0) C 
+
+ k:6 0x400700 addu $2 $6 $12 |0
+reg[ 2]: T(-) E 
+ reg[ 6]: biv: ($6,0,1) d:$6 
+reg[12]: (1) C 
+==> reg[ 2]: ($6+1)(-) E 
+
+ k:7 0x400708 sub.s $f6 $f6 $f0 |0
+Ignoring opcode: sub.s
+
+ k:8 0x400710 sll $2 $2 0x2 |0
+reg[ 2]: ($6+1)(-) E 
+reg[ 2]: ($6+1)(-) E 
+==> reg[ 2]: (($6+1)<<0x2)(-) E 
+
+ k:9 0x400718 addu $3 $2 $14 |0
+reg[ 3]: T(-) E 
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[14]: (10000bd0) C 
+==> reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+ k:10 0x400720 s.s $f8 8 $11 |0
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+ k:11 0x400728 sub.s $f4 $f4 $f2 |0
+Ignoring opcode: sub.s
+
+ k:12 0x400730 s.s $f10 8 $10 |0
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+ k:13 0x400738 s.s $f6 0 $11 |0
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+ k:14 0x400740 s.s $f6 4 $11 |0
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+ k:15 0x400748 s.s $f4 0 $10 |0
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+ k:16 0x400750 s.s $f4 4 $10 |0
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+ k:17 0x400758 l.s $f10 0 $3 |0
+Ignoring opcode: l.s
+reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+ k:18 0x400760 mul.s $f8 $f6 $f10 |0
+Ignoring opcode: mul.s
+
+ k:19 0x400768 addu $2 $2 $13 |0
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[13]: (100003c0) C 
+==> reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+ k:20 0x400770 l.s $f0 0 $2 |0
+Ignoring opcode: l.s
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+ k:21 0x400778 mul.s $f2 $f4 $f0 |0
+Ignoring opcode: mul.s
+
+ k:22 0x400780 mul.s $f6 $f6 $f0 |0
+Ignoring opcode: mul.s
+
+ k:23 0x400788 sub.s $f8 $f8 $f2 |0
+Ignoring opcode: sub.s
+
+ k:24 0x400790 mul.s $f4 $f4 $f10 |0
+Ignoring opcode: mul.s
+
+ k:25 0x400798 l.s $f0 0 $4 |0
+Ignoring opcode: l.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:26 0x4007a0 sub.s $f0 $f0 $f8 |0
+Ignoring opcode: sub.s
+
+ k:27 0x4007a8 add.s $f6 $f6 $f4 |0
+Ignoring opcode: add.s
+
+ k:28 0x4007b0 s.s $f0 0 $3 |0
+Ignoring opcode: s.s
+reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+ k:29 0x4007b8 l.s $f0 0 $5 |0
+Ignoring opcode: l.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:30 0x4007c0 sub.s $f0 $f0 $f6 |0
+Ignoring opcode: sub.s
+
+ k:31 0x4007c8 s.s $f0 0 $2 |0
+Ignoring opcode: s.s
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+ k:32 0x4007d0 l.s $f0 0 $4 |0
+Ignoring opcode: l.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:33 0x4007d8 add.s $f0 $f0 $f8 |0
+Ignoring opcode: add.s
+
+ k:34 0x4007e0 s.s $f0 0 $4 |0
+Ignoring opcode: s.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:35 0x4007e8 l.s $f0 0 $5 |0
+Ignoring opcode: l.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:36 0x4007f0 addiu $6 $6 1 |10
+-->  reg[ 6]: biv: ($6,0,1) d:$6 
+
+ k:37 0x4007f8 add.s $f0 $f0 $f6 |0
+Ignoring opcode: add.s
+
+ k:38 0x400800 addiu $7 $7 1 |10
+-->  reg[ 7]: biv: ($7,0,1) d:$7 
+
+ k:39 0x400808 sltu $2 $7 $12 |0
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+ reg[ 7]: biv: ($7,0,1) d:$7 
+reg[12]: (1) C 
+
+ k:40 0x400810 addiu $4 $4 4 |10
+-->  reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+ k:41 0x400818 s.s $f0 0 $5 |0
+Ignoring opcode: s.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:42 0x400820 addiu $5 $5 4 |10
+-->  reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+ k:43 0x400828 bne $2 $0 004006d0 |0
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,19)
+Merge incoming of c0.19, e:26 sa:4006d0 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4:  reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5:  reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: |10000bd0| - |10000bd0| BIV ($4,10000bd0,4) 
+SrcReg: $5 v:0 val:0 deri:$5
+Update: $5 init: |100003c0| - |100003c0| BIV ($5,100003c0,4) 
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: |0| - |0| BIV ($6,0,1) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: |0| - |0| BIV ($7,0,1) 
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5: reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6: reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7: reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.20, e:26 sa:400830 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,20)
+ k:0 0x400830 addu $8 $8 $9 |0
+reg[ 8]: (0) C 
+reg[ 8]: (0) C 
+reg[ 9]: (2) C 
+==> reg[ 8]: (2) C 
+
+ k:1 0x400838 sltu $2 $8 $25 |0
+reg[ 2]: T(-) E 
+reg[ 8]: (2) C 
+reg[25]: (100) C 
+
+ k:2 0x400840 bne $2 $0 00400680 |0
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,20)
+Merge incoming of c0.17, e:27 sa:400680 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,17)
+ k:0 0x400680 addu $6 $0 $8 |0
+reg[ 6]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 8]: (0) C 
+==> reg[ 6]: (0) C 
+
+ k:1 0x400688 addu $7 $0 $0 |0
+reg[ 7]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 7]: (0) C 
+
+ k:2 0x400690 s.s $f20 0 $24 |0
+Ignoring opcode: s.s
+reg[24]: (100013d8) C 
+
+ k:3 0x400698 s.s $f18 -4 $24 |0
+Ignoring opcode: s.s
+reg[24]: (100013d8) C 
+
+ k:4 0x4006a0 s.s $f16 0 $15 |0
+Ignoring opcode: s.s
+reg[15]: (10000bc8) C 
+
+ k:5 0x4006a8 s.s $f12 -4 $15 |0
+Ignoring opcode: s.s
+reg[15]: (10000bc8) C 
+
+ k:6 0x4006b0 beq $12 $0 00400830 |0
+reg[12]: (1) C 
+reg[ 0]: (0) C 
+
+Finish block (0,17)
+Merge incoming of c0.18, e:28 sa:4006b8 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: (0) C 
+Reg 7: reg[ 7]: (0) C 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: (0) C 
+Reg 7:reg[ 7]: (0) C 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,18)
+ k:0 0x4006b8 sll $2 $8 0x2 |0
+reg[ 2]: T(-) E 
+reg[ 8]: (0) C 
+==> reg[ 2]: (0) C 
+
+ k:1 0x4006c0 addu $5 $2 $13 |0
+reg[ 5]: T(-) E 
+reg[ 2]: (0) C 
+reg[13]: (100003c0) C 
+==> reg[ 5]: (100003c0) C 
+
+ k:2 0x4006c8 addu $4 $2 $14 |0
+reg[ 4]: T(-) E 
+reg[ 2]: (0) C 
+reg[14]: (10000bd0) C 
+==> reg[ 4]: (10000bd0) C 
+
+Finish block (0,18)
+Merge incoming of c0.19, e:29 sa:4006d0 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4:  reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5:  reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6:  reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7:  reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+SrcReg: $4 v:0 val:0 deri:$4
+Update: $4 init: |10000bd0| - |10000bd0| BIV ($4,10000bd0,4) 
+SrcReg: $5 v:0 val:0 deri:$5
+Update: $5 init: |100003c0| - |100003c0| BIV ($5,100003c0,4) 
+SrcReg: $6 v:0 val:0 deri:$6
+Update: $6 init: |0| - |0| BIV ($6,0,1) 
+SrcReg: $7 v:0 val:0 deri:$7
+Update: $7 init: |0| - |0| BIV ($7,0,1) 
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+Reg 5: reg[ 5]: biv: ($5,100003c0,4) d:$5 
+Reg 6: reg[ 6]: biv: ($6,0,1) d:$6 
+Reg 7: reg[ 7]: biv: ($7,0,1) d:$7 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.20, e:29 sa:400830 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.20, e:29 sa:400830 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.20, e:29 sa:400830 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.21, e:29 sa:400848 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,21)
+ k:0 0x400848 addu $12 $0 $9 |0
+reg[12]: (1) C 
+reg[ 0]: (0) C 
+reg[ 9]: (2) C 
+==> reg[12]: (2) C 
+
+ k:1 0x400850 sll $9 $9 0x1 |0
+reg[ 9]: (2) C 
+reg[ 9]: (2) C 
+==> reg[ 9]: (4) C 
+
+ k:2 0x400858 sltu $2 $25 $9 |0
+reg[ 2]: T(-) E 
+reg[25]: (100) C 
+reg[ 9]: (4) C 
+
+ k:3 0x400860 beq $2 $0 00400618 |0
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+Finish block (0,21)
+Merge incoming of c0.14, e:30 sa:400618 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,14)
+ k:0 0x400618 mtc1 $9 $f0  |0
+Ignoring opcode: mtc1
+reg[ 9]: (2) C 
+
+ k:1 0x400620 cvt.d.w $f0 $f0  |0
+Ignoring opcode: cvt.d.w
+
+ k:2 0x400628 bgez $9 00400638  |0
+reg[ 9]: (2) C 
+
+Finish block (0,14)
+Merge incoming of c0.15, e:31 sa:400630 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,15)
+ k:0 0x400630 add.d $f0 $f0 $f24 |0
+Ignoring opcode: add.d
+
+Finish block (0,15)
+Merge incoming of c0.16, e:32 sa:400638 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,16)
+ k:0 0x400638 cvt.s.d $f0 $f0  |0
+Ignoring opcode: cvt.s.d
+
+ k:1 0x400640 div.s $f0 $f22 $f0 |0
+Ignoring opcode: div.s
+
+ k:2 0x400648 mul.s $f16 $f0 $f26 |0
+Ignoring opcode: mul.s
+
+ k:3 0x400650 neg.s $f12 $f0  |0
+Ignoring opcode: neg.s
+
+ k:4 0x400658 add.s $f14 $f12 $f12 |0
+Ignoring opcode: add.s
+
+ k:5 0x400660 addu $8 $0 $0 |0
+reg[ 8]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 8]: (0) C 
+
+ k:6 0x400668 mov.s $f18 $f12  |0
+Ignoring opcode: mov.s
+
+ k:7 0x400670 mov.s $f20 $f16  |0
+Ignoring opcode: mov.s
+
+ k:8 0x400678 beq $25 $0 00400848 |0
+reg[25]: (100) C 
+reg[ 0]: (0) C 
+
+Finish block (0,16)
+Merge incoming of c0.16, e:33 sa:400638 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.17, e:33 sa:400680 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.21, e:33 sa:400848 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.21, e:33 sa:400848 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: (0) C 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (10000bc0) C 
+Reg 11: reg[11]: (100013d0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: (0) C 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (10000bc0) C 
+Reg 11:reg[11]: (100013d0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Merge incoming of c0.22, e:33 sa:400868 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: (-) E 
+Reg 3: reg[ 3]: (-) E 
+Reg 4: reg[ 4]: (-) E 
+Reg 5: reg[ 5]: (-) E 
+Reg 6: reg[ 6]: (-) E 
+Reg 7: reg[ 7]: (-) E 
+Reg 8: reg[ 8]: (-) E 
+Reg 9: reg[ 9]: (-) E 
+Reg 10: reg[10]: (-) E 
+Reg 11: reg[11]: (-) E 
+Reg 12: reg[12]: (-) E 
+Reg 13: reg[13]: (-) E 
+
+After merge, change:1
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Analyze block (0,22)
+ k:0 0x400868 l.d $f26 48 $29 |0
+reg[-1]: (-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+ k:1 0x400870 l.d $f24 40 $29 |0
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+ k:2 0x400878 l.d $f22 32 $29 |0
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+ k:3 0x400880 l.d $f20 24 $29 |0
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+ k:4 0x400888 addiu $29 $29 56 |0
+
+ k:5 0x400890 jr $31   |0
+
+Finish block (0,22)
+Merge incoming of c0.22, e:34 sa:400868 
+Before mergeReg 0: reg[ 0]: (0) C 
+Reg 1: reg[ 1]: (-) E 
+Reg 2: reg[ 2]: T(-) E 
+Reg 3: reg[ 3]: T(-) E 
+Reg 4: reg[ 4]: T(-) E 
+Reg 5: reg[ 5]: T(-) E 
+Reg 6: reg[ 6]: T(-) E 
+Reg 7: reg[ 7]: T(-) E 
+Reg 8: reg[ 8]: T(-) E 
+Reg 9: reg[ 9]: (2) C 
+Reg 10: reg[10]: (100003c0) C 
+Reg 11: reg[11]: (10000bd0) C 
+Reg 12: reg[12]: (1) C 
+Reg 13: reg[13]: (100003c0) C 
+
+After merge, change:0
+Reg 0:reg[ 0]: (0) C 
+Reg 1:reg[ 1]: (-) E 
+Reg 2:reg[ 2]: T(-) E 
+Reg 3:reg[ 3]: T(-) E 
+Reg 4:reg[ 4]: T(-) E 
+Reg 5:reg[ 5]: T(-) E 
+Reg 6:reg[ 6]: T(-) E 
+Reg 7:reg[ 7]: T(-) E 
+Reg 8:reg[ 8]: T(-) E 
+Reg 9:reg[ 9]: (2) C 
+Reg 10:reg[10]: (100003c0) C 
+Reg 11:reg[11]: (10000bd0) C 
+Reg 12:reg[12]: (1) C 
+Reg 13:reg[13]: (100003c0) C 
+
+Read sym.exec result
+0x400290 addiu $29 $29 -56
+
+0x400298 addu $11 $0 $0
+reg[11]: (-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[11]: (0) C 
+
+0x4002a0 addu $9 $0 $0
+reg[ 9]: (-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 9]: (0) C 
+
+0x4002a8 lui $10 4194 
+reg[10]: (-) E 
+==> reg[10]: (10620000) C 
+
+0x4002b0 ori $10 $10 19923
+reg[10]: (10620000) C 
+reg[10]: (10620000) C 
+==> reg[10]: (10624dd3) C 
+
+0x4002b8 l.d $f4 -32768 $28
+reg[-1]: T(-) E 
+reg[28]: $28(10000000) C 
+==> reg[-1]: T(-) E 
+
+0x4002c0 lui $8 4096 
+reg[ 8]: (-) E 
+==> reg[ 8]: (10000000) C 
+
+0x4002c8 addiu $8 $8 4048
+reg[ 8]: (10000000) C 
+reg[ 8]: (10000000) C 
+==> reg[ 8]: (10000fd0) C 
+
+0x4002d0 lui $7 4096 
+reg[ 7]: (-) E 
+==> reg[ 7]: (10000000) C 
+
+0x4002d8 addiu $7 $7 1984
+reg[ 7]: (10000000) C 
+reg[ 7]: (10000000) C 
+==> reg[ 7]: (100007c0) C 
+
+0x4002e0 addiu $6 $0 5893
+reg[ 6]: (-) E 
+reg[ 0]: (0) C 
+==> reg[ 6]: (1705) C 
+
+0x4002e8 addiu $5 $0 3549
+reg[ 5]: (-) E 
+reg[ 0]: (0) C 
+==> reg[ 5]: (ddd) C 
+
+0x4002f0 s.d $f26 48 $29
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+0x4002f8 s.d $f24 40 $29
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+0x400300 s.d $f22 32 $29
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+0x400308 s.d $f20 24 $29
+Ignoring opcode: s.d
+reg[29]: $29(7fffc000) C 
+
+0x400310 multu $5 $10 
+Ignoring opcode: multu
+ reg[ 5]: biv: ($5,ddd,91) d:$5 
+reg[10]: (10624dd3) C 
+
+0x400318 mfhi $3  
+Ignoring opcode: mfhi
+reg[ 3]: (0) C 
+
+0x400320 mflo $2  
+Ignoring opcode: mflo
+reg[ 2]: T(-) E 
+
+0x400328 srl $2 $3 0x0
+reg[ 2]: T(-) E 
+reg[ 3]: (0) C 
+==> reg[ 2]: (0) C 
+
+0x400330 addu $3 $0 $0
+reg[ 3]: (0) C 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+0x400338 srl $2 $2 0x6
+reg[ 2]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 2]: (0) C 
+
+0x400340 sll $4 $2 0x5
+reg[ 4]: ($6-0)(-) E 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x400348 subu $4 $4 $2
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x400350 sll $4 $4 0x2
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x400358 addu $4 $4 $2
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x400360 sll $4 $4 0x3
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x400368 subu $4 $5 $4
+reg[ 4]: (0) C 
+reg[ 5]: $5(-) E 
+reg[ 4]: (0) C 
+==> reg[ 4]: ($5-0)(-) E 
+
+0x400370 mtc1 $4 $f2 
+Ignoring opcode: mtc1
+reg[ 4]: ($5-0)(-) E 
+
+0x400378 cvt.d.w $f2 $f2 
+Ignoring opcode: cvt.d.w
+
+0x400380 bgez $4 00400390 
+reg[ 4]: ($5-0)(-) E 
+
+0x400388 add.d $f2 $f2 $f4
+Ignoring opcode: add.d
+
+0x400390 multu $6 $10 
+Ignoring opcode: multu
+ reg[ 6]: biv: ($6,1705,83) d:$6 
+reg[10]: (10624dd3) C 
+
+0x400398 mfhi $3  
+Ignoring opcode: mfhi
+reg[ 3]: (0) C 
+
+0x4003a0 mflo $2  
+Ignoring opcode: mflo
+reg[ 2]: T(-) E 
+
+0x4003a8 cvt.s.d $f2 $f2 
+Ignoring opcode: cvt.s.d
+
+0x4003b0 srl $2 $3 0x0
+reg[ 2]: T(-) E 
+reg[ 3]: (0) C 
+==> reg[ 2]: (0) C 
+
+0x4003b8 addu $3 $0 $0
+reg[ 3]: (0) C 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+0x4003c0 srl $2 $2 0x6
+reg[ 2]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 2]: (0) C 
+
+0x4003c8 sll $4 $2 0x5
+reg[ 4]: T(-) E 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x4003d0 subu $4 $4 $2
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x4003d8 sll $4 $4 0x2
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x4003e0 addu $4 $4 $2
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+reg[ 2]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x4003e8 sll $4 $4 0x3
+reg[ 4]: (0) C 
+reg[ 4]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x4003f0 subu $4 $6 $4
+reg[ 4]: (0) C 
+reg[ 6]: $6(-) E 
+reg[ 4]: (0) C 
+==> reg[ 4]: ($6-0)(-) E 
+
+0x4003f8 mtc1 $4 $f0 
+Ignoring opcode: mtc1
+reg[ 4]: ($6-0)(-) E 
+
+0x400400 cvt.d.w $f0 $f0 
+Ignoring opcode: cvt.d.w
+
+0x400408 bgez $4 00400418 
+reg[ 4]: ($6-0)(-) E 
+
+0x400410 add.d $f0 $f0 $f4
+Ignoring opcode: add.d
+
+0x400418 cvt.s.d $f0 $f0 
+Ignoring opcode: cvt.s.d
+
+0x400420 mul.s $f0 $f2 $f0
+Ignoring opcode: mul.s
+
+0x400428 addiu $6 $6 83
+-->  reg[ 6]: biv: ($6,1705,83) d:$6 
+
+0x400430 addiu $5 $5 91
+-->  reg[ 5]: biv: ($5,ddd,91) d:$5 
+
+0x400438 addiu $9 $9 1
+-->  reg[ 9]: biv: ($9,0,1) d:$9 
+
+0x400440 sltiu $2 $9 256
+reg[ 2]: (0) C 
+ reg[ 9]: biv: ($9,0,1) d:$9 
+==> reg[ 2]: T(-) E 
+
+0x400448 s.s $f0 0 $7
+Ignoring opcode: s.s
+ reg[ 7]: biv: ($7,100007c0,4) d:$7 
+
+0x400450 sw $0 0 $8
+
+0x400458 addiu $8 $8 4
+-->  reg[ 8]: biv: ($8,10000fd0,4) d:$8 
+
+0x400460 addiu $7 $7 4
+-->  reg[ 7]: biv: ($7,100007c0,4) d:$7 
+
+0x400468 bne $2 $0 00400310
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+0x400470 l.s $f22 -32760 $28
+Ignoring opcode: l.s
+reg[28]: $28(10000000) C 
+
+0x400478 addiu $25 $0 256
+reg[25]: (-) E 
+reg[ 0]: (0) C 
+==> reg[25]: (100) C 
+
+0x400480 beq $11 $0 00400490
+reg[11]: (0) C 
+reg[ 0]: (0) C 
+
+0x400488 neg.s $f22 $f22 
+Ignoring opcode: neg.s
+
+0x400490 addiu $9 $0 8
+reg[ 9]: T(-) E 
+reg[ 0]: (0) C 
+==> reg[ 9]: (8) C 
+
+0x400498 addu $8 $0 $0
+reg[ 8]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 8]: (0) C 
+
+0x4004a0 lui $11 4096 
+reg[11]: (0) C 
+==> reg[11]: (10000000) C 
+
+0x4004a8 addiu $11 $11 3024
+reg[11]: (10000000) C 
+reg[11]: (10000000) C 
+==> reg[11]: (10000bd0) C 
+
+0x4004b0 lui $10 4096 
+reg[10]: (10624dd3) C 
+==> reg[10]: (10000000) C 
+
+0x4004b8 addiu $10 $10 960
+reg[10]: (10000000) C 
+reg[10]: (10000000) C 
+==> reg[10]: (100003c0) C 
+
+0x4004c0 lui $7 4096 
+reg[ 7]: T(-) E 
+==> reg[ 7]: (10000000) C 
+
+0x4004c8 addiu $7 $7 4048
+reg[ 7]: (10000000) C 
+reg[ 7]: (10000000) C 
+==> reg[ 7]: (10000fd0) C 
+
+0x4004d0 lui $6 4096 
+reg[ 6]: T(-) E 
+==> reg[ 6]: (10000000) C 
+
+0x4004d8 addiu $6 $6 1984
+reg[ 6]: (10000000) C 
+reg[ 6]: (10000000) C 
+==> reg[ 6]: (100007c0) C 
+
+0x4004e0 addu $5 $0 $8
+reg[ 5]: T(-) E 
+reg[ 0]: (0) C 
+ reg[ 8]: biv: ($8,0,1) d:$8 
+==> reg[ 5]: ($8+0)(-) E 
+
+0x4004e8 addu $4 $0 $0
+reg[ 4]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 4]: (0) C 
+
+0x4004f0 addu $3 $0 $0
+reg[ 3]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 3]: (0) C 
+
+0x4004f8 beq $9 $0 00400538
+reg[ 9]: (8) C 
+reg[ 0]: (0) C 
+
+0x400500 sll $2 $3 0x1
+reg[ 2]: T(-) E 
+reg[ 3]: T(-) E 
+==> reg[ 2]: (T<<0x1)(-) E 
+
+0x400508 andi $3 $5 1
+reg[ 3]: T(-) E 
+reg[ 5]: T(-) E 
+==> reg[ 3]: (T&1)(-) E 
+
+0x400510 or $3 $2 $3
+reg[ 3]: (T&1)(-) E 
+reg[ 2]: (T<<0x1)(-) E 
+reg[ 3]: (T&1)(-) E 
+==> reg[ 3]: ((T<<0x1)|(T&1))(-) E 
+
+0x400518 srl $5 $5 0x1
+reg[ 5]: T(-) E 
+reg[ 5]: T(-) E 
+==> reg[ 5]: (T>>0x1)(-) E 
+
+0x400520 addiu $4 $4 1
+-->  reg[ 4]: biv: ($4,0,1) d:$4 
+
+0x400528 sltu $2 $4 $9
+reg[ 2]: (T<<0x1)(-) E 
+ reg[ 4]: biv: ($4,0,1) d:$4 
+reg[ 9]: (8) C 
+
+0x400530 bne $2 $0 00400500
+reg[ 2]: (T<<0x1)(-) E 
+reg[ 0]: (0) C 
+
+0x400538 l.s $f0 0 $6
+Ignoring opcode: l.s
+ reg[ 6]: biv: ($6,100007c0,4) d:$6 
+
+0x400540 sll $3 $3 0x2
+reg[ 3]: T(-) E 
+reg[ 3]: T(-) E 
+==> reg[ 3]: (T<<0x2)(-) E 
+
+0x400548 addu $2 $3 $11
+reg[ 2]: T(-) E 
+reg[ 3]: (T<<0x2)(-) E 
+reg[11]: (10000bd0) C 
+==> reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+
+0x400550 addiu $8 $8 1
+-->  reg[ 8]: biv: ($8,0,1) d:$8 
+
+0x400558 addu $3 $3 $10
+reg[ 3]: (T<<0x2)(-) E 
+reg[ 3]: (T<<0x2)(-) E 
+reg[10]: (100003c0) C 
+==> reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+
+0x400560 s.s $f0 0 $2
+Ignoring opcode: s.s
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+
+0x400568 l.s $f0 0 $7
+Ignoring opcode: l.s
+ reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+
+0x400570 addiu $6 $6 4
+-->  reg[ 6]: biv: ($6,100007c0,4) d:$6 
+
+0x400578 sltu $2 $8 $25
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+ reg[ 8]: biv: ($8,0,1) d:$8 
+reg[25]: (100) C 
+
+0x400580 addiu $7 $7 4
+-->  reg[ 7]: biv: ($7,10000fd0,4) d:$7 
+
+0x400588 s.s $f0 0 $3
+Ignoring opcode: s.s
+reg[ 3]: ((T<<0x2)+100003c0)(-) E 
+
+0x400590 bne $2 $0 004004e0
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+reg[ 0]: (0) C 
+
+0x400598 addiu $12 $0 1
+reg[12]: (-) E 
+reg[ 0]: (0) C 
+==> reg[12]: (1) C 
+
+0x4005a0 addiu $9 $0 2
+reg[ 9]: (8) C 
+reg[ 0]: (0) C 
+==> reg[ 9]: (2) C 
+
+0x4005a8 sltiu $2 $25 2
+reg[ 2]: ((T<<0x2)+10000bd0)(-) E 
+reg[25]: (100) C 
+==> reg[ 2]: T(-) E 
+
+0x4005b0 bne $2 $0 00400868
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+0x4005b8 l.d $f24 -32768 $28
+reg[-1]: T(-) E 
+reg[28]: $28(10000000) C 
+==> reg[-1]: T(-) E 
+
+0x4005c0 l.s $f26 -32756 $28
+Ignoring opcode: l.s
+reg[28]: $28(10000000) C 
+
+0x4005c8 lui $24 4096 
+reg[24]: (-) E 
+==> reg[24]: (10000000) C 
+
+0x4005d0 addiu $24 $24 5080
+reg[24]: (10000000) C 
+reg[24]: (10000000) C 
+==> reg[24]: (100013d8) C 
+
+0x4005d8 addiu $11 $24 -8
+reg[11]: (10000bd0) C 
+reg[24]: (100013d8) C 
+==> reg[11]: (100013d0) C 
+
+0x4005e0 lui $15 4096 
+reg[15]: (-) E 
+==> reg[15]: (10000000) C 
+
+0x4005e8 addiu $15 $15 3016
+reg[15]: (10000000) C 
+reg[15]: (10000000) C 
+==> reg[15]: (10000bc8) C 
+
+0x4005f0 addiu $10 $15 -8
+reg[10]: (100003c0) C 
+reg[15]: (10000bc8) C 
+==> reg[10]: (10000bc0) C 
+
+0x4005f8 lui $14 4096 
+reg[14]: (-) E 
+==> reg[14]: (10000000) C 
+
+0x400600 addiu $14 $14 3024
+reg[14]: (10000000) C 
+reg[14]: (10000000) C 
+==> reg[14]: (10000bd0) C 
+
+0x400608 lui $13 4096 
+reg[13]: (-) E 
+==> reg[13]: (10000000) C 
+
+0x400610 addiu $13 $13 960
+reg[13]: (10000000) C 
+reg[13]: (10000000) C 
+==> reg[13]: (100003c0) C 
+
+0x400618 mtc1 $9 $f0 
+Ignoring opcode: mtc1
+reg[ 9]: (2) C 
+
+0x400620 cvt.d.w $f0 $f0 
+Ignoring opcode: cvt.d.w
+
+0x400628 bgez $9 00400638 
+reg[ 9]: (2) C 
+
+0x400630 add.d $f0 $f0 $f24
+Ignoring opcode: add.d
+
+0x400638 cvt.s.d $f0 $f0 
+Ignoring opcode: cvt.s.d
+
+0x400640 div.s $f0 $f22 $f0
+Ignoring opcode: div.s
+
+0x400648 mul.s $f16 $f0 $f26
+Ignoring opcode: mul.s
+
+0x400650 neg.s $f12 $f0 
+Ignoring opcode: neg.s
+
+0x400658 add.s $f14 $f12 $f12
+Ignoring opcode: add.s
+
+0x400660 addu $8 $0 $0
+reg[ 8]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 8]: (0) C 
+
+0x400668 mov.s $f18 $f12 
+Ignoring opcode: mov.s
+
+0x400670 mov.s $f20 $f16 
+Ignoring opcode: mov.s
+
+0x400678 beq $25 $0 00400848
+reg[25]: (100) C 
+reg[ 0]: (0) C 
+
+0x400680 addu $6 $0 $8
+reg[ 6]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 8]: (0) C 
+==> reg[ 6]: (0) C 
+
+0x400688 addu $7 $0 $0
+reg[ 7]: T(-) E 
+reg[ 0]: (0) C 
+reg[ 0]: (0) C 
+==> reg[ 7]: (0) C 
+
+0x400690 s.s $f20 0 $24
+Ignoring opcode: s.s
+reg[24]: (100013d8) C 
+
+0x400698 s.s $f18 -4 $24
+Ignoring opcode: s.s
+reg[24]: (100013d8) C 
+
+0x4006a0 s.s $f16 0 $15
+Ignoring opcode: s.s
+reg[15]: (10000bc8) C 
+
+0x4006a8 s.s $f12 -4 $15
+Ignoring opcode: s.s
+reg[15]: (10000bc8) C 
+
+0x4006b0 beq $12 $0 00400830
+reg[12]: (1) C 
+reg[ 0]: (0) C 
+
+0x4006b8 sll $2 $8 0x2
+reg[ 2]: T(-) E 
+reg[ 8]: (0) C 
+==> reg[ 2]: (0) C 
+
+0x4006c0 addu $5 $2 $13
+reg[ 5]: T(-) E 
+reg[ 2]: (0) C 
+reg[13]: (100003c0) C 
+==> reg[ 5]: (100003c0) C 
+
+0x4006c8 addu $4 $2 $14
+reg[ 4]: T(-) E 
+reg[ 2]: (0) C 
+reg[14]: (10000bd0) C 
+==> reg[ 4]: (10000bd0) C 
+
+0x4006d0 l.s $f8 4 $11
+Ignoring opcode: l.s
+reg[11]: (100013d0) C 
+
+0x4006d8 mul.s $f6 $f14 $f8
+Ignoring opcode: mul.s
+
+0x4006e0 l.s $f10 4 $10
+Ignoring opcode: l.s
+reg[10]: (10000bc0) C 
+
+0x4006e8 l.s $f0 8 $11
+Ignoring opcode: l.s
+reg[11]: (100013d0) C 
+
+0x4006f0 mul.s $f4 $f14 $f10
+Ignoring opcode: mul.s
+
+0x4006f8 l.s $f2 8 $10
+Ignoring opcode: l.s
+reg[10]: (10000bc0) C 
+
+0x400700 addu $2 $6 $12
+reg[ 2]: T(-) E 
+ reg[ 6]: biv: ($6,0,1) d:$6 
+reg[12]: (1) C 
+==> reg[ 2]: ($6+1)(-) E 
+
+0x400708 sub.s $f6 $f6 $f0
+Ignoring opcode: sub.s
+
+0x400710 sll $2 $2 0x2
+reg[ 2]: ($6+1)(-) E 
+reg[ 2]: ($6+1)(-) E 
+==> reg[ 2]: (($6+1)<<0x2)(-) E 
+
+0x400718 addu $3 $2 $14
+reg[ 3]: T(-) E 
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[14]: (10000bd0) C 
+==> reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+0x400720 s.s $f8 8 $11
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+0x400728 sub.s $f4 $f4 $f2
+Ignoring opcode: sub.s
+
+0x400730 s.s $f10 8 $10
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+0x400738 s.s $f6 0 $11
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+0x400740 s.s $f6 4 $11
+Ignoring opcode: s.s
+reg[11]: (100013d0) C 
+
+0x400748 s.s $f4 0 $10
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+0x400750 s.s $f4 4 $10
+Ignoring opcode: s.s
+reg[10]: (10000bc0) C 
+
+0x400758 l.s $f10 0 $3
+Ignoring opcode: l.s
+reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+0x400760 mul.s $f8 $f6 $f10
+Ignoring opcode: mul.s
+
+0x400768 addu $2 $2 $13
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[ 2]: (($6+1)<<0x2)(-) E 
+reg[13]: (100003c0) C 
+==> reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+0x400770 l.s $f0 0 $2
+Ignoring opcode: l.s
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+0x400778 mul.s $f2 $f4 $f0
+Ignoring opcode: mul.s
+
+0x400780 mul.s $f6 $f6 $f0
+Ignoring opcode: mul.s
+
+0x400788 sub.s $f8 $f8 $f2
+Ignoring opcode: sub.s
+
+0x400790 mul.s $f4 $f4 $f10
+Ignoring opcode: mul.s
+
+0x400798 l.s $f0 0 $4
+Ignoring opcode: l.s
+ reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+0x4007a0 sub.s $f0 $f0 $f8
+Ignoring opcode: sub.s
+
+0x4007a8 add.s $f6 $f6 $f4
+Ignoring opcode: add.s
+
+0x4007b0 s.s $f0 0 $3
+Ignoring opcode: s.s
+reg[ 3]: ((($6+1)<<0x2)+10000bd0)(-) E 
+
+0x4007b8 l.s $f0 0 $5
+Ignoring opcode: l.s
+ reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+0x4007c0 sub.s $f0 $f0 $f6
+Ignoring opcode: sub.s
+
+0x4007c8 s.s $f0 0 $2
+Ignoring opcode: s.s
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+
+0x4007d0 l.s $f0 0 $4
+Ignoring opcode: l.s
+reg[ 4]: $4(-) E 
+
+0x4007d8 add.s $f0 $f0 $f8
+Ignoring opcode: add.s
+
+0x4007e0 s.s $f0 0 $4
+Ignoring opcode: s.s
+reg[ 4]: $4(-) E 
+
+0x4007e8 l.s $f0 0 $5
+Ignoring opcode: l.s
+reg[ 5]: $5(-) E 
+
+0x4007f0 addiu $6 $6 1
+-->  reg[ 6]: biv: ($6,0,1) d:$6 
+
+0x4007f8 add.s $f0 $f0 $f6
+Ignoring opcode: add.s
+
+0x400800 addiu $7 $7 1
+-->  reg[ 7]: biv: ($7,0,1) d:$7 
+
+0x400808 sltu $2 $7 $12
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+ reg[ 7]: biv: ($7,0,1) d:$7 
+reg[12]: (1) C 
+
+0x400810 addiu $4 $4 4
+-->  reg[ 4]: biv: ($4,10000bd0,4) d:$4 
+
+0x400818 s.s $f0 0 $5
+Ignoring opcode: s.s
+reg[ 5]: $5(-) E 
+
+0x400820 addiu $5 $5 4
+-->  reg[ 5]: biv: ($5,100003c0,4) d:$5 
+
+0x400828 bne $2 $0 004006d0
+reg[ 2]: ((($6+1)<<0x2)+100003c0)(-) E 
+reg[ 0]: (0) C 
+
+0x400830 addu $8 $8 $9
+reg[ 8]: (0) C 
+reg[ 8]: (0) C 
+reg[ 9]: (2) C 
+==> reg[ 8]: (2) C 
+
+0x400838 sltu $2 $8 $25
+reg[ 2]: T(-) E 
+reg[ 8]: (2) C 
+reg[25]: (100) C 
+
+0x400840 bne $2 $0 00400680
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+0x400848 addu $12 $0 $9
+reg[12]: (1) C 
+reg[ 0]: (0) C 
+reg[ 9]: (2) C 
+==> reg[12]: (2) C 
+
+0x400850 sll $9 $9 0x1
+reg[ 9]: (2) C 
+reg[ 9]: (2) C 
+==> reg[ 9]: (4) C 
+
+0x400858 sltu $2 $25 $9
+reg[ 2]: T(-) E 
+reg[25]: (100) C 
+reg[ 9]: (4) C 
+
+0x400860 beq $2 $0 00400618
+reg[ 2]: T(-) E 
+reg[ 0]: (0) C 
+
+0x400868 l.d $f26 48 $29
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+0x400870 l.d $f24 40 $29
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+0x400878 l.d $f22 32 $29
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+0x400880 l.d $f20 24 $29
+reg[-1]: T(-) E 
+reg[29]: $29(7fffc000) C 
+==> reg[-1]: T(-) E 
+
+0x400888 addiu $29 $29 56
+
+0x400890 jr $31  
+
+===================================================
+Establish trace link 0.024709 secs
+===================================================
+
+CACHE ANALYSIS: fft.c.bin
+
+ L5 rbIb 5 rbType 3
+ L4 rbIb 4 rbType 3Created memblk: 238
+===================================================
+Address analysis time = 0.005026 secs
+===================================================
+
+Finish analysis for L0 in 1 rounds
+Finish analysis for L6 in 2 rounds
+Finish analysis for L5 in 2 rounds
+Finish analysis for L4 in 4 rounds
+Finish analysis for L3 in 3 rounds
+Finish analysis for L2 in 2 rounds
+Finish analysis for L1 in 3 rounds
+
+DataRef: 0x4002b8 l.d $f4 -32768 $28 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x4002f0 s.d $f26 48 $29 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x4002f8 s.d $f24 40 $29 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x400300 s.d $f22 32 $29 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x400308 s.d $f20 24 $29 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x400448 s.s $f0 0 $7 |0
+#pers: 32, max_miss: 0, max_exec: 256
+
+DataRef: 0x400450 sw $0 0 $8 |0
+#pers: 33, max_miss: 0, max_exec: 256
+
+DataRef: 0x400470 l.s $f22 -32760 $28 |0
+#pers: 0, max_miss: 1, max_exec: 1
+
+DataRef: 0x400538 l.s $f0 0 $6 |0
+#pers: 0, max_miss: 256, max_exec: 256
+
+DataRef: 0x400560 s.s $f0 0 $2 |0
+#pers: 0, max_miss: 256, max_exec: 256
+
+DataRef: 0x400568 l.s $f0 0 $7 |0
+#pers: 0, max_miss: 256, max_exec: 256
+
+DataRef: 0x400588 s.s $f0 0 $3 |0
+#pers: 0, max_miss: 256, max_exec: 256
+
+DataRef: 0x4005b8 l.d $f24 -32768 $28 |0
+#pers: 0, max_miss: 1, max_exec: 1
+
+DataRef: 0x4005c0 l.s $f26 -32756 $28 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x400690 s.s $f20 0 $24 |0
+#pers: 0, max_miss: 1600, max_exec: 1600
+
+DataRef: 0x400698 s.s $f18 -4 $24 |0
+#pers: 1, max_miss: 0, max_exec: 1600
+
+DataRef: 0x4006a0 s.s $f16 0 $15 |0
+#pers: 0, max_miss: 1600, max_exec: 1600
+
+DataRef: 0x4006a8 s.s $f12 -4 $15 |0
+#pers: 1, max_miss: 0, max_exec: 1600
+
+DataRef: 0x4006d0 l.s $f8 4 $11 |0
+#pers: 0, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x4006e0 l.s $f10 4 $10 |0
+#pers: 0, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x4006e8 l.s $f0 8 $11 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x4006f8 l.s $f2 8 $10 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400720 s.s $f8 8 $11 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400730 s.s $f10 8 $10 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400738 s.s $f6 0 $11 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400740 s.s $f6 4 $11 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400748 s.s $f4 0 $10 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400750 s.s $f4 4 $10 |0
+#pers: 1, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400758 l.s $f10 0 $3 |0
+#pers: 2, max_miss: 0, max_exec: 12800
+
+DataRef: 0x400770 l.s $f0 0 $2 |0
+#pers: 1, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x400798 l.s $f0 0 $4 |0
+#pers: 2, max_miss: 0, max_exec: 12800
+
+DataRef: 0x4007b0 s.s $f0 0 $3 |0
+#pers: 2, max_miss: 0, max_exec: 12800
+
+DataRef: 0x4007b8 l.s $f0 0 $5 |0
+#pers: 0, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x4007c8 s.s $f0 0 $2 |0
+#pers: 1, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x4007d0 l.s $f0 0 $4 |0
+#pers: 1, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x4007e0 s.s $f0 0 $4 |0
+#pers: 2, max_miss: 0, max_exec: 12800
+
+DataRef: 0x4007e8 l.s $f0 0 $5 |0
+#pers: 0, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x400818 s.s $f0 0 $5 |0
+#pers: 0, max_miss: 12800, max_exec: 12800
+
+DataRef: 0x400868 l.d $f26 48 $29 |0
+#pers: 0, max_miss: 1, max_exec: 1
+
+DataRef: 0x400870 l.d $f24 40 $29 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x400878 l.d $f22 32 $29 |0
+#pers: 1, max_miss: 0, max_exec: 1
+
+DataRef: 0x400880 l.d $f20 24 $29 |0
+#pers: 0, max_miss: 1, max_exec: 1
+L1, Cold miss 65, Entry 1
+L2, Cold miss 0, Entry 256
+L3, Cold miss 0, Entry 1
+L4, Cold miss 64, Entry 1600
+L5, Cold miss 16, Entry 8
+L6, Cold miss 0, Entry 1
+L0, Cold miss 3, Entry 1
+Total data ref 263948
+Total pers. miss 148
+Total non-pers. miss 106628
+===================================================
+Cache analysis time = 0.006886 secs
+===================================================
+
+TIMING ESTIMATION: fft.c.bin

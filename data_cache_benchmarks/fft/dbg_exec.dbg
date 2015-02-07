@@ -1,0 +1,1513 @@
+
+Start detecting induction var 7
+Head id: 0
+Null loop tail
+Loop 1 head (0:1) tail (0:5)
+BB (0,1) L1  num:15  sa:400310
+BB (0,2) L1  num:1  sa:400388
+BB (0,3) L1  num:16  sa:400390
+BB (0,4) L1  num:1  sa:400410
+BB (0,5) L1  num:11  sa:400418
+BIV: insn: 400428 ($6,0,83)
+BIV: insn: 400430 ($5,0,91)
+BIV: insn: 400438 ($9,0,1)
+BIV: insn: 400458 ($8,0,4)
+BIV: insn: 400460 ($7,0,4)
+BB (0,1) L1  num:15  sa:400310
+Detected inVar  ($6,0,83)  ($7,0,4)  ($8,0,4)  ($9,0,1)  ($5,0,91) 
+Set induction value for register
+BB (0,1) sa:400310 is:400428:10  $6  is:400460:10  $7  is:400458:10  $8  is:400438:10  $9  is:400430:10  $5 
+BB (0,2) sa:400388 is:400428:10  $6  is:400460:10  $7  is:400458:10  $8  is:400438:10  $9  is:400430:10  $5 
+BB (0,3) sa:400390 is:400428:10  $6  is:400460:10  $7  is:400458:10  $8  is:400438:10  $9  is:400430:10  $5 
+BB (0,4) sa:400410 is:400428:10  $6  is:400460:10  $7  is:400458:10  $8  is:400438:10  $9  is:400430:10  $5 
+BB (0,5) sa:400418 is:400428:10  $6  is:400460:10  $7  is:400458:10  $8  is:400438:10  $9  is:400430:10  $5 
+ BIV list of L1  ($6,,83)  ($7,,4)  ($8,,4)  ($9,,1)  ($5,,91) 
+Loop 2 head (0:10) tail (0:10)
+BB (0,10) L2  num:7  sa:400500
+BIV: insn: 400520 ($4,0,1)
+BB (0,10) L2  num:7  sa:400500
+Detected inVar  ($4,0,1) 
+Set induction value for register
+BB (0,10) sa:400500 is:400520:10  $4 
+ BIV list of L2  ($4,,1) 
+Loop 3 head (0:9) tail (0:11)
+BB (0,9) L3  num:4  sa:4004e0
+BB (0,10) L2  num:7  sa:400500
+BB (0,11) L3  num:12  sa:400538
+BIV: insn: 400550 ($8,0,1)
+BIV: insn: 400570 ($6,0,4)
+BIV: insn: 400580 ($7,0,4)
+BB (0,9) L3  num:4  sa:4004e0
+Detected inVar  ($8,0,1)  ($7,0,4)  ($6,0,4) 
+Set induction value for register
+BB (0,9) sa:4004e0 is:400550:10  $8  is:400580:10  $7  is:400570:10  $6 
+BB (0,10) sa:400500 is:400550:10  $8  is:400580:10  $7  is:400570:10  $6 
+BB (0,11) sa:400538 is:400550:10  $8  is:400580:10  $7  is:400570:10  $6 
+ BIV list of L3  ($8,,1)  ($7,,4)  ($6,,4) 
+Loop 4 head (0:19) tail (0:19)
+BB (0,19) L4  num:44  sa:4006d0
+BIV: insn: 4007f0 ($6,0,1)
+BIV: insn: 400800 ($7,0,1)
+BIV: insn: 400810 ($4,0,4)
+BIV: insn: 400820 ($5,0,4)
+BB (0,19) L4  num:44  sa:4006d0
+Detected inVar  ($6,0,1)  ($5,0,4)  ($4,0,4)  ($7,0,1) 
+Set induction value for register
+BB (0,19) sa:4006d0 is:4007f0:10  $6  is:400820:10  $5  is:400810:10  $4  is:400800:10  $7 
+ BIV list of L4  ($6,,1)  ($5,,4)  ($4,,4)  ($7,,1) 
+Loop 5 head (0:17) tail (0:20)
+BB (0,17) L5  num:7  sa:400680
+BB (0,18) L5  num:3  sa:4006b8
+BB (0,19) L4  num:44  sa:4006d0
+BB (0,20) L5  num:3  sa:400830
+BB (0,17) L5  num:7  sa:400680
+Detected inVar 
+Set induction value for register
+BB (0,17) sa:400680
+BB (0,18) sa:4006b8
+BB (0,19) sa:4006d0
+BB (0,20) sa:400830
+ BIV list of L5 
+Loop 6 head (0:14) tail (0:21)
+BB (0,14) L6  num:3  sa:400618
+BB (0,15) L6  num:1  sa:400630
+BB (0,16) L6  num:9  sa:400638
+BB (0,17) L5  num:7  sa:400680
+BB (0,18) L5  num:3  sa:4006b8
+BB (0,19) L4  num:44  sa:4006d0
+BB (0,20) L5  num:3  sa:400830
+BB (0,21) L6  num:4  sa:400848
+BB (0,14) L6  num:3  sa:400618
+Detected inVar 
+Set induction value for register
+BB (0,14) sa:400618
+BB (0,15) sa:400630
+BB (0,16) sa:400638
+BB (0,17) sa:400680
+BB (0,18) sa:4006b8
+BB (0,19) sa:4006d0
+BB (0,20) sa:400830
+BB (0,21) sa:400848
+ BIV list of L6 
+Start reg. expansion
+A_ bb 0:0 (1,)
+
+Analyze block (0,0)
+Finish block (0,0)
+A_ bb 1:1 (2,3,)
+Merge regStatusIn, bb 1
+
+Merge incoming of c0.1, e:1 sa:400310 
+src_id 0 L:-1, cur_id: 1 L:0
+S  $5: (ddd) C 
+C  $5: biv: ($5,ddd,91) 
+ inVar  => C:  $5: biv: ($5,ddd,91) 
+S  $6: (1705) C 
+C  $6: biv: ($6,1705,83) 
+ inVar  => C:  $6: biv: ($6,1705,83) 
+S  $7: (100007c0) C 
+C  $7: biv: ($7,100007c0,4) 
+ inVar  => C:  $7: biv: ($7,100007c0,4) 
+S  $8: (10000fd0) C 
+C  $8: biv: ($8,10000fd0,4) 
+ inVar  => C:  $8: biv: ($8,10000fd0,4) 
+S  $9: (0) C 
+C  $9: biv: ($9,0,1) 
+ inVar  => C:  $9: biv: ($9,0,1) 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+src_id 5 L:0, cur_id: 1 L:0
+Analyze block (0,1)
+Finish block (0,1)
+A_ bb 2:2 (3,)
+Merge regStatusIn, bb 2
+
+Merge incoming of c0.2, e:2 sa:400388 
+src_id 1 L:0, cur_id: 2 L:0
+S  $2: (($3>>0x0)>>0x6)(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: (($3>>0x0)>>0x6)(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+Analyze block (0,2)
+Finish block (0,2)
+A_ bb 3:3 (4,5,)
+Merge regStatusIn, bb 3
+
+Merge incoming of c0.3, e:3 sa:400390 
+src_id 1 L:0, cur_id: 3 L:0
+S  $2: (($3>>0x0)>>0x6)(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: (($3>>0x0)>>0x6)(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+src_id 2 L:0, cur_id: 3 L:0
+Analyze block (0,3)
+Finish block (0,3)
+A_ bb 3:3 (4,5,)
+Merge regStatusIn, bb 3
+
+Merge incoming of c0.3, e:4 sa:400390 
+src_id 1 L:0, cur_id: 3 L:0
+src_id 2 L:0, cur_id: 3 L:0
+A_ bb 4:4 (5,)
+Merge regStatusIn, bb 4
+
+Merge incoming of c0.4, e:4 sa:400410 
+src_id 3 L:0, cur_id: 4 L:0
+S  $2: (0) C 
+C  $2: (-) E 
+ cp fwd  => C:  $2: (0) C 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+Analyze block (0,4)
+Finish block (0,4)
+A_ bb 5:5 (6,1,)
+Merge regStatusIn, bb 5
+
+Merge incoming of c0.5, e:5 sa:400418 
+src_id 3 L:0, cur_id: 5 L:0
+S  $2: (0) C 
+C  $2: (-) E 
+ cp fwd  => C:  $2: (0) C 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+src_id 4 L:0, cur_id: 5 L:0
+Analyze block (0,5)
+Finish block (0,5)
+A_ bb 1:1 (2,3,)
+Merge regStatusIn, bb 1
+
+Merge incoming of c0.1, e:6 sa:400310 
+src_id 0 L:-1, cur_id: 1 L:0
+S  $5: (ddd) C 
+C  $5: biv: ($5,ddd,91) 
+ inVar  => C:  $5: biv: ($5,ddd,91) 
+S  $6: (1705) C 
+C  $6: biv: ($6,1705,83) 
+ inVar  => C:  $6: biv: ($6,1705,83) 
+S  $7: (100007c0) C 
+C  $7: biv: ($7,100007c0,4) 
+ inVar  => C:  $7: biv: ($7,100007c0,4) 
+S  $8: (10000fd0) C 
+C  $8: biv: ($8,10000fd0,4) 
+ inVar  => C:  $8: biv: ($8,10000fd0,4) 
+S  $9: (0) C 
+C  $9: biv: ($9,0,1) 
+ inVar  => C:  $9: biv: ($9,0,1) 
+src_id 5 L:0, cur_id: 1 L:0
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+Analyze block (0,1)
+Finish block (0,1)
+A_ bb 2:2 (3,)
+Merge regStatusIn, bb 2
+
+Merge incoming of c0.2, e:7 sa:400388 
+src_id 1 L:0, cur_id: 2 L:0
+S  $2: (0) C 
+C  $2: (($3>>0x0)>>0x6)(-) E 
+ no info  => C:  $2: T(-) E 
+S  $4: ($5-0)(-) E 
+C  $4: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+ no info  => C:  $4: T(-) E 
+Analyze block (0,2)
+Finish block (0,2)
+A_ bb 3:3 (4,5,)
+Merge regStatusIn, bb 3
+
+Merge incoming of c0.3, e:8 sa:400390 
+src_id 1 L:0, cur_id: 3 L:0
+S  $2: (0) C 
+C  $2: (($3>>0x0)>>0x6)(-) E 
+ no info  => C:  $2: T(-) E 
+S  $4: ($5-0)(-) E 
+C  $4: ($5-((((((($3>>0x0)>>0x6)<<0x5)-(($3>>0x0)>>0x6))<<0x2)+(($3>>0x0)>>0x6))<<0x3))(-) E 
+ no info  => C:  $4: T(-) E 
+src_id 2 L:0, cur_id: 3 L:0
+Analyze block (0,3)
+Finish block (0,3)
+A_ bb 3:3 (4,5,)
+Merge regStatusIn, bb 3
+
+Merge incoming of c0.3, e:9 sa:400390 
+src_id 1 L:0, cur_id: 3 L:0
+src_id 2 L:0, cur_id: 3 L:0
+A_ bb 4:4 (5,)
+Merge regStatusIn, bb 4
+
+Merge incoming of c0.4, e:9 sa:400410 
+src_id 3 L:0, cur_id: 4 L:0
+A_ bb 5:5 (6,1,)
+Merge regStatusIn, bb 5
+
+Merge incoming of c0.5, e:9 sa:400418 
+src_id 3 L:0, cur_id: 5 L:0
+src_id 4 L:0, cur_id: 5 L:0
+A_ bb 5:5 (6,1,)
+Merge regStatusIn, bb 5
+
+Merge incoming of c0.5, e:9 sa:400418 
+src_id 3 L:0, cur_id: 5 L:0
+src_id 4 L:0, cur_id: 5 L:0
+A_ bb 6:6 (7,8,)
+Merge regStatusIn, bb 6
+
+Merge incoming of c0.6, e:9 sa:400470 
+src_id 5 L:0, cur_id: 6 L:-1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+S  $5: biv: ($5,ddd,91) 
+C  op : (-) E 
+ inVar outloop  => C:  $5: T(-) E 
+S  $6: biv: ($6,1705,83) 
+C  op : (-) E 
+ inVar outloop  => C:  $6: T(-) E 
+S  $7: biv: ($7,100007c0,4) 
+C  op : (-) E 
+ inVar outloop  => C:  $7: T(-) E 
+S  $8: biv: ($8,10000fd0,4) 
+C  op : (-) E 
+ inVar outloop  => C:  $8: T(-) E 
+S  $9: biv: ($9,0,1) 
+C  op : (-) E 
+ inVar outloop  => C:  $9: T(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+Analyze block (0,6)
+Finish block (0,6)
+A_ bb 7:7 (8,)
+Merge regStatusIn, bb 7
+
+Merge incoming of c0.7, e:10 sa:400488 
+src_id 6 L:-1, cur_id: 7 L:-1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: T(-) E 
+C  $9: (-) E 
+ cp fwd  => C:  $9: T(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+Analyze block (0,7)
+Finish block (0,7)
+A_ bb 8:8 (9,)
+Merge regStatusIn, bb 8
+
+Merge incoming of c0.8, e:11 sa:400490 
+src_id 6 L:-1, cur_id: 8 L:-1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: T(-) E 
+C  $9: (-) E 
+ cp fwd  => C:  $9: T(-) E 
+S  $10: (10624dd3) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10624dd3) C 
+S  $11: (0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (0) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 7 L:-1, cur_id: 8 L:-1
+Analyze block (0,8)
+Finish block (0,8)
+A_ bb 8:8 (9,)
+Merge regStatusIn, bb 8
+
+Merge incoming of c0.8, e:12 sa:400490 
+src_id 6 L:-1, cur_id: 8 L:-1
+src_id 7 L:-1, cur_id: 8 L:-1
+A_ bb 9:9 (10,11,)
+Merge regStatusIn, bb 9
+
+Merge incoming of c0.9, e:12 sa:4004e0 
+src_id 8 L:-1, cur_id: 9 L:1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: ($6-0)(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: ($6-0)(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: (100007c0) C 
+C  $6: biv: ($6,100007c0,4) 
+ inVar  => C:  $6: biv: ($6,100007c0,4) 
+S  $7: (10000fd0) C 
+C  $7: biv: ($7,10000fd0,4) 
+ inVar  => C:  $7: biv: ($7,10000fd0,4) 
+S  $8: (0) C 
+C  $8: biv: ($8,0,1) 
+ inVar  => C:  $8: biv: ($8,0,1) 
+S  $9: (8) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (8) C 
+S  $10: (100003c0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (100003c0) C 
+S  $11: (10000bd0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (10000bd0) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 11 L:1, cur_id: 9 L:1
+Analyze block (0,9)
+Finish block (0,9)
+A_ bb 10:10 (11,10,)
+Merge regStatusIn, bb 10
+
+Merge incoming of c0.10, e:13 sa:400500 
+src_id 9 L:1, cur_id: 10 L:2
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: (0) C 
+C  $4: biv: ($4,0,1) 
+ inVar  => C:  $4: biv: ($4,0,1) 
+S  $5: ($8+0)(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: ($8+0)(-) E 
+S  $9: (8) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (8) C 
+S  $10: (100003c0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (100003c0) C 
+S  $11: (10000bd0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (10000bd0) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 10 L:2, cur_id: 10 L:2
+Analyze block (0,10)
+Finish block (0,10)
+A_ bb 10:10 (11,10,)
+Merge regStatusIn, bb 10
+
+Merge incoming of c0.10, e:14 sa:400500 
+src_id 9 L:1, cur_id: 10 L:2
+S  $4: (0) C 
+C  $4: biv: ($4,0,1) 
+ inVar  => C:  $4: biv: ($4,0,1) 
+src_id 10 L:2, cur_id: 10 L:2
+S  $3: ((($8+0)&1)|0)(-) E 
+C  $3: (0) C 
+ no info  => C:  $3: T(-) E 
+S  $5: (($8+0)>>0x1)(-) E 
+C  $5: ($8+0)(-) E 
+ no info  => C:  $5: T(-) E 
+Analyze block (0,10)
+Finish block (0,10)
+A_ bb 10:10 (11,10,)
+Merge regStatusIn, bb 10
+
+Merge incoming of c0.10, e:15 sa:400500 
+src_id 9 L:1, cur_id: 10 L:2
+S  $4: (0) C 
+C  $4: biv: ($4,0,1) 
+ inVar  => C:  $4: biv: ($4,0,1) 
+src_id 10 L:2, cur_id: 10 L:2
+A_ bb 11:11 (12,9,)
+Merge regStatusIn, bb 11
+
+Merge incoming of c0.11, e:15 sa:400538 
+src_id 9 L:1, cur_id: 11 L:1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: (0) C 
+C  $3: (-) E 
+ cp fwd  => C:  $3: (0) C 
+S  $4: (0) C 
+C  $4: (-) E 
+ cp fwd  => C:  $4: (0) C 
+S  $5: ($8+0)(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: ($8+0)(-) E 
+S  $9: (8) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (8) C 
+S  $10: (100003c0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (100003c0) C 
+S  $11: (10000bd0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (10000bd0) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 10 L:2, cur_id: 11 L:1
+S  $3: ((T<<0x1)|(T&1))(-) E 
+C  $3: (0) C 
+ no info  => C:  $3: T(-) E 
+S  $4: biv: ($4,0,1) 
+C  $4: (0) C 
+ no info  => C:  $4: T(-) E 
+S  $5: (T>>0x1)(-) E 
+C  $5: ($8+0)(-) E 
+ no info  => C:  $5: T(-) E 
+Analyze block (0,11)
+Finish block (0,11)
+A_ bb 9:9 (10,11,)
+Merge regStatusIn, bb 9
+
+Merge incoming of c0.9, e:16 sa:4004e0 
+src_id 8 L:-1, cur_id: 9 L:1
+S  $6: (100007c0) C 
+C  $6: biv: ($6,100007c0,4) 
+ inVar  => C:  $6: biv: ($6,100007c0,4) 
+S  $7: (10000fd0) C 
+C  $7: biv: ($7,10000fd0,4) 
+ inVar  => C:  $7: biv: ($7,10000fd0,4) 
+S  $8: (0) C 
+C  $8: biv: ($8,0,1) 
+ inVar  => C:  $8: biv: ($8,0,1) 
+src_id 11 L:1, cur_id: 9 L:1
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (0) C 
+ no info  => C:  $3: T(-) E 
+S  $4: T(-) E 
+C  $4: ($6-0)(-) E 
+ no info  => C:  $4: T(-) E 
+Analyze block (0,9)
+Finish block (0,9)
+A_ bb 10:10 (11,10,)
+Merge regStatusIn, bb 10
+
+Merge incoming of c0.10, e:17 sa:400500 
+src_id 9 L:1, cur_id: 10 L:2
+S  $4: (0) C 
+C  $4: biv: ($4,0,1) 
+ inVar  => C:  $4: biv: ($4,0,1) 
+src_id 10 L:2, cur_id: 10 L:2
+A_ bb 11:11 (12,9,)
+Merge regStatusIn, bb 11
+
+Merge incoming of c0.11, e:17 sa:400538 
+src_id 9 L:1, cur_id: 11 L:1
+src_id 10 L:2, cur_id: 11 L:1
+A_ bb 11:11 (12,9,)
+Merge regStatusIn, bb 11
+
+Merge incoming of c0.11, e:17 sa:400538 
+src_id 9 L:1, cur_id: 11 L:1
+src_id 10 L:2, cur_id: 11 L:1
+A_ bb 11:11 (12,9,)
+Merge regStatusIn, bb 11
+
+Merge incoming of c0.11, e:17 sa:400538 
+src_id 9 L:1, cur_id: 11 L:1
+src_id 10 L:2, cur_id: 11 L:1
+A_ bb 12:12 (13,22,)
+Merge regStatusIn, bb 12
+
+Merge incoming of c0.12, e:17 sa:400598 
+src_id 11 L:1, cur_id: 12 L:-1
+S  $2: ((T<<0x2)+10000bd0)(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: ((T<<0x2)+10000bd0)(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: biv: ($6,100007c0,4) 
+C  op : (-) E 
+ inVar outloop  => C:  $6: T(-) E 
+S  $7: biv: ($7,10000fd0,4) 
+C  op : (-) E 
+ inVar outloop  => C:  $7: T(-) E 
+S  $8: biv: ($8,0,1) 
+C  op : (-) E 
+ inVar outloop  => C:  $8: T(-) E 
+S  $9: (8) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (8) C 
+S  $10: (100003c0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (100003c0) C 
+S  $11: (10000bd0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (10000bd0) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+Analyze block (0,12)
+Finish block (0,12)
+A_ bb 13:13 (14,)
+Merge regStatusIn, bb 13
+
+Merge incoming of c0.13, e:18 sa:4005b8 
+src_id 12 L:-1, cur_id: 13 L:-1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (100003c0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (100003c0) C 
+S  $11: (10000bd0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (10000bd0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+Analyze block (0,13)
+Finish block (0,13)
+A_ bb 14:14 (15,16,)
+Merge regStatusIn, bb 14
+
+Merge incoming of c0.14, e:19 sa:400618 
+src_id 13 L:-1, cur_id: 14 L:3
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 21 L:3, cur_id: 14 L:3
+Analyze block (0,14)
+Finish block (0,14)
+A_ bb 15:15 (16,)
+Merge regStatusIn, bb 15
+
+Merge incoming of c0.15, e:20 sa:400630 
+src_id 14 L:3, cur_id: 15 L:3
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+Analyze block (0,15)
+Finish block (0,15)
+A_ bb 16:16 (17,21,)
+Merge regStatusIn, bb 16
+
+Merge incoming of c0.16, e:21 sa:400638 
+src_id 14 L:3, cur_id: 16 L:3
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 15 L:3, cur_id: 16 L:3
+Analyze block (0,16)
+Finish block (0,16)
+A_ bb 16:16 (17,21,)
+Merge regStatusIn, bb 16
+
+Merge incoming of c0.16, e:22 sa:400638 
+src_id 14 L:3, cur_id: 16 L:3
+src_id 15 L:3, cur_id: 16 L:3
+A_ bb 17:17 (18,20,)
+Merge regStatusIn, bb 17
+
+Merge incoming of c0.17, e:22 sa:400680 
+src_id 16 L:3, cur_id: 17 L:4
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: (0) C 
+C  $8: (-) E 
+ cp fwd  => C:  $8: (0) C 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 20 L:4, cur_id: 17 L:4
+Analyze block (0,17)
+Finish block (0,17)
+A_ bb 18:18 (19,)
+Merge regStatusIn, bb 18
+
+Merge incoming of c0.18, e:23 sa:4006b8 
+src_id 17 L:4, cur_id: 18 L:4
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: (0) C 
+C  $6: (-) E 
+ cp fwd  => C:  $6: (0) C 
+S  $7: (0) C 
+C  $7: (-) E 
+ cp fwd  => C:  $7: (0) C 
+S  $8: (0) C 
+C  $8: (-) E 
+ cp fwd  => C:  $8: (0) C 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+Analyze block (0,18)
+Finish block (0,18)
+A_ bb 19:19 (20,19,)
+Merge regStatusIn, bb 19
+
+Merge incoming of c0.19, e:24 sa:4006d0 
+src_id 18 L:4, cur_id: 19 L:5
+S  $2: (0) C 
+C  $2: (-) E 
+ cp fwd  => C:  $2: (0) C 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: (10000bd0) C 
+C  $4: biv: ($4,10000bd0,4) 
+ inVar  => C:  $4: biv: ($4,10000bd0,4) 
+S  $5: (100003c0) C 
+C  $5: biv: ($5,100003c0,4) 
+ inVar  => C:  $5: biv: ($5,100003c0,4) 
+S  $6: (0) C 
+C  $6: biv: ($6,0,1) 
+ inVar  => C:  $6: biv: ($6,0,1) 
+S  $7: (0) C 
+C  $7: biv: ($7,0,1) 
+ inVar  => C:  $7: biv: ($7,0,1) 
+S  $8: (0) C 
+C  $8: (-) E 
+ cp fwd  => C:  $8: (0) C 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 19 L:5, cur_id: 19 L:5
+Analyze block (0,19)
+Finish block (0,19)
+A_ bb 19:19 (20,19,)
+Merge regStatusIn, bb 19
+
+Merge incoming of c0.19, e:25 sa:4006d0 
+src_id 18 L:4, cur_id: 19 L:5
+S  $4: (10000bd0) C 
+C  $4: biv: ($4,10000bd0,4) 
+ inVar  => C:  $4: biv: ($4,10000bd0,4) 
+S  $5: (100003c0) C 
+C  $5: biv: ($5,100003c0,4) 
+ inVar  => C:  $5: biv: ($5,100003c0,4) 
+S  $6: (0) C 
+C  $6: biv: ($6,0,1) 
+ inVar  => C:  $6: biv: ($6,0,1) 
+S  $7: (0) C 
+C  $7: biv: ($7,0,1) 
+ inVar  => C:  $7: biv: ($7,0,1) 
+src_id 19 L:5, cur_id: 19 L:5
+S  $2: ((($6+1)<<0x2)+100003c0)(-) E 
+C  $2: (0) C 
+ no info  => C:  $2: T(-) E 
+S  $3: ((($6+1)<<0x2)+10000bd0)(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+Analyze block (0,19)
+Finish block (0,19)
+A_ bb 19:19 (20,19,)
+Merge regStatusIn, bb 19
+
+Merge incoming of c0.19, e:26 sa:4006d0 
+src_id 18 L:4, cur_id: 19 L:5
+S  $4: (10000bd0) C 
+C  $4: biv: ($4,10000bd0,4) 
+ inVar  => C:  $4: biv: ($4,10000bd0,4) 
+S  $5: (100003c0) C 
+C  $5: biv: ($5,100003c0,4) 
+ inVar  => C:  $5: biv: ($5,100003c0,4) 
+S  $6: (0) C 
+C  $6: biv: ($6,0,1) 
+ inVar  => C:  $6: biv: ($6,0,1) 
+S  $7: (0) C 
+C  $7: biv: ($7,0,1) 
+ inVar  => C:  $7: biv: ($7,0,1) 
+src_id 19 L:5, cur_id: 19 L:5
+A_ bb 20:20 (21,17,)
+Merge regStatusIn, bb 20
+
+Merge incoming of c0.20, e:26 sa:400830 
+src_id 17 L:4, cur_id: 20 L:4
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: (0) C 
+C  $6: (-) E 
+ cp fwd  => C:  $6: (0) C 
+S  $7: (0) C 
+C  $7: (-) E 
+ cp fwd  => C:  $7: (0) C 
+S  $8: (0) C 
+C  $8: (-) E 
+ cp fwd  => C:  $8: (0) C 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 19 L:5, cur_id: 20 L:4
+S  $3: ((($6+1)<<0x2)+10000bd0)(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+S  $6: biv: ($6,0,1) 
+C  $6: (0) C 
+ no info  => C:  $6: T(-) E 
+S  $7: biv: ($7,0,1) 
+C  $7: (0) C 
+ no info  => C:  $7: T(-) E 
+Analyze block (0,20)
+Finish block (0,20)
+A_ bb 17:17 (18,20,)
+Merge regStatusIn, bb 17
+
+Merge incoming of c0.17, e:27 sa:400680 
+src_id 16 L:3, cur_id: 17 L:4
+src_id 20 L:4, cur_id: 17 L:4
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+Analyze block (0,17)
+Finish block (0,17)
+A_ bb 18:18 (19,)
+Merge regStatusIn, bb 18
+
+Merge incoming of c0.18, e:28 sa:4006b8 
+src_id 17 L:4, cur_id: 18 L:4
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+Analyze block (0,18)
+Finish block (0,18)
+A_ bb 19:19 (20,19,)
+Merge regStatusIn, bb 19
+
+Merge incoming of c0.19, e:29 sa:4006d0 
+src_id 18 L:4, cur_id: 19 L:5
+S  $4: (10000bd0) C 
+C  $4: biv: ($4,10000bd0,4) 
+ inVar  => C:  $4: biv: ($4,10000bd0,4) 
+S  $5: (100003c0) C 
+C  $5: biv: ($5,100003c0,4) 
+ inVar  => C:  $5: biv: ($5,100003c0,4) 
+S  $6: (0) C 
+C  $6: biv: ($6,0,1) 
+ inVar  => C:  $6: biv: ($6,0,1) 
+S  $7: (0) C 
+C  $7: biv: ($7,0,1) 
+ inVar  => C:  $7: biv: ($7,0,1) 
+src_id 19 L:5, cur_id: 19 L:5
+A_ bb 20:20 (21,17,)
+Merge regStatusIn, bb 20
+
+Merge incoming of c0.20, e:29 sa:400830 
+src_id 17 L:4, cur_id: 20 L:4
+src_id 19 L:5, cur_id: 20 L:4
+A_ bb 20:20 (21,17,)
+Merge regStatusIn, bb 20
+
+Merge incoming of c0.20, e:29 sa:400830 
+src_id 17 L:4, cur_id: 20 L:4
+src_id 19 L:5, cur_id: 20 L:4
+A_ bb 20:20 (21,17,)
+Merge regStatusIn, bb 20
+
+Merge incoming of c0.20, e:29 sa:400830 
+src_id 17 L:4, cur_id: 20 L:4
+src_id 19 L:5, cur_id: 20 L:4
+A_ bb 21:21 (22,14,)
+Merge regStatusIn, bb 21
+
+Merge incoming of c0.21, e:29 sa:400848 
+src_id 16 L:3, cur_id: 21 L:3
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: (0) C 
+C  $8: (-) E 
+ cp fwd  => C:  $8: (0) C 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (10000bc0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (10000bc0) C 
+S  $11: (100013d0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (100013d0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 20 L:4, cur_id: 21 L:3
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+Analyze block (0,21)
+Finish block (0,21)
+A_ bb 14:14 (15,16,)
+Merge regStatusIn, bb 14
+
+Merge incoming of c0.14, e:30 sa:400618 
+src_id 13 L:-1, cur_id: 14 L:3
+src_id 21 L:3, cur_id: 14 L:3
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+Analyze block (0,14)
+Finish block (0,14)
+A_ bb 15:15 (16,)
+Merge regStatusIn, bb 15
+
+Merge incoming of c0.15, e:31 sa:400630 
+src_id 14 L:3, cur_id: 15 L:3
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+Analyze block (0,15)
+Finish block (0,15)
+A_ bb 16:16 (17,21,)
+Merge regStatusIn, bb 16
+
+Merge incoming of c0.16, e:32 sa:400638 
+src_id 14 L:3, cur_id: 16 L:3
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+src_id 15 L:3, cur_id: 16 L:3
+Analyze block (0,16)
+Finish block (0,16)
+A_ bb 16:16 (17,21,)
+Merge regStatusIn, bb 16
+
+Merge incoming of c0.16, e:33 sa:400638 
+src_id 14 L:3, cur_id: 16 L:3
+src_id 15 L:3, cur_id: 16 L:3
+A_ bb 17:17 (18,20,)
+Merge regStatusIn, bb 17
+
+Merge incoming of c0.17, e:33 sa:400680 
+src_id 16 L:3, cur_id: 17 L:4
+src_id 20 L:4, cur_id: 17 L:4
+A_ bb 21:21 (22,14,)
+Merge regStatusIn, bb 21
+
+Merge incoming of c0.21, e:33 sa:400848 
+src_id 16 L:3, cur_id: 21 L:3
+src_id 20 L:4, cur_id: 21 L:3
+A_ bb 21:21 (22,14,)
+Merge regStatusIn, bb 21
+
+Merge incoming of c0.21, e:33 sa:400848 
+src_id 16 L:3, cur_id: 21 L:3
+src_id 20 L:4, cur_id: 21 L:3
+A_ bb 22:22 ()
+Merge regStatusIn, bb 22
+
+Merge incoming of c0.22, e:33 sa:400868 
+src_id 12 L:-1, cur_id: 22 L:-1
+S  $2: T(-) E 
+C  $2: (-) E 
+ cp fwd  => C:  $2: T(-) E 
+S  $3: ((T<<0x2)+100003c0)(-) E 
+C  $3: (-) E 
+ cp fwd  => C:  $3: ((T<<0x2)+100003c0)(-) E 
+S  $4: T(-) E 
+C  $4: (-) E 
+ cp fwd  => C:  $4: T(-) E 
+S  $5: T(-) E 
+C  $5: (-) E 
+ cp fwd  => C:  $5: T(-) E 
+S  $6: T(-) E 
+C  $6: (-) E 
+ cp fwd  => C:  $6: T(-) E 
+S  $7: T(-) E 
+C  $7: (-) E 
+ cp fwd  => C:  $7: T(-) E 
+S  $8: T(-) E 
+C  $8: (-) E 
+ cp fwd  => C:  $8: T(-) E 
+S  $9: (2) C 
+C  $9: (-) E 
+ cp fwd  => C:  $9: (2) C 
+S  $10: (100003c0) C 
+C  $10: (-) E 
+ cp fwd  => C:  $10: (100003c0) C 
+S  $11: (10000bd0) C 
+C  $11: (-) E 
+ cp fwd  => C:  $11: (10000bd0) C 
+S  $12: (1) C 
+C  $12: (-) E 
+ cp fwd  => C:  $12: (1) C 
+S  $25: (100) C 
+C  $25: (-) E 
+ cp fwd  => C:  $25: (100) C 
+src_id 21 L:3, cur_id: 22 L:-1
+S  $3: T(-) E 
+C  $3: ((T<<0x2)+100003c0)(-) E 
+ no info  => C:  $3: T(-) E 
+S  $13: (100003c0) C 
+C  $13: (-) E 
+ cp fwd  => C:  $13: (100003c0) C 
+S  $14: (10000bd0) C 
+C  $14: (-) E 
+ cp fwd  => C:  $14: (10000bd0) C 
+S  $15: (10000bc8) C 
+C  $15: (-) E 
+ cp fwd  => C:  $15: (10000bc8) C 
+S  $24: (100013d8) C 
+C  $24: (-) E 
+ cp fwd  => C:  $24: (100013d8) C 
+Analyze block (0,22)
+Finish block (0,22)
+A_ bb 22:22 ()
+Merge regStatusIn, bb 22
+
+Merge incoming of c0.22, e:34 sa:400868 
+src_id 12 L:-1, cur_id: 22 L:-1
+src_id 21 L:3, cur_id: 22 L:-1
+End of p: 0
+Read sym.exec result
+DataRef: 0x4002b8 l.d $f4 -32768 $28
+ 10000000-8000 
+
+DataRef: 0x4002f0 s.d $f26 48 $29
+ 7fffc000+30 
+
+DataRef: 0x4002f8 s.d $f24 40 $29
+ 7fffc000+28 
+
+DataRef: 0x400300 s.d $f22 32 $29
+ 7fffc000+20 
+
+DataRef: 0x400308 s.d $f20 24 $29
+ 7fffc000+18 
+
+DataRef: 0x400448 s.s $f0 0 $7
+ $7-0 
+ : biv: ($7,100007c0,4) 
+DataRef: 0x400450 sw $0 0 $8
+ $8-0 
+ : biv: ($8,10000fd0,4) 
+DataRef: 0x400470 l.s $f22 -32760 $28
+ 10000000-7ff8 
+
+DataRef: 0x400538 l.s $f0 0 $6
+ $6-0 
+ : biv: ($6,100007c0,4) 
+DataRef: 0x400560 s.s $f0 0 $2
+ ((T<<0x2)+10000bd0)-0 
+
+DataRef: 0x400568 l.s $f0 0 $7
+ $7-0 
+ : biv: ($7,10000fd0,4) 
+DataRef: 0x400588 s.s $f0 0 $3
+ ((T<<0x2)+100003c0)-0 
+
+DataRef: 0x4005b8 l.d $f24 -32768 $28
+ 10000000-8000 
+
+DataRef: 0x4005c0 l.s $f26 -32756 $28
+ 10000000-7ff4 
+
+DataRef: 0x400690 s.s $f20 0 $24
+ 100013d8-0 
+
+DataRef: 0x400698 s.s $f18 -4 $24
+ 100013d8-4 
+
+DataRef: 0x4006a0 s.s $f16 0 $15
+ 10000bc8-0 
+
+DataRef: 0x4006a8 s.s $f12 -4 $15
+ 10000bc8-4 
+
+DataRef: 0x4006d0 l.s $f8 4 $11
+ 100013d0+4 
+
+DataRef: 0x4006e0 l.s $f10 4 $10
+ 10000bc0+4 
+
+DataRef: 0x4006e8 l.s $f0 8 $11
+ 100013d0+8 
+
+DataRef: 0x4006f8 l.s $f2 8 $10
+ 10000bc0+8 
+
+DataRef: 0x400720 s.s $f8 8 $11
+ 100013d0+8 
+
+DataRef: 0x400730 s.s $f10 8 $10
+ 10000bc0+8 
+
+DataRef: 0x400738 s.s $f6 0 $11
+ 100013d0-0 
+
+DataRef: 0x400740 s.s $f6 4 $11
+ 100013d0+4 
+
+DataRef: 0x400748 s.s $f4 0 $10
+ 10000bc0-0 
+
+DataRef: 0x400750 s.s $f4 4 $10
+ 10000bc0+4 
+
+DataRef: 0x400758 l.s $f10 0 $3
+ ((($6+1)<<0x2)+10000bd0)-0 
+ : biv: ($6,0,1) 
+DataRef: 0x400770 l.s $f0 0 $2
+ ((($6+1)<<0x2)+100003c0)-0 
+ : $6(-) E 
+DataRef: 0x400798 l.s $f0 0 $4
+ $4-0 
+ : biv: ($4,10000bd0,4) 
+DataRef: 0x4007b0 s.s $f0 0 $3
+ ((($6+1)<<0x2)+10000bd0)-0 
+ : $6(-) E 
+DataRef: 0x4007b8 l.s $f0 0 $5
+ $5-0 
+ : biv: ($5,100003c0,4) 
+DataRef: 0x4007c8 s.s $f0 0 $2
+ ((($6+1)<<0x2)+100003c0)-0 
+ : $6(-) E 
+DataRef: 0x4007d0 l.s $f0 0 $4
+ $4-0 
+ : $4(-) E 
+DataRef: 0x4007e0 s.s $f0 0 $4
+ $4-0 
+ : $4(-) E 
+DataRef: 0x4007e8 l.s $f0 0 $5
+ $5-0 
+ : $5(-) E 
+DataRef: 0x400818 s.s $f0 0 $5
+ $5-0 
+ : $5(-) E 
+DataRef: 0x400868 l.d $f26 48 $29
+ 7fffc000+30 
+
+DataRef: 0x400870 l.d $f24 40 $29
+ 7fffc000+28 
+
+DataRef: 0x400878 l.d $f22 32 $29
+ 7fffc000+20 
+
+DataRef: 0x400880 l.d $f20 24 $29
+ 7fffc000+18 

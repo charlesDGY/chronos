@@ -1,0 +1,6 @@
+*.txt
+*.c
+*.h
+*.mtx
+*.rua
+*.exe

@@ -1,0 +1,167 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$L1	adpcm/adpcm.s	/^$L1:$/;"	l
+$L10	adpcm/adpcm.s	/^$L10:$/;"	l
+$L11	adpcm/adpcm.s	/^$L11:$/;"	l
+$L12	adpcm/adpcm.s	/^$L12:$/;"	l
+$L13	adpcm/adpcm.s	/^$L13:$/;"	l
+$L14	adpcm/adpcm.s	/^$L14:$/;"	l
+$L15	adpcm/adpcm.s	/^$L15:$/;"	l
+$L16	adpcm/adpcm.s	/^$L16:$/;"	l
+$L17	adpcm/adpcm.s	/^$L17:$/;"	l
+$L18	adpcm/adpcm.s	/^$L18:$/;"	l
+$L19	adpcm/adpcm.s	/^$L19:$/;"	l
+$L2	adpcm/adpcm.s	/^$L2:$/;"	l
+$L20	adpcm/adpcm.s	/^$L20:$/;"	l
+$L21	adpcm/adpcm.s	/^$L21:$/;"	l
+$L22	adpcm/adpcm.s	/^$L22:$/;"	l
+$L23	adpcm/adpcm.s	/^$L23:$/;"	l
+$L24	adpcm/adpcm.s	/^$L24:$/;"	l
+$L25	adpcm/adpcm.s	/^$L25:$/;"	l
+$L26	adpcm/adpcm.s	/^$L26:$/;"	l
+$L27	adpcm/adpcm.s	/^$L27:$/;"	l
+$L28	adpcm/adpcm.s	/^$L28:$/;"	l
+$L29	adpcm/adpcm.s	/^$L29:$/;"	l
+$L3	adpcm/adpcm.s	/^$L3:$/;"	l
+$L30	adpcm/adpcm.s	/^$L30:$/;"	l
+$L31	adpcm/adpcm.s	/^$L31:$/;"	l
+$L32	adpcm/adpcm.s	/^$L32:$/;"	l
+$L33	adpcm/adpcm.s	/^$L33:$/;"	l
+$L34	adpcm/adpcm.s	/^$L34:$/;"	l
+$L35	adpcm/adpcm.s	/^$L35:$/;"	l
+$L36	adpcm/adpcm.s	/^$L36:$/;"	l
+$L37	adpcm/adpcm.s	/^$L37:$/;"	l
+$L4	adpcm/adpcm.s	/^$L4:$/;"	l
+$L5	adpcm/adpcm.s	/^$L5:$/;"	l
+$L6	adpcm/adpcm.s	/^$L6:$/;"	l
+$L7	adpcm/adpcm.s	/^$L7:$/;"	l
+$L8	adpcm/adpcm.s	/^$L8:$/;"	l
+$L9	adpcm/adpcm.s	/^$L9:$/;"	l
+A	matmult/matmult.c	/^matrix          A, B, RA;$/;"	v
+ARGS	adpcm/adpcm.h	13;"	d
+ARGS	adpcm/adpcm.h	15;"	d
+Array	bsort100/bsort100.c	/^int             Array[MAXDIM], Seed;$/;"	v
+Array	cnt/cnt.c	/^matrix          Array;$/;"	v
+B	matmult/matmult.c	/^matrix          A, B, RA;$/;"	v
+BITS_IN_JSAMPLE	jfdctint/jfdctint.c	57;"	d	file:
+BLOCK_NUM	jfdctint/jfdctint.c	204;"	d	file:
+CONST_BITS	jfdctint/jfdctint.c	148;"	d	file:
+DATA	bs/bs.c	/^struct DATA {$/;"	s	file:
+DATASIZE	adpcm/adpcm.c	72;"	d	file:
+DCTELEM	jfdctint/jfdctint.c	59;"	d	file:
+DCTSIZE	jfdctint/jfdctint.c	56;"	d	file:
+DCT_ISLOW_SUPPORTED	jfdctint/jfdctint.c	55;"	d	file:
+DDC_PI	fft/fft.c	11;"	d	file:
+DEBUG	fft/fft.c	1;"	d	file:
+DESCALE	jfdctint/jfdctint.c	64;"	d	file:
+DURATION	adpcm/adpcm.c	73;"	d	file:
+FALSE	bsort100/bsort100.c	34;"	d	file:
+FIX_0_298631336	jfdctint/jfdctint.c	163;"	d	file:
+FIX_0_390180644	jfdctint/jfdctint.c	164;"	d	file:
+FIX_0_541196100	jfdctint/jfdctint.c	165;"	d	file:
+FIX_0_765366865	jfdctint/jfdctint.c	166;"	d	file:
+FIX_0_899976223	jfdctint/jfdctint.c	167;"	d	file:
+FIX_1_175875602	jfdctint/jfdctint.c	168;"	d	file:
+FIX_1_501321110	jfdctint/jfdctint.c	169;"	d	file:
+FIX_1_847759065	jfdctint/jfdctint.c	170;"	d	file:
+FIX_1_961570560	jfdctint/jfdctint.c	171;"	d	file:
+FIX_2_053119869	jfdctint/jfdctint.c	172;"	d	file:
+FIX_2_562915447	jfdctint/jfdctint.c	173;"	d	file:
+FIX_3_072711026	jfdctint/jfdctint.c	174;"	d	file:
+GLOBAL	jfdctint/jfdctint.c	61;"	d	file:
+INT32	jfdctint/jfdctint.c	60;"	d	file:
+ImagIn	fft/fft.c	/^float ImagIn[MAXSIZE];$/;"	v
+ImagOut	fft/fft.c	/^float ImagOut[MAXSIZE];$/;"	v
+JPEG_INTERNALS	jfdctint/jfdctint.c	99;"	d	file:
+L	lms/lms.c	64;"	d	file:
+LOOPS	fir/fir.c	20;"	d	file:
+MAXDIM	bsort100/bsort100.c	37;"	d	file:
+MAXSIZE	cnt/cnt.c	15;"	d	file:
+MAXSIZE	fft/fft.c	9;"	d	file:
+MAXWAVES	fft/fft.c	10;"	d	file:
+MULTIPLY	jfdctint/jfdctint.c	199;"	d	file:
+MULTIPLY16C16	jfdctint/jfdctint.c	58;"	d	file:
+N	edn/edn.c	18;"	d	file:
+N	lms/lms.c	63;"	d	file:
+NUMELEMS	bsort100/bsort100.c	36;"	d	file:
+Negcnt	cnt/cnt.c	/^int             Postotal, Negtotal, Poscnt, Negcnt;$/;"	v
+Negtotal	cnt/cnt.c	/^int             Postotal, Negtotal, Poscnt, Negcnt;$/;"	v
+ONE	jfdctint/jfdctint.c	63;"	d	file:
+ORDER	edn/edn.c	19;"	d	file:
+OUTSIZE	fir/fir.c	177;"	d	file:
+PASS1_BITS	jfdctint/jfdctint.c	149;"	d	file:
+PI	lms/lms.c	55;"	d	file:
+Poscnt	cnt/cnt.c	/^int             Postotal, Negtotal, Poscnt, Negcnt;$/;"	v
+Postotal	cnt/cnt.c	/^int             Postotal, Negtotal, Poscnt, Negcnt;$/;"	v
+RA	matmult/matmult.c	/^matrix          A, B, RA;$/;"	v
+RAND_MAX	lms/lms.c	54;"	d	file:
+RIGHT_SHIFT	jfdctint/jfdctint.c	62;"	d	file:
+RealIn	fft/fft.c	/^float RealIn[MAXSIZE];$/;"	v
+RealOut	fft/fft.c	/^float RealOut[MAXSIZE];$/;"	v
+SHIFT_TEMPS	jfdctint/jfdctint.c	65;"	d	file:
+SIZE	insertsort/insertsort.c	54;"	d	file:
+SIZE	insertsort_test.c	55;"	d	file:
+Seed	bsort100/bsort100.c	/^int             Array[MAXDIM], Seed;$/;"	v
+Seed	cnt/cnt.c	/^int             Seed;$/;"	v
+Seed	matmult/matmult.c	/^int             Seed;$/;"	v
+TRUE	bsort100/bsort100.c	35;"	d	file:
+UPPERLIMIT	matmult/matmult.c	42;"	d	file:
+UPPSALAWCET	matmult/matmult.c	25;"	d	file:
+WCSIM	bsort100/bsort100.c	18;"	d	file:
+WORSTCASE	bsort100/bsort100.c	33;"	d	file:
+__gnu_compiled_c	adpcm/adpcm.s	/^__gnu_compiled_c:$/;"	l
+a	insertsort/insertsort.c	/^short   a[SIZE];$/;"	v
+a	insertsort_test.c	/^short   a[SIZE];$/;"	v
+adpcm_state	adpcm/adpcm.h	/^struct adpcm_state {$/;"	s
+adpcmdata	adpcm/adpcm.c	/^char adpcmdata[DATASIZE\/2];$/;"	v
+ai	fft/fft.c	/^float ar[3], ai[3];$/;"	v
+ar	fft/fft.c	/^float ar[3], ai[3];$/;"	v
+b	lms/lms.c	/^float    d[N], b[21];$/;"	v
+cnt1	insertsort/insertsort.c	/^int             cnt1, cnt2;$/;"	v
+cnt1	insertsort_test.c	/^int             cnt1, cnt2;$/;"	v
+cnt2	insertsort/insertsort.c	/^int             cnt1, cnt2;$/;"	v
+cnt2	insertsort_test.c	/^int             cnt1, cnt2;$/;"	v
+coder_1_state	adpcm/adpcm.c	/^struct adpcm_state coder_1_state, coder_2_state, decoder_state,state;$/;"	v	typeref:struct:adpcm_state
+coder_2_state	adpcm/adpcm.c	/^struct adpcm_state coder_1_state, coder_2_state, decoder_state,state;$/;"	v	typeref:struct:
+d	lms/lms.c	/^float    d[N], b[21];$/;"	v
+data	bs/bs.c	/^struct DATA data[15] = { { 1, 100 }, { 5, 200 }, { 6, 300 }, { 7, 700 }, { 8,$/;"	v	typeref:struct:DATA
+decoder_state	adpcm/adpcm.c	/^struct adpcm_state coder_1_state, coder_2_state, decoder_state,state;$/;"	v	typeref:struct:
+factor	bsort100/bsort100.c	/^int             factor;$/;"	v
+fir_int	fir/fir.c	/^long            fir_int[36] = {$/;"	v
+in_data	fir/fir.c	/^long            in_data[701] = {$/;"	v
+index	adpcm/adpcm.h	/^    char	index;		\/* Index into stepsize table *\/$/;"	m	struct:adpcm_state
+indexTable	adpcm/adpcm.c	/^int indexTable[16] = {$/;"	v
+indexTable	adpcm/adpcm.s	/^indexTable:$/;"	l
+key	bs/bs.c	/^	int key;$/;"	m	struct:DATA	file:
+main	adpcm/adpcm.c	/^int main() {$/;"	f
+main	adpcm/adpcm.s	/^main:$/;"	l
+main	bs/bs.c	/^int main() {$/;"	f
+main	bsort100/bsort100.c	/^main(void)$/;"	f
+main	cnt/cnt.c	/^int main(void)$/;"	f
+main	edn/edn.c	/^main(void)$/;"	f
+main	expint/expint.c	/^\/* $Id: expint.c,v 1.2 2005\/04\/04 11:34:58 csg Exp $ *\/$/;"	f
+main	fft/fft.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	fir/fir.c	/^main(void)$/;"	f
+main	insertsort/insertsort.c	/^main()$/;"	f
+main	insertsort_test.c	/^main()$/;"	f
+main	jfdctint/jfdctint.c	/^main(void)$/;"	f
+main	lms/lms.c	/^main()$/;"	f
+main	matmult/matmult.c	/^main(void)$/;"	f
+matrix	cnt/cnt.c	/^typedef int     matrix[MAXSIZE][MAXSIZE];$/;"	t	file:
+matrix	matmult/matmult.c	/^typedef int     matrix[UPPERLIMIT][UPPERLIMIT];$/;"	t	file:
+mu	lms/lms.c	/^float           mu = 0.01;$/;"	v
+out_data	fir/fir.c	/^long            out_data[720] = {$/;"	v
+output	fir/fir.c	/^long            output[OUTSIZE];$/;"	v
+pcmdata	adpcm/adpcm.c	/^short pcmdata[DATASIZE];$/;"	v
+pcmdata_2	adpcm/adpcm.c	/^short pcmdata_2[DATASIZE];$/;"	v
+px	lms/lms.c	/^float    px[51];	\/* max L = 50 *\/$/;"	v
+signed	adpcm/adpcm.c	51;"	d	file:
+state	adpcm/adpcm.c	/^struct adpcm_state coder_1_state, coder_2_state, decoder_state,state;$/;"	v	typeref:struct:
+stepsizeTable	adpcm/adpcm.c	/^int stepsizeTable[89] = {$/;"	v
+stepsizeTable	adpcm/adpcm.s	/^stepsizeTable:$/;"	l
+valprev	adpcm/adpcm.h	/^    short	valprev;	\/* Previous output value *\/$/;"	m	struct:adpcm_state
+value	bs/bs.c	/^	int value;$/;"	m	struct:DATA	file:

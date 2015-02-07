@@ -1,0 +1,158 @@
+lp_lib.c:
+
+7132<                  "find_int_bbvar: INT var %d was fixed at %d, but computed as %g at node %d\n",
+7132>                  "find_int_bbvar: INT var %d was fixed at %d, but computed as %g at node %.0f\n",
+
+7749<     report(lp, NORMAL, "Objective value " RESULTVALUEMASK " at iter %10.0f.\n",
+7749>     report(lp, NORMAL, "Objective value " RESULTVALUEMASK " at iter %.0f.\n",
+
+7763<     report(lp, IMPORTANT, "performiteration: Objective value gap %8.6f found at iter %6.0f (%d bound flips, %d)\n",
+7763>     report(lp, IMPORTANT, "performiteration: Objective value gap %8.6f found at iter %.0f (%d bound flips, %d)\n",
+
+7770<       report(lp, NORMAL, "I:%5.0f - minor - %5d ignored,          %5d flips  from %s with THETA=%g and OBJ=%g\n",
+7770>       report(lp, NORMAL, "I:%.0f - minor - %5d ignored,          %5d flips  from %s with THETA=%g and OBJ=%g\n",
+
+7773<       report(lp, NORMAL, "I:%5.0f - MAJOR - %5d leaves to %s,  %5d enters from %s with THETA=%g and OBJ=%g\n",
+7773>       report(lp, NORMAL, "I:%.0f - MAJOR - %5d leaves to %s,  %5d enters from %s with THETA=%g and OBJ=%g\n",
+
+8227<     report(lp, NORMAL, "%sOptimal solution " RESULTVALUEMASK " after %10.0f iter, %9.0f nodes (gap %.1f%%).\n",
+8227>     report(lp, NORMAL, "%sOptimal solution " RESULTVALUEMASK " after %.0f iter, %.0f nodes (gap %.1f%%).\n",
+
+8232<     report(lp, NORMAL, "Optimal solution  " RESULTVALUEMASK " after %10.0f iter.\n",
+8232>     report(lp, NORMAL, "Optimal solution  " RESULTVALUEMASK " after %.0f iter.\n",
+
+lp_matrix.c:
+
+2590<     report(lp, DETAILED, "invert: Iter %10g, fact-length %7d, OF " RESULTVALUEMASK ".\n",
+2590>     report(lp, DETAILED, "invert: Iter %.0f, fact-length %7d, OF " RESULTVALUEMASK ".\n",
+
+2610<     report(lp, SEVERE, "invert: Invalid basis detected (iter %g).\n",
+2610>     report(lp, SEVERE, "invert: Invalid basis detected (iter %.0f).\n",
+
+lp_mipbb.c:
+
+ 894<        report(lp, NORMAL, "\nRelaxed solution  " RESULTVALUEMASK " after %10.0f iter is B&B base.\n",
+ 894>        report(lp, NORMAL, "\nRelaxed solution  " RESULTVALUEMASK " after %.0f iter is B&B base.\n",
+
+ 961<       report(lp, SEVERE, "rcfbound_BB: A negative bound fixing level was encountered after node %d\n",
+ 962<                          lp->bb_totalnodes);
+ 961>       report(lp, SEVERE, "rcfbound_BB: A negative bound fixing level was encountered after node %.0f\n",
+ 962>                          (REAL) lp->bb_totalnodes);
+
+1123<                  "%s solution " RESULTVALUEMASK " after %10.0f iter, %9.0f nodes (gap %.1f%%)\n",
+1123>                  "%s solution " RESULTVALUEMASK " after %.0f iter, %.0f nodes (gap %.1f%%)\n",
+
+lp_mps.c:
+
+1587<   fprintf(output, "NAME          %s Rows %d Cols %d Iters &.0f\n",
+1587>   fprintf(output, "NAME          %s Rows %d Cols %d Iters %.0f\n",
+
+lp_price.c:
+
+1780<     report(multi->lp, SEVERE, "multi_valueInit: Positive constraint violation %g provided at iteration %6.0f\n",
+1780>     report(multi->lp, SEVERE, "multi_valueInit: Positive constraint violation %g provided at iteration %.0f\n",
+
+1871<       report(lp, SEVERE, "multi_recompute: A very large step-size %g was generated at iteration %6.0f\n",
+1871>       report(lp, SEVERE, "multi_recompute: A very large step-size %g was generated at iteration %.0f\n",
+
+lp_pricepse.c:
+
+ 324<       report(lp, errlevel, "updatePricer: Invalid dual norm %g at entering index %d - iteration %d\n",
+ 325<                            lp->edgeVector[colnr], rownr, lp->total_iter+lp->current_iter);
+ 324>       report(lp, errlevel, "updatePricer: Invalid dual norm %g at entering index %d - iteration %.0f\n",
+ 325>                            lp->edgeVector[colnr], rownr, (REAL) (lp->total_iter+lp->current_iter));
+
+ 354<           report(lp, errlevel, "updatePricer: Invalid dual norm %g at index %d - iteration %d\n",
+ 355<                                 *newEdge, i, lp->total_iter+lp->current_iter);
+ 354>           report(lp, errlevel, "updatePricer: Invalid dual norm %g at index %d - iteration %.0f\n",
+ 355>                                 *newEdge, i, (REAL) (lp->total_iter+lp->current_iter));
+
+ 419<       report(lp, errlevel, "updatePricer: Invalid primal norm %g at leaving index %d - iteration %d\n",
+ 420<                           lp->edgeVector[exitcol], exitcol, lp->total_iter+lp->current_iter);
+ 419>       report(lp, errlevel, "updatePricer: Invalid primal norm %g at leaving index %d - iteration %.0f\n",
+ 420>                           lp->edgeVector[exitcol], exitcol, (REAL) (lp->total_iter+lp->current_iter));
+
+ 448<           report(lp, errlevel, "updatePricer: Invalid primal norm %g at index %d - iteration %d\n",
+ 449<                                *newEdge, i, lp->total_iter+lp->current_iter);
+ 448>           report(lp, errlevel, "updatePricer: Invalid primal norm %g at index %d - iteration %.0f\n",
+ 449>                                *newEdge, i, (REAL) (lp->total_iter+lp->current_iter));
+
+lp_simplex.c:
+
+ 170<     report(lp, NORMAL, "%s: Objective at iter %10.0f is " RESULTVALUEMASK " (%4d: %4d %s- %4d)\n",
+ 170>     report(lp, NORMAL, "%s: Objective at iter %.0f is " RESULTVALUEMASK " (%4d: %4d %s- %4d)\n",
+
+ 243<         report(lp, msglevel, "%s: Stalling at iter %10.0f; no alternative strategy left.\n",
+ 243>         report(lp, msglevel, "%s: Stalling at iter %.0f; no alternative strategy left.\n",
+
+ 271<         report(lp, msglevel, "%s: Stalling at iter %10.0f; changed to '%s' rule.\n",
+ 271>         report(lp, msglevel, "%s: Stalling at iter %.0f; changed to '%s' rule.\n",
+
+ 280<         report(lp, msglevel, "%s: Stalling at iter %10.0f; proceed to bound relaxation.\n",
+ 280>         report(lp, msglevel, "%s: Stalling at iter %.0f; proceed to bound relaxation.\n",
+
+ 781<             report(lp, NORMAL, "Found feasibility by primal simplex after  %10.0f iter.\n",
+ 781>             report(lp, NORMAL, "Found feasibility by primal simplex after %.0f iter.\n",
+
+ 845<             report(lp, NORMAL, "Model infeasible by primal simplex at iter   %10.0f.\n",
+ 845>             report(lp, NORMAL, "Model infeasible by primal simplex at iter %.0f.\n",
+
+ 864<             report(lp, DETAILED, "primloop: Lost primal feasibility at iter  %10.0f: will try to recover.\n",
+ 864>             report(lp, DETAILED, "primloop: Lost primal feasibility at iter %.0f: will try to recover.\n",
+
+ 904<           report(lp, SEVERE, "primloop: Invalid basis indicator for variable %d at iter %10.0f.\n",
+ 904>           report(lp, SEVERE, "primloop: Invalid basis indicator for variable %d at iter %.0f.\n",
+
+1347<           report(lp, NORMAL, "Found feasibility by dual simplex after    %10.0f iter.\n",
+1347>           report(lp, NORMAL, "Found feasibility by dual simplex after %.0f iter.\n",
+
+1396<               report(lp, DETAILED, "Recovering lost dual feasibility at iter %10.0f.\n",
+1396>               report(lp, DETAILED, "Recovering lost dual feasibility at iter %.0f.\n",
+
+1407<             report(lp, DETAILED, "Use primal simplex for finalization at iter  %10.0f.\n",
+1407>             report(lp, DETAILED, "Use primal simplex for finalization at iter %.0f.\n",
+
+1411<           report(lp, DETAILED, "Optimal solution with dual simplex at iter   %10.0f.\n",
+1411>           report(lp, DETAILED, "Optimal solution with dual simplex at iter %.0f.\n",
+
+1657<           report(lp, DETAILED, "spx_run: Recover lost feasibility at iter  %10.0f.\n",
+1657>           report(lp, DETAILED, "spx_run: Recover lost feasibility at iter %.0f.\n",
+
+1662<           report(lp, IMPORTANT, "spx_run: Lost feasibility %d times - iter %10.0f and %9.0f nodes.\n",
+1662>           report(lp, IMPORTANT, "spx_run: Lost feasibility %d times - iter %.0f and %.0f nodes.\n",
+
+bfp/bfp_lusol/lp_lusol.c:
+
+ 373<       lp->report(lp, infolevel, "bfp_factorize: Factorization %d at iter %0.f was unstable;\n%s\n",
+ 373>       lp->report(lp, infolevel, "bfp_factorize: Factorization %d at iter %.0f was unstable;\n%s\n",
+
+ 524<     lp->report(lp, infolevel, "bfp_finishupdate: Failed at iter %d, pivot %d;\n%s\n",
+ 525<                    lp->total_iter+lp->current_iter, lu->num_pivots, LUSOL_informstr(LUSOL, i));
+ 524>     lp->report(lp, infolevel, "bfp_finishupdate: Failed at iter %.0f, pivot %d;\n%s\n",
+ 525>                    (REAL) (lp->total_iter+lp->current_iter), lu->num_pivots, LUSOL_informstr(LUSOL, i));
+
+ 529<         lp->report(lp, NORMAL, "bfp_finishupdate: Insufficient memory at iter %d;\n%s\n",
+ 530<                        lp->total_iter+lp->current_iter, LUSOL_informstr(LUSOL, i));
+ 529>         lp->report(lp, NORMAL, "bfp_finishupdate: Insufficient memory at iter %.0f;\n%s\n",
+ 530>                        (REAL) (lp->total_iter+lp->current_iter), LUSOL_informstr(LUSOL, i));
+
+ 545<         lp->report(lp, NORMAL, "bfp_finishupdate: Recovery attempt unsuccessful at iter %d;\n%s\n",
+ 546<                        lp->total_iter+lp->current_iter, LUSOL_informstr(LUSOL, i));
+ 545>         lp->report(lp, NORMAL, "bfp_finishupdate: Recovery attempt unsuccessful at iter %.0f;\n%s\n",
+ 546>                        (REAL) (lp->total_iter+lp->current_iter), LUSOL_informstr(LUSOL, i));
+
+ 568<     lp->report(lp, NORMAL, "bfp_ftran_normal: Failed at iter %d, pivot %d;\n%s\n",
+ 569<                    lp->total_iter+lp->current_iter, lu->num_pivots, LUSOL_informstr(lu->LUSOL, i));
+ 568>     lp->report(lp, NORMAL, "bfp_ftran_normal: Failed at iter %.0f, pivot %d;\n%s\n",
+ 569>                    (REAL) (lp->total_iter+lp->current_iter), lu->num_pivots, LUSOL_informstr(lu->LUSOL, i));
+
+ 586<     lp->report(lp, NORMAL, "bfp_ftran_prepare: Failed at iter %d, pivot %d;\n%s\n",
+ 587<                    lp->total_iter+lp->current_iter, lu->num_pivots, LUSOL_informstr(lu->LUSOL, i));
+ 586>     lp->report(lp, NORMAL, "bfp_ftran_prepare: Failed at iter %.0f, pivot %d;\n%s\n",
+ 587>                    (REAL) (lp->total_iter+lp->current_iter), lu->num_pivots, LUSOL_informstr(lu->LUSOL, i));
+
+ 604<     lp->report(lp, NORMAL, "bfp_btran_normal: Failed at iter %d, pivot %d;\n%s\n",
+ 605<                    lp->total_iter+lp->current_iter, lu->num_pivots, LUSOL_informstr(lu->LUSOL, i));
+ 604>     lp->report(lp, NORMAL, "bfp_btran_normal: Failed at iter %.0f, pivot %d;\n%s\n",
+ 605>                    (REAL) (lp->total_iter+lp->current_iter), lu->num_pivots, LUSOL_informstr(lu->LUSOL, i));
+

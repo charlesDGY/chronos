@@ -1,0 +1,514 @@
+start_addr
+00400140 <__start> lw        $16,0($29)
+00400148 <__start+0x8> lui       $28,4097
+00400150 <__start+0x10> addiu     $28,$28,-32032
+00400158 <__start+0x18> addiu     $17,$29,4
+00400160 <__start+0x20> addiu     $3,$17,4
+00400168 <__start+0x28> sll       $2,$16,0x2
+00400170 <__start+0x30> addu      $3,$3,$2
+00400178 <__start+0x38> addu      $18,$0,$3
+00400180 <__start+0x40> sw        $18,-32636($28)
+00400188 <__start+0x48> addiu     $29,$29,-24
+00400190 <__start+0x50> addu      $4,$0,$16
+00400198 <__start+0x58> addu      $5,$0,$17
+004001a0 <__start+0x60> addu      $6,$0,$18
+004001a8 <__start+0x68> jal       00400d60 <__libc_init> 
+004001b0 <__start+0x70> sw        $0,-32640($28)
+004001b8 <__start+0x78> addu      $4,$0,$16
+004001c0 <__start+0x80> addu      $5,$0,$17
+004001c8 <__start+0x88> addu      $6,$0,$18
+004001d0 <__start+0x90> jal       004001f0 <main> 
+004001d8 <__start+0x98> addu      $4,$0,$2
+004001e0 <__start+0xa0> jal       00400d90 <exit> 
+004001e8 <__start+0xa8> nop       
+    ...
+main():
+jfdctint.c:227
+004001f0 <main> addiu     $29,$29,-24
+jfdctint.c:232
+004001f8 <main+0x8> addiu     $3,$0,1
+jfdctint.c:227
+00400200 <main+0x10> sw        $18,8($29)
+jfdctint.c:233
+00400208 <main+0x18> addu      $18,$0,$0
+00400210 <main+0x20> lui       $7,32768
+00400218 <main+0x28> ori       $7,$7,32769
+00400220 <main+0x30> lui       $6,4096
+00400228 <main+0x38> addiu     $6,$6,944
+jfdctint.c:227
+00400230 <main+0x40> sw        $21,20($29)
+00400238 <main+0x48> sw        $20,16($29)
+00400240 <main+0x50> sw        $19,12($29)
+00400248 <main+0x58> sw        $17,4($29)
+00400250 <main+0x60> sw        $16,0($29)
+jfdctint.c:234
+00400258 <main+0x68> sll       $5,$3,0x5
+00400260 <main+0x70> addu      $5,$5,$3
+00400268 <main+0x78> sll       $5,$5,0x2
+00400270 <main+0x80> addu      $5,$5,$3
+00400278 <main+0x88> addiu     $5,$5,81
+00400280 <main+0x90> mult      $5,$7
+00400288 <main+0x98> mfhi      $3
+00400290 <main+0xa0> mflo      $2
+jfdctint.c:233
+00400298 <main+0xa8> addiu     $18,$18,1
+jfdctint.c:234
+004002a0 <main+0xb0> srl       $2,$3,0x0
+004002a8 <main+0xb8> addu      $3,$0,$0
+004002b0 <main+0xc0> addu      $2,$5,$2
+004002b8 <main+0xc8> sra       $2,$2,0xf
+004002c0 <main+0xd0> sra       $4,$5,0x1f
+004002c8 <main+0xd8> subu      $3,$2,$4
+004002d0 <main+0xe0> sll       $2,$3,0x10
+004002d8 <main+0xe8> subu      $2,$2,$3
+004002e0 <main+0xf0> subu      $3,$5,$2
+jfdctint.c:235
+004002e8 <main+0xf8> sw        $3,0($6)
+jfdctint.c:233
+004002f0 <main+0x100> addiu     $6,$6,4
+004002f8 <main+0x108> slti      $2,$18,16384
+00400300 <main+0x110> bne       $2,$0,00400258
+jfdctint.c:239
+00400308 <main+0x118> addu      $18,$0,$0
+00400310 <main+0x120> lui       $21,4096
+00400318 <main+0x128> addiu     $21,$21,944
+00400320 <main+0x130> addiu     $20,$0,-7373
+00400328 <main+0x138> addu      $19,$0,$0
+jfdctint.c:252
+00400330 <main+0x140> addu      $24,$19,$21
+jfdctint.c:253
+00400338 <main+0x148> addiu     $17,$0,7
+00400340 <main+0x150> addiu     $11,$24,4
+00400348 <main+0x158> addiu     $17,$17,-1
+jfdctint.c:254
+00400350 <main+0x160> lw        $4,0($24)
+00400358 <main+0x168> lw        $2,24($11)
+jfdctint.c:256
+00400360 <main+0x170> lw        $5,0($11)
+00400368 <main+0x178> lw        $3,20($11)
+jfdctint.c:254
+00400370 <main+0x180> addu      $6,$4,$2
+jfdctint.c:255
+00400378 <main+0x188> subu      $15,$4,$2
+jfdctint.c:256
+00400380 <main+0x190> addu      $8,$5,$3
+jfdctint.c:257
+00400388 <main+0x198> subu      $14,$5,$3
+jfdctint.c:258
+00400390 <main+0x1a0> lw        $4,4($11)
+00400398 <main+0x1a8> lw        $2,16($11)
+jfdctint.c:260
+004003a0 <main+0x1b0> lw        $5,8($11)
+004003a8 <main+0x1b8> lw        $3,12($11)
+jfdctint.c:258
+004003b0 <main+0x1c0> addu      $7,$4,$2
+jfdctint.c:259
+004003b8 <main+0x1c8> subu      $10,$4,$2
+jfdctint.c:260
+004003c0 <main+0x1d0> addu      $4,$5,$3
+jfdctint.c:261
+004003c8 <main+0x1d8> subu      $13,$5,$3
+jfdctint.c:268
+004003d0 <main+0x1e0> addu      $16,$6,$4
+jfdctint.c:269
+004003d8 <main+0x1e8> subu      $4,$6,$4
+jfdctint.c:270
+004003e0 <main+0x1f0> addu      $25,$8,$7
+jfdctint.c:271
+004003e8 <main+0x1f8> subu      $7,$8,$7
+jfdctint.c:276
+004003f0 <main+0x200> addu      $3,$7,$4
+004003f8 <main+0x208> sll       $2,$3,0x3
+00400400 <main+0x210> addu      $2,$2,$3
+00400408 <main+0x218> sll       $2,$2,0x4
+00400410 <main+0x220> subu      $2,$2,$3
+00400418 <main+0x228> sll       $3,$2,0x5
+00400420 <main+0x230> subu      $12,$3,$2
+jfdctint.c:277
+00400428 <main+0x238> sll       $6,$4,0x1
+00400430 <main+0x240> addu      $6,$6,$4
+00400438 <main+0x248> sll       $6,$6,0x4
+00400440 <main+0x250> addu      $6,$6,$4
+00400448 <main+0x258> sll       $6,$6,0x6
+00400450 <main+0x260> subu      $6,$6,$4
+00400458 <main+0x268> sll       $6,$6,0x1
+00400460 <main+0x270> addu      $6,$12,$6
+jfdctint.c:279
+00400468 <main+0x278> sll       $5,$7,0x4
+00400470 <main+0x280> subu      $5,$5,$7
+00400478 <main+0x288> sll       $5,$5,0x2
+00400480 <main+0x290> subu      $5,$5,$7
+00400488 <main+0x298> sll       $5,$5,0x3
+00400490 <main+0x2a0> addu      $5,$5,$7
+00400498 <main+0x2a8> sll       $5,$5,0x5
+004004a0 <main+0x2b0> addu      $5,$5,$7
+004004a8 <main+0x2b8> subu      $5,$12,$5
+jfdctint.c:288
+004004b0 <main+0x2c0> addu      $12,$13,$15
+jfdctint.c:289
+004004b8 <main+0x2c8> addu      $8,$10,$14
+jfdctint.c:290
+004004c0 <main+0x2d0> addu      $7,$13,$14
+jfdctint.c:291
+004004c8 <main+0x2d8> addu      $9,$10,$15
+jfdctint.c:293
+004004d0 <main+0x2e0> addu      $4,$7,$9
+004004d8 <main+0x2e8> sll       $3,$4,0x2
+004004e0 <main+0x2f0> addu      $3,$3,$4
+004004e8 <main+0x2f8> sll       $2,$3,0x4
+004004f0 <main+0x300> subu      $2,$2,$3
+004004f8 <main+0x308> sll       $2,$2,0x2
+00400500 <main+0x310> addu      $2,$2,$4
+00400508 <main+0x318> sll       $2,$2,0x5
+00400510 <main+0x320> addu      $4,$2,$4
+jfdctint.c:295
+00400518 <main+0x328> sll       $2,$13,0x3
+00400520 <main+0x330> addu      $2,$2,$13
+00400528 <main+0x338> sll       $3,$2,0x4
+00400530 <main+0x340> addu      $2,$2,$3
+00400538 <main+0x348> sll       $2,$2,0x3
+00400540 <main+0x350> subu      $2,$2,$13
+00400548 <main+0x358> sll       $13,$2,0x1
+jfdctint.c:297
+00400550 <main+0x360> sll       $2,$10,0x5
+00400558 <main+0x368> addu      $2,$2,$10
+00400560 <main+0x370> sll       $2,$2,0x3
+00400568 <main+0x378> subu      $2,$2,$10
+00400570 <main+0x380> sll       $2,$2,0x2
+00400578 <main+0x388> subu      $2,$2,$10
+00400580 <main+0x390> sll       $2,$2,0x2
+00400588 <main+0x398> addu      $2,$2,$10
+00400590 <main+0x3a0> sll       $2,$2,0x2
+00400598 <main+0x3a8> subu      $10,$2,$10
+jfdctint.c:299
+004005a0 <main+0x3b0> sll       $2,$14,0x1
+004005a8 <main+0x3b8> addu      $2,$2,$14
+004005b0 <main+0x3c0> sll       $3,$2,0x4
+004005b8 <main+0x3c8> addu      $2,$2,$3
+004005c0 <main+0x3d0> sll       $2,$2,0x2
+004005c8 <main+0x3d8> subu      $2,$2,$14
+004005d0 <main+0x3e0> sll       $3,$2,0x5
+004005d8 <main+0x3e8> subu      $3,$3,$2
+004005e0 <main+0x3f0> sll       $14,$3,0x2
+jfdctint.c:301
+004005e8 <main+0x3f8> sll       $2,$15,0x1
+004005f0 <main+0x400> addu      $2,$2,$15
+004005f8 <main+0x408> sll       $3,$2,0xa
+00400600 <main+0x410> addu      $2,$2,$3
+00400608 <main+0x418> sll       $2,$2,0x2
+00400610 <main+0x420> subu      $15,$2,$15
+jfdctint.c:304
+00400618 <main+0x428> sll       $2,$8,0x2
+00400620 <main+0x430> addu      $2,$2,$8
+00400628 <main+0x438> sll       $2,$2,0x3
+00400630 <main+0x440> addu      $2,$2,$8
+00400638 <main+0x448> sll       $2,$2,0x7
+00400640 <main+0x450> addu      $2,$2,$8
+00400648 <main+0x458> sll       $2,$2,0x2
+00400650 <main+0x460> subu      $8,$8,$2
+jfdctint.c:305
+00400658 <main+0x468> sll       $2,$7,0x6
+00400660 <main+0x470> subu      $2,$2,$7
+00400668 <main+0x478> sll       $2,$2,0x2
+00400670 <main+0x480> subu      $2,$2,$7
+00400678 <main+0x488> sll       $2,$2,0x4
+00400680 <main+0x490> addu      $2,$2,$7
+00400688 <main+0x498> sll       $2,$2,0x2
+00400690 <main+0x4a0> addu      $7,$7,$2
+jfdctint.c:309
+00400698 <main+0x4a8> subu      $7,$4,$7
+jfdctint.c:306
+004006a0 <main+0x4b0> sll       $2,$9,0x1
+004006a8 <main+0x4b8> addu      $2,$2,$9
+004006b0 <main+0x4c0> sll       $2,$2,0x3
+004006b8 <main+0x4c8> addu      $2,$2,$9
+004006c0 <main+0x4d0> sll       $2,$2,0x5
+004006c8 <main+0x4d8> subu      $2,$2,$9
+004006d0 <main+0x4e0> sll       $2,$2,0x2
+jfdctint.c:310
+004006d8 <main+0x4e8> subu      $9,$4,$2
+jfdctint.c:273
+004006e0 <main+0x4f0> addu      $2,$16,$25
+004006e8 <main+0x4f8> sll       $2,$2,0x2
+jfdctint.c:303
+004006f0 <main+0x500> mult      $12,$20
+jfdctint.c:273
+004006f8 <main+0x508> sw        $2,0($24)
+jfdctint.c:317
+00400700 <main+0x510> addiu     $24,$24,32
+jfdctint.c:274
+00400708 <main+0x518> subu      $2,$16,$25
+00400710 <main+0x520> sll       $2,$2,0x2
+jfdctint.c:277
+00400718 <main+0x528> addiu     $6,$6,1024
+00400720 <main+0x530> sra       $6,$6,0xb
+jfdctint.c:279
+00400728 <main+0x538> addiu     $5,$5,1024
+00400730 <main+0x540> sra       $5,$5,0xb
+jfdctint.c:274
+00400738 <main+0x548> sw        $2,12($11)
+jfdctint.c:313
+00400740 <main+0x550> addu      $2,$10,$8
+00400748 <main+0x558> addu      $2,$2,$9
+00400750 <main+0x560> addiu     $2,$2,1024
+00400758 <main+0x568> sra       $2,$2,0xb
+00400760 <main+0x570> sw        $2,16($11)
+jfdctint.c:314
+00400768 <main+0x578> addu      $2,$14,$8
+00400770 <main+0x580> addu      $2,$2,$7
+jfdctint.c:303
+00400778 <main+0x588> mflo      $12
+jfdctint.c:314
+00400780 <main+0x590> addiu     $2,$2,1024
+00400788 <main+0x598> sra       $2,$2,0xb
+jfdctint.c:277
+00400790 <main+0x5a0> sw        $6,4($11)
+jfdctint.c:279
+00400798 <main+0x5a8> sw        $5,20($11)
+jfdctint.c:314
+004007a0 <main+0x5b0> sw        $2,8($11)
+jfdctint.c:312
+004007a8 <main+0x5b8> addu      $2,$13,$12
+004007b0 <main+0x5c0> addu      $2,$2,$7
+004007b8 <main+0x5c8> addiu     $2,$2,1024
+004007c0 <main+0x5d0> sra       $2,$2,0xb
+004007c8 <main+0x5d8> sw        $2,24($11)
+jfdctint.c:315
+004007d0 <main+0x5e0> addu      $2,$15,$12
+004007d8 <main+0x5e8> addu      $2,$2,$9
+004007e0 <main+0x5f0> addiu     $2,$2,1024
+004007e8 <main+0x5f8> sra       $2,$2,0xb
+004007f0 <main+0x600> sw        $2,0($11)
+jfdctint.c:317
+004007f8 <main+0x608> addiu     $11,$11,32
+jfdctint.c:253
+00400800 <main+0x610> bgez      $17,00400348
+jfdctint.c:325
+00400808 <main+0x618> addu      $24,$19,$21
+jfdctint.c:326
+00400810 <main+0x620> addiu     $17,$0,7
+00400818 <main+0x628> addiu     $11,$24,32
+00400820 <main+0x630> addiu     $17,$17,-1
+jfdctint.c:327
+00400828 <main+0x638> lw        $4,0($24)
+00400830 <main+0x640> lw        $2,192($11)
+jfdctint.c:329
+00400838 <main+0x648> lw        $5,0($11)
+00400840 <main+0x650> lw        $3,160($11)
+jfdctint.c:327
+00400848 <main+0x658> addu      $6,$4,$2
+jfdctint.c:328
+00400850 <main+0x660> subu      $15,$4,$2
+jfdctint.c:329
+00400858 <main+0x668> addu      $8,$5,$3
+jfdctint.c:330
+00400860 <main+0x670> subu      $14,$5,$3
+jfdctint.c:331
+00400868 <main+0x678> lw        $4,32($11)
+00400870 <main+0x680> lw        $2,128($11)
+jfdctint.c:333
+00400878 <main+0x688> lw        $5,64($11)
+00400880 <main+0x690> lw        $3,96($11)
+jfdctint.c:331
+00400888 <main+0x698> addu      $7,$4,$2
+jfdctint.c:332
+00400890 <main+0x6a0> subu      $10,$4,$2
+jfdctint.c:333
+00400898 <main+0x6a8> addu      $4,$5,$3
+jfdctint.c:334
+004008a0 <main+0x6b0> subu      $13,$5,$3
+jfdctint.c:341
+004008a8 <main+0x6b8> addu      $16,$6,$4
+jfdctint.c:342
+004008b0 <main+0x6c0> subu      $4,$6,$4
+jfdctint.c:343
+004008b8 <main+0x6c8> addu      $25,$8,$7
+jfdctint.c:344
+004008c0 <main+0x6d0> subu      $7,$8,$7
+jfdctint.c:349
+004008c8 <main+0x6d8> addu      $3,$7,$4
+004008d0 <main+0x6e0> sll       $2,$3,0x3
+004008d8 <main+0x6e8> addu      $2,$2,$3
+004008e0 <main+0x6f0> sll       $2,$2,0x4
+004008e8 <main+0x6f8> subu      $2,$2,$3
+004008f0 <main+0x700> sll       $3,$2,0x5
+004008f8 <main+0x708> subu      $12,$3,$2
+jfdctint.c:350
+00400900 <main+0x710> sll       $6,$4,0x1
+00400908 <main+0x718> addu      $6,$6,$4
+00400910 <main+0x720> sll       $6,$6,0x4
+00400918 <main+0x728> addu      $6,$6,$4
+00400920 <main+0x730> sll       $6,$6,0x6
+00400928 <main+0x738> subu      $6,$6,$4
+00400930 <main+0x740> sll       $6,$6,0x1
+00400938 <main+0x748> addu      $6,$12,$6
+jfdctint.c:352
+00400940 <main+0x750> sll       $5,$7,0x4
+00400948 <main+0x758> subu      $5,$5,$7
+00400950 <main+0x760> sll       $5,$5,0x2
+00400958 <main+0x768> subu      $5,$5,$7
+00400960 <main+0x770> sll       $5,$5,0x3
+00400968 <main+0x778> addu      $5,$5,$7
+00400970 <main+0x780> sll       $5,$5,0x5
+00400978 <main+0x788> addu      $5,$5,$7
+00400980 <main+0x790> subu      $5,$12,$5
+jfdctint.c:361
+00400988 <main+0x798> addu      $12,$13,$15
+jfdctint.c:362
+00400990 <main+0x7a0> addu      $8,$10,$14
+jfdctint.c:363
+00400998 <main+0x7a8> addu      $7,$13,$14
+jfdctint.c:364
+004009a0 <main+0x7b0> addu      $9,$10,$15
+jfdctint.c:366
+004009a8 <main+0x7b8> addu      $4,$7,$9
+004009b0 <main+0x7c0> sll       $3,$4,0x2
+004009b8 <main+0x7c8> addu      $3,$3,$4
+004009c0 <main+0x7d0> sll       $2,$3,0x4
+004009c8 <main+0x7d8> subu      $2,$2,$3
+004009d0 <main+0x7e0> sll       $2,$2,0x2
+004009d8 <main+0x7e8> addu      $2,$2,$4
+004009e0 <main+0x7f0> sll       $2,$2,0x5
+004009e8 <main+0x7f8> addu      $4,$2,$4
+jfdctint.c:368
+004009f0 <main+0x800> sll       $2,$13,0x3
+004009f8 <main+0x808> addu      $2,$2,$13
+00400a00 <main+0x810> sll       $3,$2,0x4
+00400a08 <main+0x818> addu      $2,$2,$3
+00400a10 <main+0x820> sll       $2,$2,0x3
+00400a18 <main+0x828> subu      $2,$2,$13
+00400a20 <main+0x830> sll       $13,$2,0x1
+jfdctint.c:370
+00400a28 <main+0x838> sll       $2,$10,0x5
+00400a30 <main+0x840> addu      $2,$2,$10
+00400a38 <main+0x848> sll       $2,$2,0x3
+00400a40 <main+0x850> subu      $2,$2,$10
+00400a48 <main+0x858> sll       $2,$2,0x2
+00400a50 <main+0x860> subu      $2,$2,$10
+00400a58 <main+0x868> sll       $2,$2,0x2
+00400a60 <main+0x870> addu      $2,$2,$10
+00400a68 <main+0x878> sll       $2,$2,0x2
+00400a70 <main+0x880> subu      $10,$2,$10
+jfdctint.c:372
+00400a78 <main+0x888> sll       $2,$14,0x1
+00400a80 <main+0x890> addu      $2,$2,$14
+00400a88 <main+0x898> sll       $3,$2,0x4
+00400a90 <main+0x8a0> addu      $2,$2,$3
+00400a98 <main+0x8a8> sll       $2,$2,0x2
+00400aa0 <main+0x8b0> subu      $2,$2,$14
+00400aa8 <main+0x8b8> sll       $3,$2,0x5
+00400ab0 <main+0x8c0> subu      $3,$3,$2
+00400ab8 <main+0x8c8> sll       $14,$3,0x2
+jfdctint.c:374
+00400ac0 <main+0x8d0> sll       $2,$15,0x1
+00400ac8 <main+0x8d8> addu      $2,$2,$15
+00400ad0 <main+0x8e0> sll       $3,$2,0xa
+00400ad8 <main+0x8e8> addu      $2,$2,$3
+00400ae0 <main+0x8f0> sll       $2,$2,0x2
+00400ae8 <main+0x8f8> subu      $15,$2,$15
+jfdctint.c:377
+00400af0 <main+0x900> sll       $2,$8,0x2
+00400af8 <main+0x908> addu      $2,$2,$8
+00400b00 <main+0x910> sll       $2,$2,0x3
+00400b08 <main+0x918> addu      $2,$2,$8
+00400b10 <main+0x920> sll       $2,$2,0x7
+00400b18 <main+0x928> addu      $2,$2,$8
+00400b20 <main+0x930> sll       $2,$2,0x2
+00400b28 <main+0x938> subu      $8,$8,$2
+jfdctint.c:378
+00400b30 <main+0x940> sll       $2,$7,0x6
+00400b38 <main+0x948> subu      $2,$2,$7
+00400b40 <main+0x950> sll       $2,$2,0x2
+00400b48 <main+0x958> subu      $2,$2,$7
+00400b50 <main+0x960> sll       $2,$2,0x4
+00400b58 <main+0x968> addu      $2,$2,$7
+00400b60 <main+0x970> sll       $2,$2,0x2
+00400b68 <main+0x978> addu      $7,$7,$2
+jfdctint.c:382
+00400b70 <main+0x980> subu      $7,$4,$7
+jfdctint.c:379
+00400b78 <main+0x988> sll       $2,$9,0x1
+00400b80 <main+0x990> addu      $2,$2,$9
+00400b88 <main+0x998> sll       $2,$2,0x3
+00400b90 <main+0x9a0> addu      $2,$2,$9
+00400b98 <main+0x9a8> sll       $2,$2,0x5
+00400ba0 <main+0x9b0> subu      $2,$2,$9
+00400ba8 <main+0x9b8> sll       $2,$2,0x2
+jfdctint.c:383
+00400bb0 <main+0x9c0> subu      $9,$4,$2
+jfdctint.c:346
+00400bb8 <main+0x9c8> addu      $2,$16,$25
+00400bc0 <main+0x9d0> addiu     $2,$2,2
+00400bc8 <main+0x9d8> sra       $2,$2,0x2
+jfdctint.c:376
+00400bd0 <main+0x9e0> mult      $12,$20
+jfdctint.c:346
+00400bd8 <main+0x9e8> sw        $2,0($24)
+jfdctint.c:394
+00400be0 <main+0x9f0> addiu     $24,$24,4
+jfdctint.c:347
+00400be8 <main+0x9f8> subu      $2,$16,$25
+00400bf0 <main+0xa00> addiu     $2,$2,2
+00400bf8 <main+0xa08> sra       $2,$2,0x2
+jfdctint.c:350
+00400c00 <main+0xa10> addiu     $6,$6,16384
+00400c08 <main+0xa18> sra       $6,$6,0xf
+jfdctint.c:352
+00400c10 <main+0xa20> addiu     $5,$5,16384
+00400c18 <main+0xa28> sra       $5,$5,0xf
+jfdctint.c:347
+00400c20 <main+0xa30> sw        $2,96($11)
+jfdctint.c:387
+00400c28 <main+0xa38> addu      $2,$10,$8
+00400c30 <main+0xa40> addu      $2,$2,$9
+00400c38 <main+0xa48> addiu     $2,$2,16384
+00400c40 <main+0xa50> sra       $2,$2,0xf
+00400c48 <main+0xa58> sw        $2,128($11)
+jfdctint.c:389
+00400c50 <main+0xa60> addu      $2,$14,$8
+00400c58 <main+0xa68> addu      $2,$2,$7
+jfdctint.c:376
+00400c60 <main+0xa70> mflo      $12
+jfdctint.c:389
+00400c68 <main+0xa78> addiu     $2,$2,16384
+00400c70 <main+0xa80> sra       $2,$2,0xf
+jfdctint.c:350
+00400c78 <main+0xa88> sw        $6,32($11)
+jfdctint.c:352
+00400c80 <main+0xa90> sw        $5,160($11)
+jfdctint.c:389
+00400c88 <main+0xa98> sw        $2,64($11)
+jfdctint.c:385
+00400c90 <main+0xaa0> addu      $2,$13,$12
+00400c98 <main+0xaa8> addu      $2,$2,$7
+00400ca0 <main+0xab0> addiu     $2,$2,16384
+00400ca8 <main+0xab8> sra       $2,$2,0xf
+00400cb0 <main+0xac0> sw        $2,192($11)
+jfdctint.c:391
+00400cb8 <main+0xac8> addu      $2,$15,$12
+00400cc0 <main+0xad0> addu      $2,$2,$9
+00400cc8 <main+0xad8> addiu     $2,$2,16384
+00400cd0 <main+0xae0> sra       $2,$2,0xf
+00400cd8 <main+0xae8> sw        $2,0($11)
+jfdctint.c:394
+00400ce0 <main+0xaf0> addiu     $11,$11,4
+jfdctint.c:326
+00400ce8 <main+0xaf8> bgez      $17,00400820
+jfdctint.c:239
+00400cf0 <main+0xb00> addiu     $19,$19,256
+00400cf8 <main+0xb08> addiu     $18,$18,1
+00400d00 <main+0xb10> slti      $2,$18,256
+00400d08 <main+0xb18> bne       $2,$0,00400330
+jfdctint.c:398
+00400d10 <main+0xb20> addu      $2,$0,$0
+jfdctint.c:399
+00400d18 <main+0xb28> lw        $21,20($29)
+00400d20 <main+0xb30> lw        $20,16($29)
+00400d28 <main+0xb38> lw        $19,12($29)
+00400d30 <main+0xb40> lw        $18,8($29)
+00400d38 <main+0xb48> lw        $17,4($29)
+00400d40 <main+0xb50> lw        $16,0($29)
+00400d48 <main+0xb58> addiu     $29,$29,24
+00400d50 <main+0xb60> jr        $31
+00400d58 <main+0xb68> nop       
+end_addr
