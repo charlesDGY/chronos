@@ -55,7 +55,7 @@ int             cnt1, cnt2;
 #define SIZE 1024
 short   a[SIZE];
 
-int 
+int
 main()
 {
 	int             i, j;
@@ -76,7 +76,7 @@ main()
 		}
 		i++;
 	}
-	
+
 	for (i=0; i<SIZE; i++) {
         printf("%d ",a[i]);
     }

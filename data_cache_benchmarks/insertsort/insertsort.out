@@ -7,7 +7,7 @@ of SimpleScalar, LLC (info@simplescalar.com).
 
 sim: command line: /home/dgy/chronos/simplesim-3.0/sim-profile -pcstat sim_num_insn insertsort 
 
-sim: simulation started @ Wed Feb  4 14:22:44 2015, options follow:
+sim: simulation started @ Mon Mar  9 10:50:26 2015, options follow:
 
 sim-profile: This simulator implements a functional simulator with
 profiling support.  Run with the `-h' flag to see profiling options
@@ -881,7 +881,7 @@ ld_target_big_endian              0 # target executable endian-ness, non-zero if
 mem.page_count                   12 # total number of pages allocated
 mem.page_mem                    48k # total size of memory pages allocated
 mem.ptab_misses                  12 # total first level page table misses
-mem.ptab_accesses          27486632 # total page table accesses
+mem.ptab_accesses          27486872 # total page table accesses
 mem.ptab_miss_rate           0.0000 # first level page table miss rate
 
 +--------------------------------------------------------------+effective code range:         [0, fffffff8]

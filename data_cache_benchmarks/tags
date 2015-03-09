@@ -51,6 +51,8 @@ BITS_IN_JSAMPLE	jfdctint/jfdctint.c	57;"	d	file:
 BLOCK_NUM	jfdctint/jfdctint.c	204;"	d	file:
 CONST_BITS	jfdctint/jfdctint.c	148;"	d	file:
 DATA	bs/bs.c	/^struct DATA {$/;"	s	file:
+DATA::key	bs/bs.c	/^	int key;$/;"	m	struct:DATA	file:	access:public
+DATA::value	bs/bs.c	/^	int value;$/;"	m	struct:DATA	file:	access:public
 DATASIZE	adpcm/adpcm.c	72;"	d	file:
 DCTELEM	jfdctint/jfdctint.c	59;"	d	file:
 DCTSIZE	jfdctint/jfdctint.c	56;"	d	file:
@@ -76,6 +78,8 @@ GLOBAL	jfdctint/jfdctint.c	61;"	d	file:
 INT32	jfdctint/jfdctint.c	60;"	d	file:
 ImagIn	fft/fft.c	/^float ImagIn[MAXSIZE];$/;"	v
 ImagOut	fft/fft.c	/^float ImagOut[MAXSIZE];$/;"	v
+InitSeed	cnt/cnt.c	/^int             InitSeed(void);$/;"	p	file:	signature:(void)
+Initialize	cnt/cnt.c	/^int             Initialize(matrix);$/;"	p	file:
 JPEG_INTERNALS	jfdctint/jfdctint.c	99;"	d	file:
 L	lms/lms.c	64;"	d	file:
 LOOPS	fir/fir.c	20;"	d	file:
@@ -100,6 +104,7 @@ Postotal	cnt/cnt.c	/^int             Postotal, Negtotal, Poscnt, Negcnt;$/;"	v
 RA	matmult/matmult.c	/^matrix          A, B, RA;$/;"	v
 RAND_MAX	lms/lms.c	54;"	d	file:
 RIGHT_SHIFT	jfdctint/jfdctint.c	62;"	d	file:
+RandomInteger	cnt/cnt.c	/^int             RandomInteger(void);$/;"	p	file:	signature:(void)
 RealIn	fft/fft.c	/^float RealIn[MAXSIZE];$/;"	v
 RealOut	fft/fft.c	/^float RealOut[MAXSIZE];$/;"	v
 SHIFT_TEMPS	jfdctint/jfdctint.c	65;"	d	file:
@@ -108,7 +113,9 @@ SIZE	insertsort_test.c	55;"	d	file:
 Seed	bsort100/bsort100.c	/^int             Array[MAXDIM], Seed;$/;"	v
 Seed	cnt/cnt.c	/^int             Seed;$/;"	v
 Seed	matmult/matmult.c	/^int             Seed;$/;"	v
+Sum	cnt/cnt.c	/^void            Sum(matrix);$/;"	p	file:
 TRUE	bsort100/bsort100.c	35;"	d	file:
+Test	cnt/cnt.c	/^int             Test(matrix);$/;"	p	file:
 UPPERLIMIT	matmult/matmult.c	42;"	d	file:
 UPPSALAWCET	matmult/matmult.c	25;"	d	file:
 WCSIM	bsort100/bsort100.c	18;"	d	file:
@@ -116,7 +123,11 @@ WORSTCASE	bsort100/bsort100.c	33;"	d	file:
 __gnu_compiled_c	adpcm/adpcm.s	/^__gnu_compiled_c:$/;"	l
 a	insertsort/insertsort.c	/^short   a[SIZE];$/;"	v
 a	insertsort_test.c	/^short   a[SIZE];$/;"	v
+adpcm_coder	adpcm/adpcm.h	/^void adpcm_coder ARGS((short [], char [], int, struct adpcm_state *));$/;"	p	signature:(short [], char [], int, struct adpcm_state *)
+adpcm_decoder	adpcm/adpcm.h	/^void adpcm_decoder ARGS((char [], short [], int, struct adpcm_state *));$/;"	p	signature:(char [], short [], int, struct adpcm_state *)
 adpcm_state	adpcm/adpcm.h	/^struct adpcm_state {$/;"	s
+adpcm_state::index	adpcm/adpcm.h	/^    char	index;		\/* Index into stepsize table *\/$/;"	m	struct:adpcm_state	access:public
+adpcm_state::valprev	adpcm/adpcm.h	/^    short	valprev;	\/* Previous output value *\/$/;"	m	struct:adpcm_state	access:public
 adpcmdata	adpcm/adpcm.c	/^char adpcmdata[DATASIZE\/2];$/;"	v
 ai	fft/fft.c	/^float ar[3], ai[3];$/;"	v
 ar	fft/fft.c	/^float ar[3], ai[3];$/;"	v
@@ -133,24 +144,26 @@ decoder_state	adpcm/adpcm.c	/^struct adpcm_state coder_1_state, coder_2_state, d
 factor	bsort100/bsort100.c	/^int             factor;$/;"	v
 fir_int	fir/fir.c	/^long            fir_int[36] = {$/;"	v
 in_data	fir/fir.c	/^long            in_data[701] = {$/;"	v
-index	adpcm/adpcm.h	/^    char	index;		\/* Index into stepsize table *\/$/;"	m	struct:adpcm_state
+index	adpcm/adpcm.h	/^    char	index;		\/* Index into stepsize table *\/$/;"	m	struct:adpcm_state	access:public
 indexTable	adpcm/adpcm.c	/^int indexTable[16] = {$/;"	v
 indexTable	adpcm/adpcm.s	/^indexTable:$/;"	l
-key	bs/bs.c	/^	int key;$/;"	m	struct:DATA	file:
+jpeg_fdct_islow	jfdctint/jfdctint.c	/^void            jpeg_fdct_islow(void);$/;"	p	file:	signature:(void)
+key	bs/bs.c	/^	int key;$/;"	m	struct:DATA	file:	access:public
 main	adpcm/adpcm.c	/^int main() {$/;"	f
 main	adpcm/adpcm.s	/^main:$/;"	l
 main	bs/bs.c	/^int main() {$/;"	f
-main	bsort100/bsort100.c	/^main(void)$/;"	f
-main	cnt/cnt.c	/^int main(void)$/;"	f
-main	edn/edn.c	/^main(void)$/;"	f
+main	bsort100/bsort100.c	/^main(void)$/;"	f	signature:(void)
+main	cnt/cnt.c	/^int             main(void);$/;"	p	file:	signature:(void)
+main	cnt/cnt.c	/^int main(void)$/;"	f	signature:(void)
+main	edn/edn.c	/^main(void)$/;"	f	signature:(void)
 main	expint/expint.c	/^\/* $Id: expint.c,v 1.2 2005\/04\/04 11:34:58 csg Exp $ *\/$/;"	f
-main	fft/fft.c	/^int main(int argc, char *argv[]) {$/;"	f
-main	fir/fir.c	/^main(void)$/;"	f
+main	fft/fft.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	fir/fir.c	/^main(void)$/;"	f	signature:(void)
 main	insertsort/insertsort.c	/^main()$/;"	f
 main	insertsort_test.c	/^main()$/;"	f
-main	jfdctint/jfdctint.c	/^main(void)$/;"	f
+main	jfdctint/jfdctint.c	/^main(void)$/;"	f	signature:(void)
 main	lms/lms.c	/^main()$/;"	f
-main	matmult/matmult.c	/^main(void)$/;"	f
+main	matmult/matmult.c	/^main(void)$/;"	f	signature:(void)
 matrix	cnt/cnt.c	/^typedef int     matrix[MAXSIZE][MAXSIZE];$/;"	t	file:
 matrix	matmult/matmult.c	/^typedef int     matrix[UPPERLIMIT][UPPERLIMIT];$/;"	t	file:
 mu	lms/lms.c	/^float           mu = 0.01;$/;"	v
@@ -163,5 +176,5 @@ signed	adpcm/adpcm.c	51;"	d	file:
 state	adpcm/adpcm.c	/^struct adpcm_state coder_1_state, coder_2_state, decoder_state,state;$/;"	v	typeref:struct:
 stepsizeTable	adpcm/adpcm.c	/^int stepsizeTable[89] = {$/;"	v
 stepsizeTable	adpcm/adpcm.s	/^stepsizeTable:$/;"	l
-valprev	adpcm/adpcm.h	/^    short	valprev;	\/* Previous output value *\/$/;"	m	struct:adpcm_state
-value	bs/bs.c	/^	int value;$/;"	m	struct:DATA	file:
+valprev	adpcm/adpcm.h	/^    short	valprev;	\/* Previous output value *\/$/;"	m	struct:adpcm_state	access:public
+value	bs/bs.c	/^	int value;$/;"	m	struct:DATA	file:	access:public
