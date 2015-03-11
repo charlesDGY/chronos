@@ -7,7 +7,7 @@ of SimpleScalar, LLC (info@simplescalar.com).
 
 sim: command line: /home/dgy/chronos/simplesim-3.0/sim-profile -pcstat sim_num_insn insertsort 
 
-sim: simulation started @ Mon Mar  9 10:50:26 2015, options follow:
+sim: simulation started @ Tue Mar 10 18:57:12 2015, options follow:
 
 sim-profile: This simulator implements a functional simulator with
 profiling support.  Run with the `-h' flag to see profiling options
