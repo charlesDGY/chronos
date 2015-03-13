@@ -11,7 +11,6 @@ click "open file"
 > 3. call shell.callrm()   //run rm.sh, rm *.cfg and loop.info
 > 4. call shell.callCompile()  //run compile.sh, **question:in compile.sh Ln 27 $dis?, Ln 37 $est** 
      *answer: $dis calls a program to disassemble the compiled obj file and generates an obj.dis file to record the assemble code and information*
-
      *answer: $est calls cfg function to generate an obj.cfg file which record the block information and edge connection.*
 
 
