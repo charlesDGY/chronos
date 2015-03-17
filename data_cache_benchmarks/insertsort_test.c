@@ -75,6 +75,9 @@ main()
 			if ( j == 0 ) break;
 		}
 		i++;
+        if (a[300]==1024) {
+            break;
+        }
 	}
 
 	for (i=0; i<SIZE; i++) {
